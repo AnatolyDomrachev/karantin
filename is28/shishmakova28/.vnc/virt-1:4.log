@@ -196,3 +196,11 @@ Unable to init server: Could not connect: Connection refused
 (tracker-miner-fs:5158): Tracker-WARNING **: 22:03:29.975:   Could not create file:'/home/is28/shishmakova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/shishmakova28/.cache/tracker/last-crawl.txt.KOW7H0”: No such file or directory
 
 (tracker-miner-fs:5158): Tracker-WARNING **: 22:03:29.975:   Could not create file:'/home/is28/shishmakova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/shishmakova28/.cache/tracker/last-crawl.txt.QPW7H0”: No such file or directory
+AUDIT: Tue Mar 17 22:05:13 2020: 4884 Xvnc4: client 4 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+AUDIT: Tue Mar 17 22:05:13 2020: 4884 Xvnc4: client 4 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+AUDIT: Tue Mar 17 22:08:53 2020: 4884 Xvnc4: client 4 rejected from local host
+AUDIT: Tue Mar 17 22:18:53 2020: 4884 Xvnc4: client 4 rejected from local host

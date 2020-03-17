@@ -273,3 +273,6 @@ Thu Mar 12 10:57:51 2020
 (tracker-miner-fs:7979): Tracker-WARNING **: 22:03:30.053:   Could not create file:'/home/is28/stanislavchuk28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/stanislavchuk28/.cache/tracker/last-crawl.txt.7PZNH0”: No such file or directory
 
 (tracker-miner-fs:7979): Tracker-WARNING **: 22:03:30.053:   Could not create file:'/home/is28/stanislavchuk28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/stanislavchuk28/.cache/tracker/last-crawl.txt.ADZNH0”: No such file or directory
+cat: /home/is28/stanislavchuk28/.Xauthority: No such file or directory
+AUDIT: Tue Mar 17 22:08:16 2020: 7907 Xvnc4: client 20 rejected from local host
+AUDIT: Tue Mar 17 22:18:16 2020: 7907 Xvnc4: client 20 rejected from local host

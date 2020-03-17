@@ -130,3 +130,5 @@ AUDIT: Tue Mar 17 21:58:44 2020: 3284 Xvnc4: client 12 rejected from local host
 (tracker-miner-fs:3918): Tracker-WARNING **: 22:03:30.069:   Could not create file:'/home/is28/maznicyn28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/maznicyn28/.cache/tracker/last-crawl.txt.UXILH0”: No such file or directory
 
 (tracker-miner-fs:3918): Tracker-WARNING **: 22:03:30.069:   Could not create file:'/home/is28/maznicyn28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/maznicyn28/.cache/tracker/last-crawl.txt.0YILH0”: No such file or directory
+AUDIT: Tue Mar 17 22:08:44 2020: 3284 Xvnc4: client 12 rejected from local host
+AUDIT: Tue Mar 17 22:18:44 2020: 3284 Xvnc4: client 12 rejected from local host

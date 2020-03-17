@@ -184,3 +184,5 @@ AUDIT: Tue Mar 17 21:59:42 2020: 9151 Xvnc4: client 9 rejected from local host
 (tracker-miner-fs:9317): Tracker-WARNING **: 22:03:30.044:   Could not create file:'/home/is28/lebedeva28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lebedeva28/.cache/tracker/last-crawl.txt.5ATNH0”: No such file or directory
 
 (tracker-miner-fs:9317): Tracker-WARNING **: 22:03:30.044:   Could not create file:'/home/is28/lebedeva28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lebedeva28/.cache/tracker/last-crawl.txt.DCTNH0”: No such file or directory
+AUDIT: Tue Mar 17 22:09:42 2020: 9151 Xvnc4: client 9 rejected from local host
+AUDIT: Tue Mar 17 22:19:42 2020: 9151 Xvnc4: client 9 rejected from local host

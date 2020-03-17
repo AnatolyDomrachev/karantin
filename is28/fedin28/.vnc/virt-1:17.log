@@ -141,3 +141,11 @@ Unable to init server: Could not connect: Connection refused
 AUDIT: Tue Mar 17 22:03:33 2020: 14569 Xvnc4: client 4 rejected from local host
 No protocol specified
 Unable to init server: Could not connect: Connection refused
+AUDIT: Tue Mar 17 22:06:33 2020: 14569 Xvnc4: client 4 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+AUDIT: Tue Mar 17 22:06:33 2020: 14569 Xvnc4: client 4 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+AUDIT: Tue Mar 17 22:10:44 2020: 14569 Xvnc4: client 4 rejected from local host
+AUDIT: Tue Mar 17 22:20:44 2020: 14569 Xvnc4: client 4 rejected from local host
