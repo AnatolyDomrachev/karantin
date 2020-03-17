@@ -1,0 +1,5 @@
+a = int(input())
+a = str(a)
+a = list(a)
+k = len(a)
+print(k)

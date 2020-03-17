@@ -1,0 +1,5 @@
+a=int(input("n="))
+b=[1,2]
+for l in range(a):
+	b.append(b[l-2]+b[l-1])
+print  (b)

@@ -1,0 +1,331 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Feb  6 09:35:01 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5912
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/konnov28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :12
+gpg-agent[48393]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:48383): xfce4-session-WARNING **: 09:35:04.086: gpg-agent returned no PID in the variables
+
+(xfce4-session:48383): xfce4-session-WARNING **: 09:35:04.094: xfsm_manager_load_session: Something wrong with /home/is28/konnov28/.cache/sessions/xfce4-session-virt-1:12, Does it exist? Permissions issue?
+
+(xfwm4:48397): xfwm4-WARNING **: 09:35:04.124: The display does not support the XRender extension.
+
+(xfwm4:48397): xfwm4-WARNING **: 09:35:04.124: The display does not support the XComposite extension.
+
+(xfwm4:48397): xfwm4-WARNING **: 09:35:04.124: The display does not support the XDamage extension.
+
+(xfwm4:48397): xfwm4-WARNING **: 09:35:04.124: The display does not support the XFixes extension.
+
+(xfwm4:48397): xfwm4-WARNING **: 09:35:04.124: Compositing manager disabled.
+
+** (light-locker:48406): ERROR **: 09:35:04.158: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+(uint32 1,)
+
+(polkit-gnome-authentication-agent-1:48409): GLib-CRITICAL **: 09:35:04.188: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 09:35:04.189: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:48408): xfsettingsd-CRITICAL **: 09:35:04.259: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":12.0".
+
+(xfsettingsd:48408): xfsettingsd-CRITICAL **: 09:35:04.259: XI is not present.
+
+(xfsettingsd:48408): xfsettingsd-CRITICAL **: 09:35:04.262: Failed to initialize the Xkb extension.
+
+(xfsettingsd:48408): xfsettingsd-CRITICAL **: 09:35:04.263: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:35:04.340: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 09:35:04.438: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:48509): Gtk-WARNING **: 09:35:04.491: Can't set a parent on widget which has a parent
+
+(nm-applet:48509): Gdk-CRITICAL **: 09:35:04.642: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.704" (uid=1273 pid=48495 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.704" (uid=1273 pid=48495 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.704" (uid=1273 pid=48495 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:48556): Gdk-WARNING **: 09:35:29.766: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(wrapper-1.0:48556): Gdk-WARNING **: 09:35:29.766: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Thu Feb  6 09:35:48 2020
+ Connections: accepted: 0.0.0.0::61760
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Feb  6 09:35:52 2020
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::61760 (Authentication failure)
+
+Thu Feb  6 09:35:56 2020
+ Connections: accepted: 0.0.0.0::61765
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Feb  6 09:36:00 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 09:36:11.300: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 09:36:11.301: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 09:36:11.327: GtkDialog mapped without a transient parent. This is discouraged.
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 09:36:14.375: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 09:36:14.376: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 09:36:14.382: GtkDialog mapped without a transient parent. This is discouraged.
+
+(xfwm4:48397): xfwm4-WARNING **: 09:37:59.295: Cannot get window attributes for window (0x2200a17)
+Starting Code::Blocks Release 16.01  rev 10692 2017-09-30, 18:21:54 - wx3.0.3 (Linux, unicode) - 64 bit
+Initialize EditColourSet .....
+Initialize EditColourSet: done.
+Loading menubar...
+CodeCompletion: loaded
+Debugger: loaded
+ToDoList: loaded
+FilesExtensionHandler: loaded
+Compiler: loaded
+OpenFilesList: loaded
+AStylePlugin: loaded
+ProjectsImporter: loaded
+ScriptedWizard: loaded
+ClassWizard: loaded
+Autosave: loaded
+Code completion plugin activated
+Debugger plugin activated
+Todo List plugin activated
+Files extension handler plugin activated
+Added compiler "GNU GCC Compiler"
+Added compiler "Intel C/C++ Compiler"
+Added compiler "GDC D Compiler"
+Added compiler "GNU Fortran Compiler"
+Added compiler "G95 Fortran Compiler"
+Added compiler "GNU GCC Compiler for ARM"
+Added compiler "*No Compiler*"
+Added compiler "GNU GCC Compiler for Blackfin"
+Added compiler "LLVM D Compiler"
+Added compiler "GNU GCC Compiler for MSP430 (HighTec)"
+Added compiler "Small Device C Compiler"
+Added compiler "LLVM Clang Compiler"
+Added compiler "GNU GCC Compiler for AVR"
+Added compiler "GNU GCC Compiler for LM32"
+Added compiler "Digital Mars D Compiler"
+Added compiler "GNU GCC Compiler for PowerPC (HighTec)"
+Added compiler "GNU GCC Compiler for TriCore (HighTec)"
+Added compiler "PGI Fortran Compiler"
+Added compiler "Tiny C Compiler"
+Added compiler "GNU GCC Compiler for ZPU"
+Added compiler "GNU GCC Compiler for LM8"
+Master path of compiler ID "gcc" is empty -> triggers auto-detection.
+Master path of compiler ID "icc" is empty -> triggers auto-detection.
+Master path of compiler ID "sdcc" is empty -> triggers auto-detection.
+Master path of compiler ID "tcc" is empty -> triggers auto-detection.
+Master path of compiler ID "clang" is empty -> triggers auto-detection.
+Master path of compiler ID "arm-elf-gcc" is empty -> triggers auto-detection.
+Master path of compiler ID "bfin-elf-gcc" is empty -> triggers auto-detection.
+Master path of compiler ID "avr-gcc" is empty -> triggers auto-detection.
+Master path of compiler ID "lm32-gcc" is empty -> triggers auto-detection.
+Master path of compiler ID "zpu-gcc" is empty -> triggers auto-detection.
+Master path of compiler ID "lm8-gcc" is empty -> triggers auto-detection.
+Master path of compiler ID "msp430-gcc" is empty -> triggers auto-detection.
+Master path of compiler ID "tricore-gcc" is empty -> triggers auto-detection.
+Master path of compiler ID "ppc-gcc" is empty -> triggers auto-detection.
+Master path of compiler ID "gdc" is empty -> triggers auto-detection.
+Master path of compiler ID "ldc" is empty -> triggers auto-detection.
+Master path of compiler ID "dmd" is empty -> triggers auto-detection.
+Master path of compiler ID "gfortran" is empty -> triggers auto-detection.
+Master path of compiler ID "g95" is empty -> triggers auto-detection.
+Master path of compiler ID "pgifortran" is empty -> triggers auto-detection.
+Master path of compiler ID "null" is empty -> triggers auto-detection.
+ClassBrowser::UpdateClassBrowserView(): No active project available.
+ClassBrowser::OnThreadEvent(): Updating class browser...
+ClassBrowser::OnThreadEvent(): Class browser updated.
+Compiler plugin activated
+Open files list plugin activated
+Source code formatter (AStyle) plugin activated
+Foreign projects importer plugin activated
+Project wizard added for 'Empty project'
+Project wizard added for 'Fortran application'
+Project wizard added for 'Fortran library'
+Project wizard added for 'Fortran DLL'
+Project wizard added for 'Console application'
+Project wizard added for 'D application'
+Project wizard added for 'FLTK project'
+Project wizard added for 'GLFW project'
+Project wizard added for 'GLUT project'
+Project wizard added for 'GTK+ project'
+Project wizard added for 'Irrlicht project'
+Project wizard added for 'Lightfeather project'
+Project wizard added for 'Matlab project'
+Project wizard added for 'OpenCV project'
+Project wizard added for 'OpenGL project'
+Project wizard added for 'Ogre project'
+Project wizard added for 'Code::Blocks plugin'
+Project wizard added for 'QT4 project'
+Project wizard added for 'SDL project'
+Project wizard added f
+(Thunar:48403): Gdk-WARNING **: 09:40:07.107: gdk_window_set_icon_list: icons too large
+
+(Thunar:48403): Gdk-WARNING **: 09:41:21.053: gdk_window_set_icon_list: icons too large
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 10:00:55.853: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 10:00:55.855: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 10:00:55.860: GtkDialog mapped without a transient parent. This is discouraged.
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 10:01:34.982: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 10:01:34.983: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 10:01:34.989: GtkDialog mapped without a transient parent. This is discouraged.
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 10:33:18.970: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:48409): polkit-gnome-1-WARNING **: 10:33:18.971: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 10:33:18.976: GtkDialog mapped without a transient parent. This is discouraged.
+
+Thu Feb  6 10:52:29 2020
+ Connections: closed: 0.0.0.0::61765 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 14700
+ SMsgWriter:    copyRect rects 16087, bytes 257392
+ SMsgWriter:    hextile rects 60902, bytes 93586837
+ SMsgWriter:    raw bytes equivalent 985331402, compression ratio 10.528526
+
+** (xfdesktop:48405): WARNING **: 20:30:13.020: Attempt to remove icon 0x5621de6d5770 from XfdesktopIconView 0x5621de6d5190, but it's not in there.
+/usr/share/system-config-printer/applet.py:45: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.702" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 10 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 14 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 16 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 17 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 21 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 23 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 24 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 28 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 30 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 31 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 35 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 37 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 38 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 42 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 44 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 45 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 49 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 51 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 52 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 56 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 58 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 59 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 63 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 65 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 66 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 70 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 72 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 73 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 77 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 79 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 80 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 84 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 86 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 87 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 91 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 93 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 94 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 98 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 100 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 101 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 105 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 106 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 108 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 109 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 113 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 115 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 117 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 118 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 122 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 124 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 125 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 129 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+
+(xfdesktop:48405): libxfce4ui-WARNING **: 09:42:54.935: ICE I/O Error
+
+(xfdesktop:48405): libxfce4ui-WARNING **: 09:42:55.007: Disconnected from session manager.
+xfdesktop: Fatal IO error 25 (Inappropriate ioctl for device) on X server :12.0.
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :12.0.

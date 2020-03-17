@@ -1,0 +1,94 @@
+
+Xvnc Free Edition 4.1.1 - built Jul 31 2015 19:10:31
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Sep  6 11:10:47 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5901
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+Option "--login" is no longer supported in this version of gnome-terminal; you might want to create a profile with the desired setting, and use the new '--profile' option
+
+(gnome-terminal:5197): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
+
+(x-window-manager:5198): xfwm4-WARNING **: The display does not support the XRender extension.
+
+(x-window-manager:5198): xfwm4-WARNING **: The display does not support the XComposite extension.
+
+(x-window-manager:5198): xfwm4-WARNING **: The display does not support the XDamage extension.
+
+(x-window-manager:5198): xfwm4-WARNING **: The display does not support the XFixes extension.
+
+(x-window-manager:5198): xfwm4-WARNING **: Compositing manager disabled.
+
+(x-window-manager:5198): GLib-CRITICAL **: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(gnome-terminal:5197): Vte-2.90-WARNING **: Unable to convert characters from текущая to X-VTE-GUNICHAR.
+
+(x-window-manager:5198): xfwm4-WARNING **: The property '/general/double_click_distance' of type int is not supported
+Unhandled value type TerminalEncoding of pspec encoding
+
+(x-window-manager:5198): xfwm4-WARNING **: Failed to connect to session manager: Не удалось подключиться к менеджеру сеансов: SESSION_MANAGER environment variable not defined
+
+Fri Sep  6 11:11:26 2019
+ Connections: accepted: 0.0.0.0::44571
+ SConnection: Client needs protocol version 3.8
+
+Fri Sep  6 11:11:27 2019
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+(gnome-terminal:5197): Vte-2.90-WARNING **: Unable to convert characters from текущая to X-VTE-GUNICHAR.
+
+Fri Sep  6 11:12:53 2019
+ Connections: closed: 0.0.0.0::44571 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 417
+ SMsgWriter:    copyRect rects 1004, bytes 16064
+ SMsgWriter:    ZRLE rects 1861, bytes 330141
+ SMsgWriter:    raw bytes equivalent 32896724, compression ratio 99.644467
+
+Fri Sep  6 11:33:07 2019
+ Connections: accepted: 0.0.0.0::49451
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep  6 11:33:13 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::49451 (Authentication failure)
+
+Fri Sep  6 11:33:19 2019
+ Connections: accepted: 0.0.0.0::49452
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep  6 11:33:25 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::49452 (Authentication failure)
+
+Fri Sep  6 11:34:34 2019
+ Connections: accepted: 0.0.0.0::49457
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep  6 11:34:46 2019
+ Connections: closed: 0.0.0.0::49457 (read: Connection reset by peer (104))
+
+Fri Sep  6 11:40:44 2019
+ Connections: accepted: 0.0.0.0::50220
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep  6 11:40:46 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50220 (Authentication failure)

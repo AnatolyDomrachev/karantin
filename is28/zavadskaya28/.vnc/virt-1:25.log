@@ -1,0 +1,112 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Nov  1 11:25:03 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5925
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/zavadskaya28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :25
+gpg-agent[3444]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:3421): xfce4-session-WARNING **: 11:25:07.102: gpg-agent returned no PID in the variables
+
+(xfce4-session:3421): xfce4-session-WARNING **: 11:25:07.108: xfsm_manager_load_session: Something wrong with /home/is28/zavadskaya28/.cache/sessions/xfce4-session-virt-1:25, Does it exist? Permissions issue?
+
+(xfwm4:3449): xfwm4-WARNING **: 11:25:07.363: The display does not support the XRender extension.
+
+(xfwm4:3449): xfwm4-WARNING **: 11:25:07.363: The display does not support the XComposite extension.
+
+(xfwm4:3449): xfwm4-WARNING **: 11:25:07.363: The display does not support the XDamage extension.
+
+(xfwm4:3449): xfwm4-WARNING **: 11:25:07.363: The display does not support the XFixes extension.
+
+(xfwm4:3449): xfwm4-WARNING **: 11:25:07.363: Compositing manager disabled.
+
+** (light-locker:3458): ERROR **: 11:25:07.501: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:3460): GLib-CRITICAL **: 11:25:07.520: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:3460): polkit-gnome-1-WARNING **: 11:25:07.521: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 11:25:07.721: Unsupported keyboard modifier '<Super>Tab'
+(uint32 1,)
+
+(xfsettingsd:3481): xfsettingsd-CRITICAL **: 11:25:09.452: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":25.0".
+
+(xfsettingsd:3481): xfsettingsd-CRITICAL **: 11:25:09.454: XI is not present.
+
+(xfsettingsd:3481): xfsettingsd-CRITICAL **: 11:25:09.454: Failed to initialize the Xkb extension.
+
+(xfsettingsd:3481): xfsettingsd-CRITICAL **: 11:25:09.454: Failed to initialize the Accessibility extension.
+
+(xfsettingsd:3481): GLib-CRITICAL **: 11:25:09.456: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:3481): GLib-GObject-CRITICAL **: 11:25:09.457: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:3481): GLib-GObject-CRITICAL **: 11:25:09.466: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+xfwm4-Message: 11:25:09.796: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:3642): Gtk-WARNING **: 11:25:10.679: Can't set a parent on widget which has a parent
+
+(nm-applet:3642): Gdk-CRITICAL **: 11:25:11.641: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+
+Fri Nov  1 11:25:37 2019
+ Connections: accepted: 0.0.0.0::50140
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.1317" (uid=1272 pid=3629 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.1317" (uid=1272 pid=3629 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.1317" (uid=1272 pid=3629 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(blueman-applet:3629): Gdk-CRITICAL **: 11:25:39.023: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Nov  1 11:25:41 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(Thunar:3455): Gdk-WARNING **: 11:25:49.985: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":25.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+Fri Nov  1 11:34:46 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov  1 11:36:27 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov  1 11:37:39 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov  1 11:38:36 2019
+ Connections: closed: 0.0.0.0::50140 (write: Connection reset by peer (104))
+
+Fri Nov  1 11:38:49 2019
+ SMsgWriter:  framebuffer updates 874
+
+Fri Nov  1 11:39:02 2019
+ SMsgWriter:    copyRect rects 1063, bytes 17008
+
+Fri Nov  1 11:39:03 2019
+ SMsgWriter:    hextile rects 2692, bytes 10010747
+ SMsgWriter:    ZRLE rects 12, bytes 1005323
+ SMsgWriter:    raw bytes equivalent 151672980, compression ratio 13.768338

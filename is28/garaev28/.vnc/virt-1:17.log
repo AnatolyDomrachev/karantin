@@ -1,0 +1,83 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Sep 20 08:34:48 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5917
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+
+(x-window-manager:47232): xfwm4-WARNING **: 08:34:52.010: The display does not support the XRender extension.
+
+(x-window-manager:47232): xfwm4-WARNING **: 08:34:52.010: The display does not support the XComposite extension.
+
+(x-window-manager:47232): xfwm4-WARNING **: 08:34:52.010: The display does not support the XDamage extension.
+
+(x-window-manager:47232): xfwm4-WARNING **: 08:34:52.010: The display does not support the XFixes extension.
+
+(x-window-manager:47232): xfwm4-WARNING **: 08:34:52.010: Compositing manager disabled.
+xfwm4-Message: 08:34:52.050: Unsupported keyboard modifier '<Super>Tab'
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(x-window-manager:47232): xfwm4-WARNING **: 08:34:52.058: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+Fri Sep 20 08:34:55 2019
+ Connections: accepted: 0.0.0.0::49801
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 20 08:34:59 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Sep 20 08:43:32 2019
+ XserverDesktop: Added unknown keysym 0x6d7 to keycode 255
+xfwm4-Message: 08:43:32.927: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:43:33 2019
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 254
+ XserverDesktop: Added unknown keysym 0x6d2 to keycode 253
+ XserverDesktop: Added unknown keysym 0x6c8 to keycode 252
+xfwm4-Message: 08:43:33.607: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6ce to keycode 251
+ XserverDesktop: Added unknown keysym 0x6d1 to keycode 250
+xfwm4-Message: 08:43:34.039: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:43:35 2019
+ XserverDesktop: Added unknown keysym 0x6dc to keycode 249
+xfwm4-Message: 08:43:36.216: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:43:40 2019
+ XserverDesktop: Added unknown keysym 0x6da to keycode 248
+xfwm4-Message: 08:43:40.847: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:43:42 2019
+ XserverDesktop: Added unknown keysym 0x6c4 to keycode 247
+
+Fri Sep 20 08:43:43 2019
+ XserverDesktop: Added unknown keysym 0x6cc to keycode 246
+xfwm4-Message: 08:43:43.424: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:43:56 2019
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 245
+ XserverDesktop: Added unknown keysym 0x6d6 to keycode 244
+xfwm4-Message: 08:43:56.855: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 12:43:10 2019
+ Connections: closed: 0.0.0.0::49801 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 4233
+ SMsgWriter:    copyRect rects 2140, bytes 34240
+ SMsgWriter:    hextile rects 13276, bytes 43871663
+ SMsgWriter:    raw bytes equivalent 657842776, compression ratio 14.994708
+x-window-manager: Fatal IO error 4 (Interrupted system call) on X server :17.

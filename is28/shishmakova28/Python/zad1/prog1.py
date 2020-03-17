@@ -1,0 +1,7 @@
+print('Введите три числа')
+A=float(input())
+B=float(input())
+C=float(input())
+if A>B and A>C : print(A)
+elif B>A and B>C: print(B)
+else:print(C)

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- -*- xml -*- -->
+<moo-prefs version="1.0">
+  <Editor>
+    <encodings>
+      <recent>UTF-8,ISO-8859-14</recent>
+      <last-open>ISO-8859-14</last-open>
+      <last-save>UTF-8</last-save>
+    </encodings>
+  </Editor>
+  <Prefs>
+    <item name="Editor/dialogs/open/height" type="int">624</item>
+    <item name="Editor/dialogs/open/width" type="int">780</item>
+    <item name="Editor/dialogs/open/x" type="int">771</item>
+    <item name="Editor/dialogs/open/y" type="int">331</item>
+    <item name="Editor/last_dir" type="string">file:///home/is28/lobzin28</item>
+    <item name="Editor/window/height" type="int">585</item>
+    <item name="Editor/window/paned" type="string">mbpconfig-1.0 -1,-1,;273,-1,FileSelector,FileSelector,MooFileList;-1,-1,;-1,-1,;FileSelector:0,0,-1,-1,0,0,0;MooFileList:0,0,-1,-1,0,0,0</item>
+    <item name="Editor/window/width" type="int">1093</item>
+    <item name="Plugins/FileSelector/last_dir" type="string">/home/</item>
+  </Prefs>
+</moo-prefs>

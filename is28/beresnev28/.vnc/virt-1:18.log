@@ -1,0 +1,113 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Nov 29 10:57:09 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5918
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/beresnev28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :18
+xfce4-session: Another session manager is already running
+
+Fri Nov 29 10:57:19 2019
+ Connections: accepted: 0.0.0.0::50185
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov 29 10:57:23 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov 29 10:57:35 2019
+ Connections: closed: 0.0.0.0::50185 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 2
+ SMsgWriter:    hextile rects 3, bytes 2090458
+ SMsgWriter:    raw bytes equivalent 4148260, compression ratio 1.984379
+
+Fri Nov 29 10:57:42 2019
+ Connections: accepted: 0.0.0.0::50186
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov 29 10:57:46 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov 29 11:05:49 2019
+ Connections: closed: 0.0.0.0::50186 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 18
+ SMsgWriter:    hextile rects 19, bytes 35529210
+ SMsgWriter:    raw bytes equivalent 70503332, compression ratio 1.984377
+
+Fri Nov 29 11:05:54 2019
+ Connections: accepted: 0.0.0.0::50206
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov 29 11:05:59 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov 29 11:06:07 2019
+ Connections: closed: 0.0.0.0::50206 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 2
+ SMsgWriter:    hextile rects 3, bytes 2090442
+ SMsgWriter:    raw bytes equivalent 4148260, compression ratio 1.984394
+
+Fri Nov 29 11:06:48 2019
+ Connections: accepted: 0.0.0.0::50207
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov 29 11:06:53 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov 29 11:11:04 2019
+ Connections: closed: 0.0.0.0::50207 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 10
+ SMsgWriter:    hextile rects 11, bytes 18809914
+ SMsgWriter:    raw bytes equivalent 37325956, compression ratio 1.984377
+
+Fri Nov 29 11:11:11 2019
+ Connections: accepted: 0.0.0.0::50218
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov 29 11:11:16 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov 29 11:20:19 2019
+ Connections: accepted: 0.0.0.0::50230
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov 29 11:20:25 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov 29 11:20:36 2019
+ Connections: closed: 0.0.0.0::50218 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 120
+ SMsgWriter:    hextile rects 220, bytes 39758470
+ SMsgWriter:    raw bytes equivalent 78901744, compression ratio 1.984527
+
+Fri Nov 29 11:20:46 2019
+ Connections: closed: 0.0.0.0::50230 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 2
+ SMsgWriter:    hextile rects 3, bytes 2090274
+ SMsgWriter:    raw bytes equivalent 4147812, compression ratio 1.984339

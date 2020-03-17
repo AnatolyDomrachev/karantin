@@ -1,0 +1,5 @@
+[Added Associations]
+application/pdf=atril.desktop;evince.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+text/x-python=gedit.desktop;

@@ -1,0 +1,62 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Feb 13 09:31:10 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5932
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/stanislavchuk28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :32
+/home/is28/stanislavchuk28/Downloads was removed, reassigning DOWNLOAD to homedir
+/home/is28/stanislavchuk28/Templates was removed, reassigning TEMPLATES to homedir
+/home/is28/stanislavchuk28/Public was removed, reassigning PUBLICSHARE to homedir
+/home/is28/stanislavchuk28/Documents was removed, reassigning DOCUMENTS to homedir
+/home/is28/stanislavchuk28/Music was removed, reassigning MUSIC to homedir
+/home/is28/stanislavchuk28/Pictures was removed, reassigning PICTURES to homedir
+/home/is28/stanislavchuk28/Videos was removed, reassigning VIDEOS to homedir
+xfce4-session: Another session manager is already running
+
+Thu Feb 13 09:31:23 2020
+ Connections: accepted: 0.0.0.0::64680
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Feb 13 09:31:26 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Thu Feb 13 09:31:56 2020
+ Connections: closed: 0.0.0.0::64680 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 3
+ SMsgWriter:    hextile rects 4, bytes 4180392
+ SMsgWriter:    raw bytes equivalent 8295472, compression ratio 1.984377
+
+Thu Feb 13 09:32:00 2020
+ Connections: accepted: 0.0.0.0::64681
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Feb 13 09:32:03 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Thu Feb 13 09:36:25 2020
+ Connections: closed: 0.0.0.0::64681 (write: Broken pipe (32))
+
+Thu Feb 13 09:36:26 2020
+ SMsgWriter:  framebuffer updates 15
+ SMsgWriter:    hextile rects 16, bytes 29259360
+ SMsgWriter:    raw bytes equivalent 62208780, compression ratio 2.126116

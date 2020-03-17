@@ -1,0 +1,120 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Dec  6 11:25:12 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5925
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/vavilova28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :25
+gpg-agent[20047]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:20040): xfce4-session-WARNING **: 11:25:16.280: gpg-agent returned no PID in the variables
+
+(xfce4-session:20040): xfce4-session-WARNING **: 11:25:16.281: xfsm_manager_load_session: Something wrong with /home/is28/vavilova28/.cache/sessions/xfce4-session-virt-1:25, Does it exist? Permissions issue?
+
+(xfwm4:20050): xfwm4-WARNING **: 11:25:16.335: The display does not support the XRender extension.
+
+(xfwm4:20050): xfwm4-WARNING **: 11:25:16.335: The display does not support the XComposite extension.
+
+(xfwm4:20050): xfwm4-WARNING **: 11:25:16.335: The display does not support the XDamage extension.
+
+(xfwm4:20050): xfwm4-WARNING **: 11:25:16.335: The display does not support the XFixes extension.
+
+(xfwm4:20050): xfwm4-WARNING **: 11:25:16.335: Compositing manager disabled.
+xfwm4-Message: 11:25:16.731: Unsupported keyboard modifier '<Super>Tab'
+(uint32 2,)
+
+** (light-locker:20065): ERROR **: 11:25:16.923: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:20070): GLib-CRITICAL **: 11:25:16.948: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:20070): polkit-gnome-1-WARNING **: 11:25:16.948: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:20059): xfsettingsd-CRITICAL **: 11:25:17.590: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":25.0".
+
+(xfsettingsd:20059): xfsettingsd-CRITICAL **: 11:25:17.592: XI is not present.
+
+(xfsettingsd:20059): xfsettingsd-CRITICAL **: 11:25:17.592: Failed to initialize the Xkb extension.
+
+(xfsettingsd:20059): xfsettingsd-CRITICAL **: 11:25:17.592: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:25:17.633: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:20145): Gtk-WARNING **: 11:25:17.715: Can't set a parent on widget which has a parent
+
+(nm-applet:20145): Gdk-CRITICAL **: 11:25:18.061: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(tracker-miner-apps:20125): Tracker-CRITICAL **: 11:25:18.675: Could not request DBus name 'org.freedesktop.Tracker1.Miner.Applications': D-Bus service name:'org.freedesktop.Tracker1.Miner.Applications' is already taken, perhaps the application is already running?
+
+(tracker-miner-fs:20072): Tracker-CRITICAL **: 11:25:18.701: Could not request DBus name 'org.freedesktop.Tracker1.Miner.Files': D-Bus service name:'org.freedesktop.Tracker1.Miner.Files' is already taken, perhaps the application is already running?
+
+(tracker-extract:20080): Tracker-CRITICAL **: 11:25:18.715: Could not request DBus name 'org.freedesktop.Tracker1.Miner.Extract': D-Bus service name:'org.freedesktop.Tracker1.Miner.Extract' is already taken, perhaps the application is already running?
+
+Fri Dec  6 11:25:29 2019
+ Connections: accepted: 0.0.0.0::50473
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Dec  6 11:25:33 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.12660" (uid=1267 pid=20128 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.12660" (uid=1267 pid=20128 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.12660" (uid=1267 pid=20128 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:20166): Gdk-WARNING **: 11:25:43.594: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(Thunar:20056): Gdk-WARNING **: 11:41:39.049: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":25.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(soffice:28854): GLib-GObject-WARNING **: 11:41:47.782: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x55bebe8a81f0' of type 'OOoAtkObjCompTxt'
+
+Fri Dec  6 12:08:09 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Dec  6 12:09:34 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Dec  6 12:11:02 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Dec  6 12:11:59 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Dec  6 12:13:00 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Dec  6 12:14:00 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Dec  6 12:15:00 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Dec  6 12:44:29 2019
+ Connections: closed: 0.0.0.0::50473 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 480
+ SMsgWriter:    copyRect rects 94, bytes 1504
+ SMsgWriter:    hextile rects 702, bytes 22470440
+ SMsgWriter:    ZRLE rects 437, bytes 5264467
+ SMsgWriter:    raw bytes equivalent 705004526, compression ratio 25.419394
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :25.0.
+xfdesktop: Fatal IO error 4 (Interrupted system call) on X server :25.0.

@@ -1,0 +1,1 @@
+[{'university': 'NNGASU', 'group': 'IS-28'}, {'university': 'NNGU', 'group': '381807-1'}, {'university': 'NGLU', 'group': 'AI1901'}, {'university': ' NNGU', 'group': ' 35191-gmu'}]

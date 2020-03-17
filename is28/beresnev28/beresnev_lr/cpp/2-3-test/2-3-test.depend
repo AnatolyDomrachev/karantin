@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1580975449 source:/disk2/home/is28/beresnev28/beresnev_lr/cpp/2-3-test/main.cpp
+	<string>
+	<iostream>
+

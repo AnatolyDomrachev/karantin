@@ -1,0 +1,123 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Feb 13 09:46:48 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5906
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/konnov28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :6
+gpg-agent[5856]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:5846): xfce4-session-WARNING **: 09:46:52.060: gpg-agent returned no PID in the variables
+
+(xfce4-session:5846): xfce4-session-WARNING **: 09:46:52.065: xfsm_manager_load_session: Something wrong with /home/is28/konnov28/.cache/sessions/xfce4-session-virt-1:6, Does it exist? Permissions issue?
+
+(xfwm4:5860): xfwm4-WARNING **: 09:46:52.091: The display does not support the XRender extension.
+
+(xfwm4:5860): xfwm4-WARNING **: 09:46:52.092: The display does not support the XComposite extension.
+
+(xfwm4:5860): xfwm4-WARNING **: 09:46:52.092: The display does not support the XDamage extension.
+
+(xfwm4:5860): xfwm4-WARNING **: 09:46:52.092: The display does not support the XFixes extension.
+
+(xfwm4:5860): xfwm4-WARNING **: 09:46:52.092: Compositing manager disabled.
+(uint32 1,)
+
+** (light-locker:5869): ERROR **: 09:46:52.146: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(xfsettingsd:5872): xfsettingsd-CRITICAL **: 09:46:52.158: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":6.0".
+
+(xfsettingsd:5872): xfsettingsd-CRITICAL **: 09:46:52.158: XI is not present.
+
+(xfsettingsd:5872): xfsettingsd-CRITICAL **: 09:46:52.159: Failed to initialize the Xkb extension.
+
+(xfsettingsd:5872): xfsettingsd-CRITICAL **: 09:46:52.159: Failed to initialize the Accessibility extension.
+
+(polkit-gnome-authentication-agent-1:5871): GLib-CRITICAL **: 09:46:52.171: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:5871): polkit-gnome-1-WARNING **: 09:46:52.174: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 09:46:52.232: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 09:46:52.281: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:5953): Gtk-WARNING **: 09:46:52.340: Can't set a parent on widget which has a parent
+
+(nm-applet:5953): Gdk-CRITICAL **: 09:46:52.486: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.236" (uid=1273 pid=5934 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.236" (uid=1273 pid=5934 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.236" (uid=1273 pid=5934 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:6019): Gdk-WARNING **: 09:47:08.375: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(wrapper-1.0:6019): Gdk-WARNING **: 09:47:08.375: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Thu Feb 13 09:47:13 2020
+ Connections: accepted: 0.0.0.0::49746
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Feb 13 09:47:16 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(polkit-gnome-authentication-agent-1:5871): polkit-gnome-1-WARNING **: 09:47:39.875: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:5871): polkit-gnome-1-WARNING **: 09:47:39.881: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 09:47:39.912: GtkDialog mapped without a transient parent. This is discouraged.
+
+(Thunar:5866): Gdk-WARNING **: 09:47:44.076: gdk_window_set_icon_list: icons too large
+
+Thu Feb 13 10:45:50 2020
+ Connections: closed: 0.0.0.0::49746 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 1960
+ SMsgWriter:    copyRect rects 2629, bytes 42064
+ SMsgWriter:    hextile rects 5805, bytes 46740581
+ SMsgWriter:    raw bytes equivalent 538499098, compression ratio 11.521018
+xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :6.
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :6.0.
+
+Received signal:15->'Terminated'
+
+(xfsettingsd:5872): libxfce4ui-WARNING **: 12:32:36.875: ICE I/O Error
+
+(xfsettingsd:5872): libxfce4ui-WARNING **: 12:32:36.875: Disconnected from session manager.
+
+(xfdesktop:5868): libxfce4ui-WARNING **: 12:32:36.876: ICE I/O Error
+xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :6.0.
+
+(xfdesktop:5868): libxfce4ui-WARNING **: 12:32:36.877: Disconnected from session manager.
+
+Received signal:15->'Terminated'
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :6.0.
+
+OK
+
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :6.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :6.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :6.0.
+Gdk-Message: 12:32:36.884: evolution-alarm-notify: Fatal IO error 11 (Resource temporarily unavailable) on X server :6.0.
+
+Gdk-Message: 12:32:36.884: gedit: Fatal IO error 11 (Resource temporarily unavailable) on X server :6.0.
+
+
+OK
+
+
+Received signal:15->'Terminated'

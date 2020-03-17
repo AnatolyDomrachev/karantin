@@ -1,0 +1,114 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Feb 27 09:42:47 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5901
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/lebedeva28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[39982]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+
+(xfce4-session:39967): xfce4-session-WARNING **: 09:42:51.691: gpg-agent returned no PID in the variables
+gpg-agent[39983]: gpg-agent (GnuPG) 2.2.4 started
+
+(xfce4-session:39967): xfce4-session-WARNING **: 09:42:51.698: xfsm_manager_load_session: Something wrong with /home/is28/lebedeva28/.cache/sessions/xfce4-session-virt-1:1, Does it exist? Permissions issue?
+
+(polkit-gnome-authentication-agent-1:40006): polkit-gnome-1-WARNING **: 09:42:52.234: Error getting authority: Error initializing authority: Error calling StartServiceByName for org.freedesktop.PolicyKit1: GDBus.Error:org.freedesktop.systemd1.ShuttingDown: Refusing activation, D-Bus is shutting down.
+
+** (light-locker:39994): ERROR **: 09:42:52.266: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(xfwm4:39985): xfwm4-WARNING **: 09:42:52.531: The display does not support the XRender extension.
+
+(xfwm4:39985): xfwm4-WARNING **: 09:42:52.531: The display does not support the XComposite extension.
+
+(xfwm4:39985): xfwm4-WARNING **: 09:42:52.531: The display does not support the XDamage extension.
+
+(xfwm4:39985): xfwm4-WARNING **: 09:42:52.531: The display does not support the XFixes extension.
+
+(xfwm4:39985): xfwm4-WARNING **: 09:42:52.531: Compositing manager disabled.
+xfwm4-Message: 09:42:52.900: Unsupported keyboard modifier '<Super>Tab'
+
+(tracker-miner-fs:40021): GVFS-RemoteVolumeMonitor-WARNING **: 09:42:53.779: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(tracker-miner-fs:40021): libupower-glib-WARNING **: 09:42:54.433: Couldn't connect to proxy: Error calling StartServiceByName for org.freedesktop.UPower: GDBus.Error:org.freedesktop.systemd1.ShuttingDown: Refusing activation, D-Bus is shutting down.
+
+(tracker-miner-fs:40021): GLib-GObject-WARNING **: 09:42:54.433: invalid (NULL) pointer instance
+
+(tracker-miner-fs:40021): GLib-GObject-CRITICAL **: 09:42:54.433: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(tracker-miner-fs:40021): libupower-glib-CRITICAL **: 09:42:54.433: up_client_get_on_battery: assertion 'UP_IS_CLIENT (client)' failed
+
+(tracker-miner-fs:40021): GLib-GObject-WARNING **: 09:42:54.434: invalid (NULL) pointer instance
+
+(tracker-miner-fs:40021): GLib-GObject-CRITICAL **: 09:42:54.435: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(tracker-miner-fs:40021): GLib-GObject-CRITICAL **: 09:42:54.435: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(xfsettingsd:39995): xfsettingsd-CRITICAL **: 09:42:55.521: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+
+(xfsettingsd:39995): xfsettingsd-CRITICAL **: 09:42:55.522: XI is not present.
+
+(xfsettingsd:39995): xfsettingsd-CRITICAL **: 09:42:55.522: Failed to initialize the Xkb extension.
+
+(xfsettingsd:39995): xfsettingsd-CRITICAL **: 09:42:55.522: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:42:55.632: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:40148): Gtk-WARNING **: 09:42:55.687: Can't set a parent on widget which has a parent
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.3815" (uid=1275 pid=40135 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.3815" (uid=1275 pid=40135 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.3815" (uid=1275 pid=40135 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+** (xfce4-session:39967): CRITICAL **: 09:42:56.495: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:39967): GLib-CRITICAL **: 09:42:56.495: g_propagate_error: assertion 'src != NULL' failed
+
+(blueman-applet:40135): Gdk-CRITICAL **: 09:42:56.495: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+** (xfce4-session:39967): CRITICAL **: 09:42:56.497: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:39967): GLib-CRITICAL **: 09:42:56.497: g_propagate_error: assertion 'src != NULL' failed
+
+** (xfce4-session:39967): CRITICAL **: 09:42:56.499: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:39967): GLib-CRITICAL **: 09:42:56.499: g_propagate_error: assertion 'src != NULL' failed
+
+(xfce4-session:39967): xfce4-session-WARNING **: 09:42:56.500: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(nm-applet:40148): Gdk-CRITICAL **: 09:42:56.501: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+** (xfce4-session:39967): CRITICAL **: 09:42:56.501: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:39967): GLib-CRITICAL **: 09:42:56.501: g_propagate_error: assertion 'src != NULL' failed
+
+(xfce4-session:39967): xfce4-session-WARNING **: 09:42:56.502: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+(uint32 1,)
+
+(xfdesktop:39993): GVFS-RemoteVolumeMonitor-WARNING **: 09:42:56.737: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(tracker-extract:40041): GVFS-RemoteVolumeMonitor-WARNING **: 09:42:58.357: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(nm-applet:40148): Gtk-CRITICAL **: 09:43:14.882: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:40148): Gtk-CRITICAL **: 09:43:14.882: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+gpg-agent[39983]: SIGTERM received - shutting down ...
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :1.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :1.0.
+gpg-agent[39983]: gpg-agent (GnuPG) 2.2.4 stopped

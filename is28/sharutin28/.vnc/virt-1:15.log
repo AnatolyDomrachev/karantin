@@ -1,0 +1,133 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Dec 13 11:27:50 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5915
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/sharutin28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :15
+gpg-agent[23410]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:23400): xfce4-session-WARNING **: 11:27:53.562: gpg-agent returned no PID in the variables
+
+(xfce4-session:23400): xfce4-session-WARNING **: 11:27:53.563: xfsm_manager_load_session: Something wrong with /home/is28/sharutin28/.cache/sessions/xfce4-session-virt-1:15, Does it exist? Permissions issue?
+
+(xfwm4:23414): xfwm4-WARNING **: 11:27:53.592: The display does not support the XRender extension.
+
+(xfwm4:23414): xfwm4-WARNING **: 11:27:53.592: The display does not support the XComposite extension.
+
+(xfwm4:23414): xfwm4-WARNING **: 11:27:53.592: The display does not support the XDamage extension.
+
+(xfwm4:23414): xfwm4-WARNING **: 11:27:53.592: The display does not support the XFixes extension.
+
+(xfwm4:23414): xfwm4-WARNING **: 11:27:53.592: Compositing manager disabled.
+xfwm4-Message: 11:27:53.624: Unsupported keyboard modifier '<Super>Tab'
+(uint32 1,)
+
+** (light-locker:23423): ERROR **: 11:27:53.648: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:23426): GLib-CRITICAL **: 11:27:53.679: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:23426): polkit-gnome-1-WARNING **: 11:27:53.680: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:23425): xfsettingsd-CRITICAL **: 11:27:53.740: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":15.0".
+
+(xfsettingsd:23425): xfsettingsd-CRITICAL **: 11:27:53.745: XI is not present.
+
+(xfsettingsd:23425): xfsettingsd-CRITICAL **: 11:27:53.747: Failed to initialize the Xkb extension.
+
+(xfsettingsd:23425): xfsettingsd-CRITICAL **: 11:27:53.747: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:27:53.791: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:23535): Gtk-WARNING **: 11:27:54.036: Can't set a parent on widget which has a parent
+
+(nm-applet:23535): Gdk-CRITICAL **: 11:27:54.191: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Dec 13 11:27:57 2019
+ Connections: accepted: 0.0.0.0::50092
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Dec 13 11:28:01 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2443" (uid=1288 pid=23515 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2443" (uid=1288 pid=23515 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2443" (uid=1288 pid=23515 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:23572): Gdk-WARNING **: 11:28:19.116: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(gnome-nibbles:25487): Gdk-ERROR **: 11:31:42.573: The program 'gnome-nibbles' received an X Window System error.
+This probably reflects a bug in the program.
+The error was 'BadRequest (invalid request code or no such operation)'.
+  (Details: serial 108 error_code 1 request_code 149 (RANDR) minor_code 8)
+  (Note to programmers: normally, X errors are reported asynchronously;
+   that is, you will receive the error a while after causing it.
+   To debug your program, run it with the GDK_SYNCHRONIZE environment
+   variable to change this behavior. You can then get a meaningful
+   backtrace from your debugger if you break on the gdk_x_error() function.)
+
+(gnome-nibbles:25661): Gdk-ERROR **: 11:34:29.989: The program 'gnome-nibbles' received an X Window System error.
+This probably reflects a bug in the program.
+The error was 'BadRequest (invalid request code or no such operation)'.
+  (Details: serial 107 error_code 1 request_code 149 (RANDR) minor_code 8)
+  (Note to programmers: normally, X errors are reported asynchronously;
+   that is, you will receive the error a while after causing it.
+   To debug your program, run it with the GDK_SYNCHRONIZE environment
+   variable to change this behavior. You can then get a meaningful
+   backtrace from your debugger if you break on the gdk_x_error() function.)
+Trace/breakpoint trap (core dumped)
+
+(gedit:27148): Gtk-WARNING **: 11:45:30.772: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Fri Dec 13 12:03:36 2019
+ XserverDesktop: Added unknown keysym 0xff67 to keycode 255
+
+(xfce4-terminal:25501): Gdk-CRITICAL **: 12:03:36.809: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+xfwm4-Message: 12:03:37.059: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Dec 13 12:14:54 2019
+ Connections: accepted: 0.0.0.0::52542
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Dec 13 12:14:59 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Dec 13 12:37:32 2019
+ Connections: closed: 0.0.0.0::50092 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 9473
+ SMsgWriter:    copyRect rects 2125, bytes 34000
+ SMsgWriter:    hextile rects 32964, bytes 89050418
+ SMsgWriter:    raw bytes equivalent 784928240, compression ratio 8.814425
+
+Fri Dec 13 12:46:40 2019
+ Connections: closed: 0.0.0.0::52542 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 282
+ SMsgWriter:    copyRect rects 59, bytes 944
+ SMsgWriter:    hextile rects 4774, bytes 30644042
+ SMsgWriter:    raw bytes equivalent 295348566, compression ratio 9.638042
+
+(tracker-miner-fs:23428): GLib-GObject-WARNING **: 13:57:39.617: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :15.0.
+xfdesktop: Fatal IO error 4 (Interrupted system call) on X server :15.0.

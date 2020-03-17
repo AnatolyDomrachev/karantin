@@ -1,0 +1,179 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Nov  8 11:20:51 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5913
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/pavlov28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :13
+gpg-agent[57451]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:57441): xfce4-session-WARNING **: 11:20:54.806: gpg-agent returned no PID in the variables
+
+(xfce4-session:57441): xfce4-session-WARNING **: 11:20:54.818: xfsm_manager_load_session: Something wrong with /home/is28/pavlov28/.cache/sessions/xfce4-session-virt-1:13, Does it exist? Permissions issue?
+
+(xfwm4:57455): xfwm4-WARNING **: 11:20:54.853: The display does not support the XRender extension.
+
+(xfwm4:57455): xfwm4-WARNING **: 11:20:54.853: The display does not support the XComposite extension.
+
+(xfwm4:57455): xfwm4-WARNING **: 11:20:54.853: The display does not support the XDamage extension.
+
+(xfwm4:57455): xfwm4-WARNING **: 11:20:54.853: The display does not support the XFixes extension.
+
+(xfwm4:57455): xfwm4-WARNING **: 11:20:54.853: Compositing manager disabled.
+(uint32 1,)
+
+** (light-locker:57464): ERROR **: 11:20:54.942: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:57467): GLib-CRITICAL **: 11:20:54.960: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:57467): polkit-gnome-1-WARNING **: 11:20:54.961: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:57465): xfsettingsd-CRITICAL **: 11:20:54.987: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":13.0".
+
+(xfsettingsd:57465): xfsettingsd-CRITICAL **: 11:20:54.988: XI is not present.
+
+(xfsettingsd:57465): xfsettingsd-CRITICAL **: 11:20:54.988: Failed to initialize the Xkb extension.
+
+(xfsettingsd:57465): xfsettingsd-CRITICAL **: 11:20:54.991: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:20:55.014: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 11:20:55.142: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:57561): Gtk-WARNING **: 11:20:55.300: Can't set a parent on widget which has a parent
+
+(nm-applet:57561): Gdk-CRITICAL **: 11:20:55.452: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Nov  8 11:20:57 2019
+ Connections: accepted: 0.0.0.0::50231
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov  8 11:20:59 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2114" (uid=1280 pid=57554 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2114" (uid=1280 pid=57554 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2114" (uid=1280 pid=57554 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:57616): Gdk-WARNING **: 11:21:20.551: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(wrapper-1.0:57616): Gdk-WARNING **: 11:21:20.551: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(Thunar:57461): Gdk-WARNING **: 11:21:57.519: gdk_window_set_icon_list: icons too large
+
+(Thunar:57461): Gdk-WARNING **: 11:22:11.565: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":13.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+Fri Nov  8 11:27:22 2019
+ XserverDesktop: Added unknown keysym 0x6f7 to keycode 255
+xfwm4-Message: 11:27:22.607: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov  8 11:27:24 2019
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 254
+ XserverDesktop: Added unknown keysym 0x6c4 to keycode 253
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 252
+ XserverDesktop: Added unknown keysym 0x6d4 to keycode 251
+xfwm4-Message: 11:27:24.707: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6ce to keycode 250
+ XserverDesktop: Added unknown keysym 0x6c1 to keycode 249
+
+Fri Nov  8 11:27:25 2019
+ XserverDesktop: Added unknown keysym 0x6de to keycode 248
+ XserverDesktop: Added unknown keysym 0x6cc to keycode 247
+ XserverDesktop: Added unknown keysym 0x6d8 to keycode 246
+ XserverDesktop: Added unknown keysym 0xf3 to keycode 245
+ XserverDesktop: Added unknown keysym 0x6c0 to keycode 244
+xfwm4-Message: 11:27:26.019: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov  8 11:27:27 2019
+ XserverDesktop: Added unknown keysym 0x6d3 to keycode 243
+ XserverDesktop: Added unknown keysym 0x6d2 to keycode 242
+ XserverDesktop: Added unknown keysym 0x6cf to keycode 241
+
+Fri Nov  8 11:27:28 2019
+ XserverDesktop: Added unknown keysym 0x6cb to keycode 240
+xfwm4-Message: 11:27:28.300: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov  8 11:27:37 2019
+ XserverDesktop: Added unknown keysym 0x6f6 to keycode 239
+xfwm4-Message: 11:27:37.724: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov  8 11:32:10 2019
+ XserverDesktop: Added unknown keysym 0x6cd to keycode 238
+xfwm4-Message: 11:32:10.752: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov  8 11:32:34 2019
+ XserverDesktop: Added unknown keysym 0x6d9 to keycode 237
+xfwm4-Message: 11:32:34.959: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov  8 11:35:30 2019
+ XserverDesktop: Added unknown keysym 0x6da to keycode 236
+ XserverDesktop: Added unknown keysym 0x6db to keycode 235
+xfwm4-Message: 11:35:31.063: Unsupported keyboard modifier '<Super>Tab'
+
+(Thunar:57461): Gdk-WARNING **: 11:56:23.095: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":13.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(gedit:13304): Gtk-WARNING **: 12:38:41.948: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(tracker-miner-fs:57469): Tracker-CRITICAL **: 12:39:02.790:   (Sparql buffer) Error in task 0 (file:///home/is28/pavlov28/data.txt) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:57469): Tracker-CRITICAL **: 12:39:02.791: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(gedit:13631): Gtk-WARNING **: 12:39:44.387: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Fri Nov  8 12:40:38 2019
+ Connections: closed: 0.0.0.0::50231 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 19148
+ SMsgWriter:    copyRect rects 7379, bytes 118064
+ SMsgWriter:    hextile rects 400560, bytes 124797301
+ SMsgWriter:    raw bytes equivalent -1832722614, compression ratio -14.685595
+
+Mon Nov 11 13:59:45 2019
+ Connections: accepted: 0.0.0.0::51235
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Mon Nov 11 13:59:49 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::51235 (Authentication failure)
+
+Mon Nov 11 13:59:54 2019
+ Connections: accepted: 0.0.0.0::51236
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Mon Nov 11 13:59:57 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::51236 (Authentication failure)
+
+Mon Nov 11 14:00:03 2019
+ Connections: accepted: 0.0.0.0::51237
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Mon Nov 11 14:00:05 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::51237 (Authentication failure)

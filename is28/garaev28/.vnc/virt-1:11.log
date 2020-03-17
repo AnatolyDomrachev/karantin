@@ -1,0 +1,128 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Wed Dec 11 11:24:14 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5911
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/garaev28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :11
+gpg-agent[23337]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:23327): xfce4-session-WARNING **: 11:24:17.386: gpg-agent returned no PID in the variables
+
+(xfce4-session:23327): xfce4-session-WARNING **: 11:24:17.391: xfsm_manager_load_session: Something wrong with /home/is28/garaev28/.cache/sessions/xfce4-session-virt-1:11, Does it exist? Permissions issue?
+
+(xfwm4:23341): xfwm4-WARNING **: 11:24:17.414: The display does not support the XRender extension.
+
+(xfwm4:23341): xfwm4-WARNING **: 11:24:17.414: The display does not support the XComposite extension.
+
+(xfwm4:23341): xfwm4-WARNING **: 11:24:17.414: The display does not support the XDamage extension.
+
+(xfwm4:23341): xfwm4-WARNING **: 11:24:17.414: The display does not support the XFixes extension.
+
+(xfwm4:23341): xfwm4-WARNING **: 11:24:17.414: Compositing manager disabled.
+(uint32 1,)
+
+** (light-locker:23350): ERROR **: 11:24:17.452: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:23352): GLib-CRITICAL **: 11:24:17.475: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:23352): polkit-gnome-1-WARNING **: 11:24:17.476: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:23354): xfsettingsd-CRITICAL **: 11:24:17.511: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":11.0".
+
+(xfsettingsd:23354): xfsettingsd-CRITICAL **: 11:24:17.518: XI is not present.
+
+(xfsettingsd:23354): xfsettingsd-CRITICAL **: 11:24:17.518: Failed to initialize the Xkb extension.
+
+(xfsettingsd:23354): xfsettingsd-CRITICAL **: 11:24:17.519: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:24:17.550: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 11:24:17.598: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:23452): Gtk-WARNING **: 11:24:17.715: Can't set a parent on widget which has a parent
+
+(nm-applet:23452): Gdk-CRITICAL **: 11:24:17.862: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.874" (uid=1269 pid=23425 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.874" (uid=1269 pid=23425 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.874" (uid=1269 pid=23425 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:23497): Gdk-WARNING **: 11:24:20.806: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Wed Dec 11 11:24:27 2019
+ Connections: accepted: 0.0.0.0::62598
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Wed Dec 11 11:24:31 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(Thunar:23347): Gdk-WARNING **: 11:24:42.509: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":11.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+AUDIT: Wed Dec 11 11:27:05 2019: 23309 Xvnc4: client 21 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+
+Wed Dec 11 12:43:37 2019
+ Connections: closed: 0.0.0.0::62598 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 7370
+ SMsgWriter:    copyRect rects 910, bytes 14560
+ SMsgWriter:    hextile rects 26631, bytes 94479297
+ SMsgWriter:    raw bytes equivalent 903016126, compression ratio 9.557820
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.
+
+(xfdesktop:23349): libxfce4ui-WARNING **: 11:14:09.958: ICE I/O Error
+
+(xfdesktop:23349): libxfce4ui-WARNING **: 11:14:09.958: Disconnected from session manager.
+
+(xfsettingsd:23354): libxfce4ui-WARNING **: 11:14:09.958: ICE I/O Error
+
+(xfsettingsd:23354): libxfce4ui-WARNING **: 11:14:09.958: Disconnected from session manager.
+
+(xfce4-panel:23345): libxfce4ui-WARNING **: 11:14:09.959: ICE I/O Error
+
+(xfce4-panel:23345): libxfce4ui-WARNING **: 11:14:09.960: Disconnected from session manager.
+
+Received signal:15->'Terminated'
+
+(tracker-miner-fs:23355): GLib-GIO-CRITICAL **: 11:14:09.965: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:23355): GLib-GIO-CRITICAL **: 11:14:09.965: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:23355): GLib-GIO-CRITICAL **: 11:14:09.965: Error while sending AddMatch() message: The connection is closed
+xfdesktop: Fatal IO error 4 (Interrupted system call) on X server :11.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+medit: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+
+OK
+
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :11.0.
+
+Received signal:15->'Terminated'
+
+OK
+
+
+Received signal:15->'Terminated'

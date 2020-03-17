@@ -1,0 +1,143 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Mar 12 09:57:29 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5917
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/fedin28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :17
+gpg-agent[14608]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:14598): xfce4-session-WARNING **: 09:57:32.666: gpg-agent returned no PID in the variables
+
+(xfce4-session:14598): xfce4-session-WARNING **: 09:57:32.677: xfsm_manager_load_session: Something wrong with /home/is28/fedin28/.cache/sessions/xfce4-session-virt-1:17, Does it exist? Permissions issue?
+
+(xfwm4:14612): xfwm4-WARNING **: 09:57:32.709: The display does not support the XRender extension.
+
+(xfwm4:14612): xfwm4-WARNING **: 09:57:32.709: The display does not support the XComposite extension.
+
+(xfwm4:14612): xfwm4-WARNING **: 09:57:32.709: The display does not support the XDamage extension.
+
+(xfwm4:14612): xfwm4-WARNING **: 09:57:32.709: The display does not support the XFixes extension.
+
+(xfwm4:14612): xfwm4-WARNING **: 09:57:32.709: Compositing manager disabled.
+
+** (light-locker:14622): ERROR **: 09:57:32.740: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:14624): GLib-CRITICAL **: 09:57:32.766: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:14624): polkit-gnome-1-WARNING **: 09:57:32.769: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(uint32 1,)
+
+(xfsettingsd:14621): xfsettingsd-CRITICAL **: 09:57:32.835: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":17.0".
+
+(xfsettingsd:14621): xfsettingsd-CRITICAL **: 09:57:32.835: XI is not present.
+
+(xfsettingsd:14621): xfsettingsd-CRITICAL **: 09:57:32.837: Failed to initialize the Xkb extension.
+
+(xfsettingsd:14621): xfsettingsd-CRITICAL **: 09:57:32.837: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:57:32.887: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 09:57:33.004: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:14688): Gtk-WARNING **: 09:57:33.258: Can't set a parent on widget which has a parent
+
+(nm-applet:14688): Gdk-CRITICAL **: 09:57:33.427: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Thu Mar 12 09:57:41 2020
+ Connections: accepted: 0.0.0.0::49874
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.681" (uid=1285 pid=14677 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.681" (uid=1285 pid=14677 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.681" (uid=1285 pid=14677 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:14759): Gdk-WARNING **: 09:57:58.330: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Thu Mar 12 09:58:04 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(gedit:15469): Gtk-WARNING **: 10:00:08.241: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(gedit:19330): Gtk-WARNING **: 10:07:07.354: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Thu Mar 12 11:00:19 2020
+ Connections: closed: 0.0.0.0::49874 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 5647
+ SMsgWriter:    copyRect rects 1082, bytes 17312
+ SMsgWriter:    hextile rects 45168, bytes 64843616
+ SMsgWriter:    raw bytes equivalent 683866118, compression ratio 10.546391
+cat: /home/is28/fedin28/.Xauthority: No such file or directory
+AUDIT: Tue Mar 17 22:00:44 2020: 14569 Xvnc4: client 9 rejected from local host
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.595:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.83PWH0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.595:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.25PWH0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.597:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.34OWH0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.597:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.I6OWH0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.625:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.8QHXH0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.625:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.JOHXH0”: No such file or directory
+
+(Thunar:14618): thunar-WARNING **: 22:01:24.647: Failed to create bookmarks folder: Error creating directory /home/is28: Permission denied
+
+(Thunar:14618): GLib-CRITICAL **: 22:01:24.647: g_file_set_contents: assertion 'error == NULL || *error == NULL' failed
+
+(Thunar:14618): thunar-WARNING **: 22:01:24.647: Failed to write "/home/is28/fedin28/.config/gtk-3.0/bookmarks": (null)
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.798:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.KCZ3H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.798:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.UDZ3H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.854:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.CZE2H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.854:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.D0E2H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.867:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.N5H2H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.867:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.R6H2H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.891:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.UJ12H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:01:24.891:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.RD12H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:03:29.806:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.OK53H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:03:29.806:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.2L53H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:03:29.809:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.9Q23H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:03:29.809:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.ES23H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:03:29.820:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.VWJ4H0”: No such file or directory
+
+(tracker-miner-fs:14628): Tracker-WARNING **: 22:03:29.820:   Could not create file:'/home/is28/fedin28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/fedin28/.cache/tracker/last-crawl.txt.1XJ4H0”: No such file or directory
+AUDIT: Tue Mar 17 22:03:33 2020: 14569 Xvnc4: client 4 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+AUDIT: Tue Mar 17 22:03:33 2020: 14569 Xvnc4: client 4 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused

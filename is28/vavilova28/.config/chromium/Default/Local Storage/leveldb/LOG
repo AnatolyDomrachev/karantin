@@ -1,0 +1,9 @@
+2020/03/12-09:55:52.408 33b9 Reusing MANIFEST /home/is28/vavilova28/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/03/12-09:55:52.408 33b9 Recovering log #3
+2020/03/12-09:55:52.422 33b9 Reusing old log /home/is28/vavilova28/.config/chromium/Default/Local Storage/leveldb/000003.log 
+2020/03/12-10:23:51.782 35c4 Level-0 table #5: started
+2020/03/12-10:23:51.784 35c4 Level-0 table #5: 24436 bytes OK
+2020/03/12-10:23:51.784 35c4 Delete type=0 #3
+2020/03/12-10:38:11.423 35c4 Level-0 table #7: started
+2020/03/12-10:38:11.425 35c4 Level-0 table #7: 22323 bytes OK
+2020/03/12-10:38:11.426 35c4 Delete type=0 #4

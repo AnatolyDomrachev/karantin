@@ -1,0 +1,6 @@
+x = float(input("первая точка"))
+y = float(input())
+x1 = float(input("вторая точка"))
+y1 = float(input()) 
+l= math.sqrt(k1* k1 + k2 * k2)
+print (%3f (l))

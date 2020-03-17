@@ -1,0 +1,16 @@
+a = [[], [], [], []]
+b = []
+for i in range(0,4):
+ for j in range(0,4):
+  a[i][j] = int(input())
+for i in range(0,4):
+ b[i] = int(input())
+
+c = int(input())
+for i in range(0,4):
+ a[i][c] = b[i]
+for i in range(0,4):
+ for j in range(0,4):
+  print(a[i][j])
+ print(/n)
+

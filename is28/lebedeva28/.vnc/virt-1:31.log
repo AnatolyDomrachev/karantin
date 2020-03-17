@@ -1,0 +1,37 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Wed Nov 27 11:46:10 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5931
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/lebedeva28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :31
+
+Wed Nov 27 11:46:25 2019
+ Connections: accepted: 0.0.0.0::49418
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Wed Nov 27 11:46:30 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+gpg-agent[55825]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:55739): xfce4-session-WARNING **: 11:47:43.988: gpg-agent returned no PID in the variables
+
+(xfce4-session:55739): xfce4-session-WARNING **: 11:47:46.895: xfsm_manager_load_session: Something wrong with /home/is28/lebedeva28/.cache/sessions/xfce4-session-virt-1:31, Does it exist? Permissions issue?

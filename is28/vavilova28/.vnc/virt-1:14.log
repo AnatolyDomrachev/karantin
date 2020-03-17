@@ -1,0 +1,84 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Oct  4 11:27:19 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5914
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+
+(x-window-manager:7306): xfwm4-WARNING **: 11:27:22.833: The display does not support the XRender extension.
+
+(x-window-manager:7306): xfwm4-WARNING **: 11:27:22.833: The display does not support the XComposite extension.
+
+(x-window-manager:7306): xfwm4-WARNING **: 11:27:22.833: The display does not support the XDamage extension.
+
+(x-window-manager:7306): xfwm4-WARNING **: 11:27:22.833: The display does not support the XFixes extension.
+
+(x-window-manager:7306): xfwm4-WARNING **: 11:27:22.833: Compositing manager disabled.
+xfwm4-Message: 11:27:22.969: Unsupported keyboard modifier '<Super>Tab'
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(x-window-manager:7306): xfwm4-WARNING **: 11:27:22.976: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+Fri Oct  4 11:27:34 2019
+ Connections: accepted: 0.0.0.0::50112
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Oct  4 11:27:39 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Oct  4 11:33:24 2019
+ Connections: accepted: 0.0.0.0::50028
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Oct  4 11:33:27 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50028 (Authentication failure)
+
+Fri Oct  4 11:37:24 2019
+ Connections: accepted: 0.0.0.0::50053
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Oct  4 11:37:28 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50053 (Authentication failure)
+
+Fri Oct  4 12:26:07 2019
+ Connections: accepted: 0.0.0.0::50269
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Oct  4 12:26:14 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Oct  4 12:27:14 2019
+ Connections: closed: 0.0.0.0::50269 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 2968
+ SMsgWriter:    copyRect rects 6147, bytes 98352
+ SMsgWriter:    hextile rects 16078, bytes 17658000
+ SMsgWriter:    raw bytes equivalent 97641770, compression ratio 5.529605
+
+Fri Oct  4 12:42:25 2019
+ Connections: closed: 0.0.0.0::50112 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 15302
+ SMsgWriter:    copyRect rects 21624, bytes 345984
+ SMsgWriter:    hextile rects 57436, bytes 101238361
+ SMsgWriter:    raw bytes equivalent 1042408078, compression ratio 10.296572
+x-window-manager: Fatal IO error 4 (Interrupted system call) on X server :14.

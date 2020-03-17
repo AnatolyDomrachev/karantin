@@ -1,0 +1,126 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Wed Dec 11 11:21:50 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5904
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/stanislavchuk28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :4
+gpg-agent[19744]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:19734): xfce4-session-WARNING **: 11:21:53.879: gpg-agent returned no PID in the variables
+
+(xfce4-session:19734): xfce4-session-WARNING **: 11:21:53.884: xfsm_manager_load_session: Something wrong with /home/is28/stanislavchuk28/.cache/sessions/xfce4-session-virt-1:4, Does it exist? Permissions issue?
+
+(xfwm4:19748): xfwm4-WARNING **: 11:21:53.910: The display does not support the XRender extension.
+
+(xfwm4:19748): xfwm4-WARNING **: 11:21:53.910: The display does not support the XComposite extension.
+
+(xfwm4:19748): xfwm4-WARNING **: 11:21:53.910: The display does not support the XDamage extension.
+
+(xfwm4:19748): xfwm4-WARNING **: 11:21:53.910: The display does not support the XFixes extension.
+
+(xfwm4:19748): xfwm4-WARNING **: 11:21:53.910: Compositing manager disabled.
+(uint32 1,)
+
+** (light-locker:19758): ERROR **: 11:21:53.964: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:19760): GLib-CRITICAL **: 11:21:53.979: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:19760): polkit-gnome-1-WARNING **: 11:21:53.981: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:19816): Gtk-WARNING **: 11:21:54.143: Can't set a parent on widget which has a parent
+
+(xfsettingsd:19757): xfsettingsd-CRITICAL **: 11:21:54.155: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":4.0".
+
+(xfsettingsd:19757): xfsettingsd-CRITICAL **: 11:21:54.157: XI is not present.
+
+(xfsettingsd:19757): xfsettingsd-CRITICAL **: 11:21:54.158: Failed to initialize the Xkb extension.
+
+(xfsettingsd:19757): xfsettingsd-CRITICAL **: 11:21:54.158: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:21:54.210: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 11:21:54.248: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:19816): Gdk-CRITICAL **: 11:21:54.420: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-1.0:19942): Gdk-WARNING **: 11:21:55.078: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Wed Dec 11 11:22:04 2019
+ Connections: accepted: 0.0.0.0::62442
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Wed Dec 11 11:22:15 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.511" (uid=1282 pid=19795 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.511" (uid=1282 pid=19795 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.511" (uid=1282 pid=19795 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:19942): Gdk-WARNING **: 11:22:19.605: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(blueman-applet:19795): Gdk-CRITICAL **: 11:22:19.606: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(gedit:31459): Gtk-WARNING **: 12:27:45.813: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(gedit:31522): Gtk-WARNING **: 12:27:58.837: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(gedit:31537): Gtk-WARNING **: 12:28:18.790: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Wed Dec 11 12:40:48 2019
+ Connections: closed: 0.0.0.0::62442 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 908
+ SMsgWriter:    copyRect rects 3, bytes 48
+ SMsgWriter:    hextile rects 2238, bytes 71541274
+ SMsgWriter:    raw bytes equivalent 702232206, compression ratio 9.815763
+
+(xfce4-terminal:20071): libxfce4ui-WARNING **: 11:14:10.469: ICE I/O Error
+
+(xfce4-terminal:20071): libxfce4ui-WARNING **: 11:14:10.469: Disconnected from session manager.
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :4.0.
+
+Received signal:15->'Terminated'
+
+(xfsettingsd:19757): libxfce4ui-WARNING **: 11:14:10.470: ICE I/O Error
+
+Received signal:15->'Terminated'
+
+(xfsettingsd:19757): libxfce4ui-WARNING **: 11:14:10.470: Disconnected from session manager.
+
+OK
+
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :4.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :4.0.
+
+Received signal:15->'Terminated'
+
+(tracker-miner-fs:19763): GLib-GIO-CRITICAL **: 11:14:10.476: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:19763): GLib-GIO-CRITICAL **: 11:14:10.476: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:19763): GLib-GIO-CRITICAL **: 11:14:10.476: Error while sending AddMatch() message: The connection is closed
+xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :4.0.
+
+OK
+

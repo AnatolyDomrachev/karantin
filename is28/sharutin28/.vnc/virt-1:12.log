@@ -1,0 +1,125 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Wed Dec 11 11:24:37 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5912
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/sharutin28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :12
+gpg-agent[23824]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:23814): xfce4-session-WARNING **: 11:24:40.824: gpg-agent returned no PID in the variables
+
+(xfce4-session:23814): xfce4-session-WARNING **: 11:24:40.831: xfsm_manager_load_session: Something wrong with /home/is28/sharutin28/.cache/sessions/xfce4-session-virt-1:12, Does it exist? Permissions issue?
+
+(xfwm4:23828): xfwm4-WARNING **: 11:24:40.860: The display does not support the XRender extension.
+
+(xfwm4:23828): xfwm4-WARNING **: 11:24:40.860: The display does not support the XComposite extension.
+
+(xfwm4:23828): xfwm4-WARNING **: 11:24:40.860: The display does not support the XDamage extension.
+
+(xfwm4:23828): xfwm4-WARNING **: 11:24:40.860: The display does not support the XFixes extension.
+
+(xfwm4:23828): xfwm4-WARNING **: 11:24:40.860: Compositing manager disabled.
+
+** (light-locker:23837): ERROR **: 11:24:40.893: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+(uint32 1,)
+
+(polkit-gnome-authentication-agent-1:23840): GLib-CRITICAL **: 11:24:40.937: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:23840): polkit-gnome-1-WARNING **: 11:24:40.938: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 11:24:40.971: Unsupported keyboard modifier '<Super>Tab'
+
+(xfsettingsd:23839): xfsettingsd-CRITICAL **: 11:24:41.011: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":12.0".
+
+(xfsettingsd:23839): xfsettingsd-CRITICAL **: 11:24:41.014: XI is not present.
+
+(xfsettingsd:23839): xfsettingsd-CRITICAL **: 11:24:41.017: Failed to initialize the Xkb extension.
+
+(xfsettingsd:23839): xfsettingsd-CRITICAL **: 11:24:41.018: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:24:41.064: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:23958): Gtk-WARNING **: 11:24:41.236: Can't set a parent on widget which has a parent
+
+(nm-applet:23958): Gdk-CRITICAL **: 11:24:41.384: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.930" (uid=1288 pid=23943 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.930" (uid=1288 pid=23943 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.930" (uid=1288 pid=23943 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+Wed Dec 11 11:25:10 2019
+ Connections: accepted: 0.0.0.0::62613
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Wed Dec 11 11:25:14 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(gedit:28873): Gtk-WARNING **: 11:41:51.636: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Wed Dec 11 12:29:57 2019
+ Connections: accepted: 0.0.0.0::39663
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Wed Dec 11 12:30:02 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Dec 11 12:34:52 2019
+ Connections: closed: 0.0.0.0::39663 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 414
+ SMsgWriter:    copyRect rects 164, bytes 2624
+ SMsgWriter:    hextile rects 4867, bytes 11005879
+ SMsgWriter:    raw bytes equivalent 73109020, compression ratio 6.642724
+
+Wed Dec 11 12:41:17 2019
+ Connections: closed: 0.0.0.0::62613 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 8909
+ SMsgWriter:    copyRect rects 791, bytes 12656
+ SMsgWriter:    hextile rects 26278, bytes 81789010
+ SMsgWriter:    raw bytes equivalent 818558750, compression ratio 10.008175
+
+Received signal:15->'Terminated'
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :12.0.
+
+Received signal:15->'Terminated'
+
+Received signal:15->'Terminated'
+
+(xfdesktop:23836): libxfce4ui-WARNING **: 11:14:10.658: ICE I/O Error
+
+(xfdesktop:23836): libxfce4ui-WARNING **: 11:14:10.658: Disconnected from session manager.
+
+OK
+
+xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :12.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :12.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :12.0.
+
+OK
+
+Gdk-Message: 11:14:10.672: geany: Fatal IO error 2 (No such file or directory) on X server :12.0.
+

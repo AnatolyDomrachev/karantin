@@ -1,0 +1,98 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Nov  8 11:22:23 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5916
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/lebedeva28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :16
+gpg-agent[59629]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:59619): xfce4-session-WARNING **: 11:22:26.996: gpg-agent returned no PID in the variables
+
+(xfce4-session:59619): xfce4-session-WARNING **: 11:22:27.002: xfsm_manager_load_session: Something wrong with /home/is28/lebedeva28/.cache/sessions/xfce4-session-virt-1:16, Does it exist? Permissions issue?
+
+(xfwm4:59633): xfwm4-WARNING **: 11:22:27.031: The display does not support the XRender extension.
+
+(xfwm4:59633): xfwm4-WARNING **: 11:22:27.032: The display does not support the XComposite extension.
+
+(xfwm4:59633): xfwm4-WARNING **: 11:22:27.032: The display does not support the XDamage extension.
+
+(xfwm4:59633): xfwm4-WARNING **: 11:22:27.032: The display does not support the XFixes extension.
+
+(xfwm4:59633): xfwm4-WARNING **: 11:22:27.032: Compositing manager disabled.
+
+** (light-locker:59642): ERROR **: 11:22:27.078: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+(uint32 1,)
+
+(polkit-gnome-authentication-agent-1:59644): GLib-CRITICAL **: 11:22:27.120: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:59644): polkit-gnome-1-WARNING **: 11:22:27.127: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 11:22:27.132: Unsupported keyboard modifier '<Super>Tab'
+
+(xfsettingsd:59645): xfsettingsd-CRITICAL **: 11:22:27.141: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":16.0".
+
+(xfsettingsd:59645): xfsettingsd-CRITICAL **: 11:22:27.152: XI is not present.
+
+(xfsettingsd:59645): xfsettingsd-CRITICAL **: 11:22:27.152: Failed to initialize the Xkb extension.
+
+(xfsettingsd:59645): xfsettingsd-CRITICAL **: 11:22:27.153: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:22:27.239: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:59710): Gtk-WARNING **: 11:22:27.454: Can't set a parent on widget which has a parent
+
+(nm-applet:59710): Gdk-CRITICAL **: 11:22:27.626: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Nov  8 11:22:38 2019
+ Connections: accepted: 0.0.0.0::49977
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov  8 11:22:42 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2301" (uid=1275 pid=59700 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2301" (uid=1275 pid=59700 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2301" (uid=1275 pid=59700 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:59790): Gdk-WARNING **: 11:22:48.499: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(Thunar:59639): Gdk-WARNING **: 11:23:20.137: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":16.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(soffice:61835): GLib-GObject-WARNING **: 11:23:29.394: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x55dc25216ac0' of type 'OOoAtkObjCompTxt'
+
+(gedit:61464): Gtk-WARNING **: 11:33:45.329: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(Thunar:59639): Gdk-WARNING **: 12:12:50.734: gdk_window_set_icon_list: icons too large
+
+(Thunar:59639): Gdk-WARNING **: 12:13:04.167: gdk_window_set_icon_list: icons too large
+
+(Thunar:59639): Gdk-WARNING **: 12:13:22.312: gdk_window_set_icon_list: icons too large
+
+Fri Nov  8 12:20:34 2019
+ Connections: closed: 0.0.0.0::49977 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 5919
+ SMsgWriter:    copyRect rects 5851, bytes 93616
+ SMsgWriter:    hextile rects 40949, bytes 105316209
+ SMsgWriter:    raw bytes equivalent 1900696404, compression ratio 18.047520

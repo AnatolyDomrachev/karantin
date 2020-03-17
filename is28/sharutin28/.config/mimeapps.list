@@ -1,0 +1,7 @@
+[Added Associations]
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+text/plain=gedit.desktop;
+text/x-python=gedit.desktop;geany.desktop;medit.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+text/x-c++src=medit.desktop;geany.desktop;
+application/x-sharedlib=org.gnome.Cheese.desktop;

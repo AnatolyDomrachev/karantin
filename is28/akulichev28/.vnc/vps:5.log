@@ -1,0 +1,94 @@
+
+Xvnc Free Edition 4.1.1 - built Jul 31 2015 19:10:31
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Sep  6 11:29:29 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5905
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+Option "--login" is no longer supported in this version of gnome-terminal; you might want to create a profile with the desired setting, and use the new '--profile' option
+
+(gnome-terminal:9951): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
+
+(gnome-terminal:9951): Vte-2.90-WARNING **: Unable to convert characters from текущая to X-VTE-GUNICHAR.
+Unhandled value type TerminalEncoding of pspec encoding
+
+(x-window-manager:9952): xfwm4-WARNING **: The display does not support the XRender extension.
+
+(x-window-manager:9952): xfwm4-WARNING **: The display does not support the XComposite extension.
+
+(x-window-manager:9952): xfwm4-WARNING **: The display does not support the XDamage extension.
+
+(x-window-manager:9952): xfwm4-WARNING **: The display does not support the XFixes extension.
+
+(x-window-manager:9952): xfwm4-WARNING **: Compositing manager disabled.
+
+(x-window-manager:9952): xfwm4-WARNING **: Failed to connect to session manager: Не удалось подключиться к менеджеру сеансов: SESSION_MANAGER environment variable not defined
+
+Fri Sep  6 11:31:48 2019
+ Connections: accepted: 0.0.0.0::50086
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep  6 11:31:55 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(yelp:25888): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(yelp:25888): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(yelp:25888): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(yelp:25888): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+Fri Sep  6 11:58:35 2019
+ XserverDesktop: Added unknown keysym 0x6f0 to keycode 255
+
+Fri Sep  6 11:58:36 2019
+ XserverDesktop: Added unknown keysym 0x6d2 to keycode 254
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 253
+ XserverDesktop: Added unknown keysym 0x6d4 to keycode 252
+
+Fri Sep  6 11:58:40 2019
+ XserverDesktop: Added unknown keysym 0x6d7 to keycode 251
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 250
+
+Fri Sep  6 11:58:42 2019
+ XserverDesktop: Added unknown keysym 0x6fc to keycode 249
+
+Fri Sep  6 12:19:54 2019
+ XserverDesktop: Added unknown keysym 0x6c6 to keycode 248
+ XserverDesktop: Added unknown keysym 0x6d8 to keycode 247
+ XserverDesktop: Added unknown keysym 0xf3 to keycode 246
+
+Fri Sep  6 12:28:50 2019
+ XserverDesktop: Added unknown keysym 0x6e4 to keycode 245
+ XserverDesktop: Added unknown keysym 0x6ef to keycode 244
+
+Fri Sep  6 12:28:54 2019
+ XserverDesktop: Added unknown keysym 0x6cb to keycode 243
+
+Fri Sep  6 12:28:55 2019
+ XserverDesktop: Added unknown keysym 0x6c1 to keycode 242
+
+Fri Sep  6 12:29:05 2019
+ XserverDesktop: Added unknown keysym 0x6c2 to keycode 241
+
+Fri Sep  6 12:31:20 2019
+ Connections: closed: 0.0.0.0::50086 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 5931
+ SMsgWriter:    copyRect rects 1707, bytes 27312
+ SMsgWriter:    hextile rects 26510, bytes 51462143
+ SMsgWriter:    raw bytes equivalent 735385496, compression ratio 14.289834

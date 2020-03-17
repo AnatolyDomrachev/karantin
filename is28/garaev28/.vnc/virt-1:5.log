@@ -1,0 +1,131 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Mar 12 09:47:11 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5905
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/garaev28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :5
+gpg-agent[5511]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:5501): xfce4-session-WARNING **: 09:47:14.605: gpg-agent returned no PID in the variables
+
+(xfwm4:5514): xfwm4-WARNING **: 09:47:14.640: The display does not support the XRender extension.
+
+(xfwm4:5514): xfwm4-WARNING **: 09:47:14.640: The display does not support the XComposite extension.
+
+(xfwm4:5514): xfwm4-WARNING **: 09:47:14.640: The display does not support the XDamage extension.
+
+(xfwm4:5514): xfwm4-WARNING **: 09:47:14.640: The display does not support the XFixes extension.
+
+(xfwm4:5514): xfwm4-WARNING **: 09:47:14.640: Compositing manager disabled.
+xfwm4-Message: 09:47:14.699: Unsupported keyboard modifier '<Super>Tab'
+
+(xfsettingsd:5518): xfsettingsd-CRITICAL **: 09:47:14.747: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":5.0".
+
+(xfsettingsd:5518): xfsettingsd-CRITICAL **: 09:47:14.748: XI is not present.
+
+(xfsettingsd:5518): xfsettingsd-CRITICAL **: 09:47:14.748: Failed to initialize the Xkb extension.
+
+(xfsettingsd:5518): xfsettingsd-CRITICAL **: 09:47:14.748: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:47:14.778: Unsupported keyboard modifier '<Super>Tab'
+(uint32 1,)
+
+** (light-locker:5547): ERROR **: 09:47:14.879: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:5549): GLib-CRITICAL **: 09:47:14.892: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:5549): polkit-gnome-1-WARNING **: 09:47:14.893: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:5634): Gtk-WARNING **: 09:47:15.079: Can't set a parent on widget which has a parent
+
+(nm-applet:5634): Gdk-CRITICAL **: 09:47:15.273: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Thu Mar 12 09:47:17 2020
+ Connections: accepted: 0.0.0.0::49282
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Mar 12 09:47:21 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.204" (uid=1269 pid=5620 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.204" (uid=1269 pid=5620 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.204" (uid=1269 pid=5620 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+[2020-03-12T06:47:37Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+
+Thu Mar 12 10:57:50 2020
+ Connections: closed: 0.0.0.0::49282 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 2559
+ SMsgWriter:    copyRect rects 444, bytes 7104
+ SMsgWriter:    hextile rects 78477, bytes 61557572
+ SMsgWriter:    raw bytes equivalent 777528568, compression ratio 12.630917
+
+(Thunar:5515): thunarx-CRITICAL **: 22:01:27.577: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:5515): thunarx-CRITICAL **: 22:01:27.577: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:5515): thunarx-CRITICAL **: 22:01:27.577: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:01:27.579:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.C95YH0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:01:27.579:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.T35YH0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:01:27.647:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.9IQXH0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:01:27.647:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.XKQXH0”: No such file or directory
+
+(Thunar:5515): thunar-WARNING **: 22:01:27.657: Failed to create bookmarks folder: Error creating directory /home/is28: Permission denied
+
+(Thunar:5515): GLib-CRITICAL **: 22:01:27.657: g_file_set_contents: assertion 'error == NULL || *error == NULL' failed
+
+(Thunar:5515): thunar-WARNING **: 22:01:27.657: Failed to write "/home/is28/garaev28/.config/gtk-3.0/bookmarks": (null)
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:01:27.662:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.P2W0H0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:01:27.662:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.SWW0H0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:01:27.686:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.6VF1H0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:01:27.686:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.DXF1H0”: No such file or directory
+cat: /home/is28/garaev28/.Xauthority: No such file or directory
+AUDIT: Tue Mar 17 22:02:14 2020: 4936 Xvnc4: client 3 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+AUDIT: Tue Mar 17 22:02:14 2020: 4936 Xvnc4: client 3 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:03:30.074:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.NNRLH0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:03:30.074:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.2ORLH0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:03:30.080:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.CFNLH0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:03:30.080:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.HGNLH0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:03:30.083:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.D1XLH0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:03:30.083:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.DOXLH0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:03:30.086:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.2MVLH0”: No such file or directory
+
+(tracker-miner-fs:5553): Tracker-WARNING **: 22:03:30.086:   Could not create file:'/home/is28/garaev28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/garaev28/.cache/tracker/last-crawl.txt.5NVLH0”: No such file or directory

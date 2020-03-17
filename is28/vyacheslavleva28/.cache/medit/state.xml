@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- -*- xml -*- -->
+<moo-prefs version="1.0">
+  <Editor>
+    <encodings>
+      <recent>UTF-8</recent>
+      <last-open>auto</last-open>
+      <last-save>UTF-8</last-save>
+    </encodings>
+  </Editor>
+  <MooFind>
+    <recent-items>
+      <item>print(min_str)</item>
+      <item>min_str</item>
+      <item>mn</item>
+    </recent-items>
+  </MooFind>
+  <MooReplace>
+    <recent-items>
+      <item>min_stl</item>
+      <item>min_str</item>
+    </recent-items>
+  </MooReplace>
+  <Prefs>
+    <item name="Editor/dialogs/open/height" type="int">624</item>
+    <item name="Editor/dialogs/open/width" type="int">780</item>
+    <item name="Editor/dialogs/open/x" type="int">956</item>
+    <item name="Editor/dialogs/open/y" type="int">31</item>
+    <item name="Editor/last_dir" type="string">file:///home/is28/vyacheslavleva28/lab9</item>
+    <item name="Editor/search_flags" type="int">130</item>
+    <item name="Editor/window/height" type="int">797</item>
+    <item name="Editor/window/paned" type="string">mbpconfig-1.0 -1,-1,;-1,-1,,FileSelector,MooFileList;-1,-1,;-1,-1,;FileSelector:0,0,-1,-1,0,0,0;MooFileList:0,0,-1,-1,0,0,0</item>
+    <item name="Editor/window/width" type="int">916</item>
+    <item name="Plugins/FileSelector/last_dir" type="string">/home/is28/vyacheslavleva28/</item>
+  </Prefs>
+</moo-prefs>
