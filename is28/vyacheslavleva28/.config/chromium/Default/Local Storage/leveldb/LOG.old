@@ -1,9 +1,0 @@
-2020/03/05-09:53:39.389 3c15 Reusing MANIFEST /home/is28/vyacheslavleva28/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2020/03/05-09:53:39.389 3c15 Recovering log #7
-2020/03/05-09:53:39.397 3c15 Reusing old log /home/is28/vyacheslavleva28/.config/chromium/Default/Local Storage/leveldb/000007.log 
-2020/03/05-10:01:44.773 4964 Level-0 table #11: started
-2020/03/05-10:01:44.775 4964 Level-0 table #11: 22794 bytes OK
-2020/03/05-10:01:44.776 4964 Delete type=0 #7
-2020/03/05-10:30:02.708 4964 Level-0 table #13: started
-2020/03/05-10:30:02.710 4964 Level-0 table #13: 26907 bytes OK
-2020/03/05-10:30:02.710 4964 Delete type=0 #10

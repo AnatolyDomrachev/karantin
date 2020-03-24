@@ -1,3 +1,0 @@
-print("Привет,", name)
-name=input("Кирилл")
-print("Привет,", name)

@@ -1,7 +1,0 @@
-[Added Associations]
-application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
-application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;atril.desktop;evince.desktop;
-text/plain=gedit.desktop;medit.desktop;
-application/pdf=atril.desktop;evince.desktop;
-text/x-python=gedit.desktop;
-text/x-c++src=geany.desktop;

@@ -1,7 +1,0 @@
-[Added Associations]
-application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;firefox.desktop;engrampa.desktop;org.gnome.FileRoller.desktop;
-application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
-text/x-python=gedit.desktop;
-text/plain=gedit.desktop;
-application/pdf=libreoffice-draw.desktop;evince.desktop;
-text/x-c++src=geany.desktop;

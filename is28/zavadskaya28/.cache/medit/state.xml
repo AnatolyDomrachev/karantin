@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- -*- xml -*- -->
-<moo-prefs version="1.0">
-  <Prefs>
-    <item name="Editor/window/paned" type="string">mbpconfig-1.0 -1,-1,;-1,-1,,FileSelector,MooFileList;-1,-1,;-1,-1,;FileSelector:0,0,-1,-1,0,0,0;MooFileList:0,0,-1,-1,0,0,0</item>
-    <item name="Plugins/FileSelector/last_dir" type="string">/home/is28/zavadskaya28/</item>
-  </Prefs>
-</moo-prefs>
