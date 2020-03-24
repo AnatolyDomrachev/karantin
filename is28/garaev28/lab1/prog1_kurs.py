@@ -1,0 +1,5 @@
+name=input("Как вас зовóт?")
+print("Привет,",name)
+vozrast=input("Сколько вам лет?")
+kurs=input("На каком кóрсе вы óчитесь?")
+print("Когда вы закончите инститóт, вам бóдет",int(vozrast)+5-int(kurs))

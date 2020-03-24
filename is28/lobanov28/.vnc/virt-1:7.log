@@ -1,0 +1,211 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Mar 12 09:47:17 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5907
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/lobanov28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :7
+gpg-agent[6294]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:6260): xfce4-session-WARNING **: 09:47:20.403: gpg-agent returned no PID in the variables
+
+(xfce4-session:6260): xfce4-session-WARNING **: 09:47:20.413: xfsm_manager_load_session: Something wrong with /home/is28/lobanov28/.cache/sessions/xfce4-session-virt-1:7, Does it exist? Permissions issue?
+
+(xfwm4:6300): xfwm4-WARNING **: 09:47:20.437: The display does not support the XRender extension.
+
+(xfwm4:6300): xfwm4-WARNING **: 09:47:20.437: The display does not support the XComposite extension.
+
+(xfwm4:6300): xfwm4-WARNING **: 09:47:20.437: The display does not support the XDamage extension.
+
+(xfwm4:6300): xfwm4-WARNING **: 09:47:20.437: The display does not support the XFixes extension.
+
+(xfwm4:6300): xfwm4-WARNING **: 09:47:20.437: Compositing manager disabled.
+(uint32 1,)
+
+** (light-locker:6309): ERROR **: 09:47:20.637: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:6312): GLib-CRITICAL **: 09:47:20.655: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:6312): polkit-gnome-1-WARNING **: 09:47:20.657: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:6311): xfsettingsd-CRITICAL **: 09:47:20.711: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":7.0".
+
+(xfsettingsd:6311): xfsettingsd-CRITICAL **: 09:47:20.712: XI is not present.
+
+(xfsettingsd:6311): xfsettingsd-CRITICAL **: 09:47:20.712: Failed to initialize the Xkb extension.
+
+(xfsettingsd:6311): xfsettingsd-CRITICAL **: 09:47:20.712: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:47:20.771: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 09:47:20.840: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:6361): Gtk-WARNING **: 09:47:20.851: Can't set a parent on widget which has a parent
+
+(nm-applet:6361): Gdk-CRITICAL **: 09:47:20.993: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Thu Mar 12 09:47:26 2020
+ Connections: accepted: 0.0.0.0::49297
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.268" (uid=1276 pid=6345 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.268" (uid=1276 pid=6345 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.268" (uid=1276 pid=6345 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:6505): Gdk-WARNING **: 09:47:28.746: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Thu Mar 12 09:47:30 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+
+Thu Mar 12 09:54:37 2020
+ XserverDesktop: Added unknown keysym 0x6cf to keycode 255
+xfwm4-Message: 09:54:37.756: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6d4 to keycode 254
+ XserverDesktop: Added unknown keysym 0x6d7 to keycode 253
+xfwm4-Message: 09:54:38.092: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 09:54:38 2020
+ XserverDesktop: Added unknown keysym 0x6cb to keycode 252
+xfwm4-Message: 09:54:38.476: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 251
+xfwm4-Message: 09:54:39.067: Unsupported keyboard modifier '<Super>Tab'
+[2020-03-12T06:56:42Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+
+Thu Mar 12 09:56:56 2020
+ XserverDesktop: Added unknown keysym 0x6ce to keycode 250
+xfwm4-Message: 09:56:56.806: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6c1 to keycode 249
+ XserverDesktop: Added unknown keysym 0x6cc to keycode 248
+xfwm4-Message: 09:56:57.213: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 09:56:57 2020
+ XserverDesktop: Added unknown keysym 0x6ca to keycode 247
+xfwm4-Message: 09:56:58.030: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 09:56:59 2020
+ XserverDesktop: Added unknown keysym 0x6cd to keycode 246
+ XserverDesktop: Added unknown keysym 0x6d0 to keycode 245
+xfwm4-Message: 09:56:59.629: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 244
+xfwm4-Message: 09:57:00.037: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 09:57:00 2020
+ XserverDesktop: Added unknown keysym 0x6d1 to keycode 243
+xfwm4-Message: 09:57:00.565: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 09:57:01 2020
+ XserverDesktop: Added unknown keysym 0x6d2 to keycode 242
+xfwm4-Message: 09:57:01.437: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 09:57:02 2020
+ XserverDesktop: Added unknown keysym 0x6d3 to keycode 241
+xfwm4-Message: 09:57:02.550: Unsupported keyboard modifier '<Super>Tab'
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+Thu Mar 12 09:59:48 2020
+ XserverDesktop: Added unknown keysym 0x6c6 to keycode 240
+xfwm4-Message: 09:59:49.119: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:02:41 2020
+ XserverDesktop: Added unknown keysym 0x6dc to keycode 239
+xfwm4-Message: 10:02:41.306: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:03:54 2020
+ XserverDesktop: Added unknown keysym 0x6db to keycode 238
+xfwm4-Message: 10:03:54.834: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:58:27 2020
+ Connections: closed: 0.0.0.0::49297 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 23565
+ SMsgWriter:    copyRect rects 974, bytes 15584
+ SMsgWriter:    hextile rects 963990, bytes -1031336338
+ SMsgWriter:    raw bytes equivalent -1836658628, compression ratio 1.780853
+cat: /home/is28/lobanov28/.Xauthority: No such file or directory
+AUDIT: Tue Mar 17 21:58:48 2020: 6119 Xvnc4: client 11 rejected from local host
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.968: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.968: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.968: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:01:27.969:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.WAO7H0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:01:27.969:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.4BO7H0”: No such file or directory
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.970: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.970: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.970: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.970: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.970: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.970: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.971: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.971: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.971: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.971: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.971: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(Thunar:6306): thunarx-CRITICAL **: 22:01:27.971: thunarx_menu_provider_get_folder_actions: assertion 'thunarx_file_info_is_directory (folder)' failed
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:01:28.034:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.NNONH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:01:28.034:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.JHONH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:01:28.039:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.57KNH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:01:28.039:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.T8KNH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:01:28.048:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.0PQNH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:01:28.048:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.T6PNH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:03:30.098:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.N3AMH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:03:30.098:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.54AMH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:03:30.100:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.PT9LH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:03:30.100:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.LV9LH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:03:30.105:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.I25LH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:03:30.105:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.T35LH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:03:30.107:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.I0GMH0”: No such file or directory
+
+(tracker-miner-fs:6314): Tracker-WARNING **: 22:03:30.107:   Could not create file:'/home/is28/lobanov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/lobanov28/.cache/tracker/last-crawl.txt.N1GMH0”: No such file or directory
+AUDIT: Tue Mar 17 22:08:48 2020: 6119 Xvnc4: client 11 rejected from local host
+AUDIT: Tue Mar 17 22:18:48 2020: 6119 Xvnc4: client 11 rejected from local host

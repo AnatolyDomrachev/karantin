@@ -1,0 +1,282 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Nov  8 11:01:44 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5901
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/stanislavchuk28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[51731]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:51721): xfce4-session-WARNING **: 11:01:47.809: gpg-agent returned no PID in the variables
+
+(xfce4-session:51721): xfce4-session-WARNING **: 11:01:47.815: xfsm_manager_load_session: Something wrong with /home/is28/stanislavchuk28/.cache/sessions/xfce4-session-virt-1:1, Does it exist? Permissions issue?
+
+(xfwm4:51735): xfwm4-WARNING **: 11:01:48.058: The display does not support the XRender extension.
+
+(xfwm4:51735): xfwm4-WARNING **: 11:01:48.058: The display does not support the XComposite extension.
+
+(xfwm4:51735): xfwm4-WARNING **: 11:01:48.058: The display does not support the XDamage extension.
+
+(xfwm4:51735): xfwm4-WARNING **: 11:01:48.058: The display does not support the XFixes extension.
+
+(xfwm4:51735): xfwm4-WARNING **: 11:01:48.058: Compositing manager disabled.
+xfwm4-Message: 11:01:48.223: Unsupported keyboard modifier '<Super>Tab'
+
+** (light-locker:51747): ERROR **: 11:01:48.388: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:51757): GLib-CRITICAL **: 11:01:48.400: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:51757): polkit-gnome-1-WARNING **: 11:01:48.401: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(uint32 1,)
+
+(xfsettingsd:51744): xfsettingsd-CRITICAL **: 11:01:49.509: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+
+(xfsettingsd:51744): xfsettingsd-CRITICAL **: 11:01:49.510: XI is not present.
+
+(xfsettingsd:51744): xfsettingsd-CRITICAL **: 11:01:49.510: Failed to initialize the Xkb extension.
+
+(xfsettingsd:51744): xfsettingsd-CRITICAL **: 11:01:49.510: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:01:49.597: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:51890): Gtk-WARNING **: 11:01:49.673: Can't set a parent on widget which has a parent
+
+(nm-applet:51890): Gdk-CRITICAL **: 11:01:49.943: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Nov  8 11:01:56 2019
+ Connections: accepted: 0.0.0.0::50149
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov  8 11:02:00 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.1679" (uid=1282 pid=51882 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.1679" (uid=1282 pid=51882 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.1679" (uid=1282 pid=51882 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:51931): Gdk-WARNING **: 11:02:15.361: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Fri Nov  8 11:02:48 2019
+ Connections: closed: 0.0.0.0::50149 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 216
+ SMsgWriter:    hextile rects 3447, bytes 675756
+ SMsgWriter:    raw bytes equivalent 24322860, compression ratio 35.993554
+
+Fri Nov  8 11:02:51 2019
+ Connections: accepted: 0.0.0.0::50164
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov  8 11:02:57 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov  8 11:03:07 2019
+ Connections: closed: 0.0.0.0::50164 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 60
+ SMsgWriter:    hextile rects 98, bytes 67080
+ SMsgWriter:    raw bytes equivalent 8553228, compression ratio 127.507871
+
+Fri Nov  8 11:03:11 2019
+ Connections: accepted: 0.0.0.0::50165
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov  8 11:03:18 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov  8 11:04:11 2019
+ Connections: closed: 0.0.0.0::50165 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 176
+ SMsgWriter:    hextile rects 2091, bytes 260124
+ SMsgWriter:    raw bytes equivalent 30133498, compression ratio 115.842821
+
+Fri Nov  8 11:05:59 2019
+ Connections: accepted: 0.0.0.0::50174
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov  8 11:06:05 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:09:31.771:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:09:31.771: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:14:01.198:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:14:01.198: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:14:23.157:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:14:23.157: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:18:57.147:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:18:57.147: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(gedit:57160): Gtk-WARNING **: 11:19:40.086: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:19:55.734:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/test.txt) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:19:55.734: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:20:05.803:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:20:05.803: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(gedit:2420): Gtk-WARNING **: 11:31:08.639: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Fri Nov  8 11:37:59 2019
+ Connections: closed: 0.0.0.0::50174 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 3511
+ SMsgWriter:    copyRect rects 945, bytes 15120
+ SMsgWriter:    hextile rects 10587, bytes 40011481
+ SMsgWriter:    raw bytes equivalent 398521868, compression ratio 9.960188
+
+Fri Nov  8 11:38:03 2019
+ Connections: accepted: 0.0.0.0::50263
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov  8 11:38:09 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:39:01.967:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:39:01.967: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:39:41.885:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:39:41.885: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:45:40.950:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:45:40.950: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:46:15.057:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:46:15.057: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:46:24.360:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:46:24.360: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:46:51.392:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:46:51.392: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:47:00.988:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:47:00.988: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:47:14.922:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:47:14.923: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:47:43.702:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:47:43.702: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:47:54.357:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:47:54.357: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:53:45.429:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 11:53:45.434: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+Fri Nov  8 11:57:59 2019
+ Connections: accepted: 0.0.0.0::49832
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov  8 11:58:03 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov  8 11:58:44 2019
+ XserverDesktop: Added unknown keysym 0x6fa to keycode 255
+xfwm4-Message: 11:58:45.155: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov  8 11:59:44 2019
+ XserverDesktop: Added unknown keysym 0x6d7 to keycode 254
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 253
+xfwm4-Message: 11:59:44.699: Unsupported keyboard modifier '<Super>Tab'
+
+(Thunar:51741): Gdk-WARNING **: 12:06:03.691: gdk_window_set_icon_list: icons too large
+
+(xfce4-terminal:53638): Gdk-CRITICAL **: 12:10:31.331: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:12:25.285:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:12:25.285: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:12:57.494:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:12:57.494: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:14:16.778:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:14:16.778: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:14:47.611:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/test.txt) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:14:47.611: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:14:59.175:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:14:59.175: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:15:01.299:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/test.txt) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:15:01.299: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:15:13.437:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/res.txt) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:15:13.438: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:15:39.387:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.py) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:51775): Tracker-CRITICAL **: 12:15:39.387: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+Fri Nov  8 12:16:35 2019
+ Connections: closed: 0.0.0.0::50263 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 10614
+ SMsgWriter:    copyRect rects 5560, bytes 88960
+ SMsgWriter:    hextile rects 42707, bytes 66932715
+ SMsgWriter:    raw bytes equivalent 680723542, compression ratio 10.170266
+
+Fri Nov  8 12:48:38 2019
+ Connections: closed: 0.0.0.0::49832 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 2140
+ SMsgWriter:    copyRect rects 3809, bytes 60944
+ SMsgWriter:    hextile rects 16976, bytes 48109171
+ SMsgWriter:    raw bytes equivalent 532069094, compression ratio 11.059619

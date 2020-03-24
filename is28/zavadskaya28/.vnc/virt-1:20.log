@@ -1,0 +1,358 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Wed Dec 25 12:27:17 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5920
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/zavadskaya28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :20
+gpg-agent[18631]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:18621): xfce4-session-WARNING **: 12:27:20.387: gpg-agent returned no PID in the variables
+
+(xfce4-session:18621): xfce4-session-WARNING **: 12:27:20.393: xfsm_manager_load_session: Something wrong with /home/is28/zavadskaya28/.cache/sessions/xfce4-session-virt-1:20, Does it exist? Permissions issue?
+
+(xfwm4:18635): xfwm4-WARNING **: 12:27:20.420: The display does not support the XRender extension.
+
+(xfwm4:18635): xfwm4-WARNING **: 12:27:20.420: The display does not support the XComposite extension.
+
+(xfwm4:18635): xfwm4-WARNING **: 12:27:20.420: The display does not support the XDamage extension.
+
+(xfwm4:18635): xfwm4-WARNING **: 12:27:20.420: The display does not support the XFixes extension.
+
+(xfwm4:18635): xfwm4-WARNING **: 12:27:20.420: Compositing manager disabled.
+xfwm4-Message: 12:27:20.479: Unsupported keyboard modifier '<Super>Tab'
+
+(xfsettingsd:18644): xfsettingsd-CRITICAL **: 12:27:20.499: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":20.0".
+
+(xfsettingsd:18644): xfsettingsd-CRITICAL **: 12:27:20.499: XI is not present.
+
+(xfsettingsd:18644): xfsettingsd-CRITICAL **: 12:27:20.499: Failed to initialize the Xkb extension.
+
+(xfsettingsd:18644): xfsettingsd-CRITICAL **: 12:27:20.499: Failed to initialize the Accessibility extension.
+
+** (light-locker:18645): ERROR **: 12:27:20.537: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+(uint32 1,)
+
+(polkit-gnome-authentication-agent-1:18647): GLib-CRITICAL **: 12:27:20.576: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:18647): polkit-gnome-1-WARNING **: 12:27:20.577: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 12:27:20.647: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:18710): Gtk-WARNING **: 12:27:20.937: Can't set a parent on widget which has a parent
+
+(nm-applet:18710): Gdk-CRITICAL **: 12:27:21.088: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Wed Dec 25 12:27:33 2019
+ Connections: accepted: 0.0.0.0::52112
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Wed Dec 25 12:27:40 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.14701" (uid=1272 pid=18688 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.14701" (uid=1272 pid=18688 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.14701" (uid=1272 pid=18688 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:18796): Gdk-WARNING **: 12:27:45.976: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(polkit-gnome-authentication-agent-1:18647): polkit-gnome-1-WARNING **: 12:27:47.500: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:18647): polkit-gnome-1-WARNING **: 12:27:47.502: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 12:27:47.532: GtkDialog mapped without a transient parent. This is discouraged.
+
+(polkit-gnome-authentication-agent-1:18647): polkit-gnome-1-WARNING **: 12:27:49.787: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:18647): polkit-gnome-1-WARNING **: 12:27:49.788: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+
+(Thunar:18641): Gdk-WARNING **: 12:27:51.674: gdk_window_set_icon_list: icons too large
+Gtk-Message: 12:27:53.576: GtkDialog mapped without a transient parent. This is discouraged.
+
+(Thunar:18641): Gdk-WARNING **: 12:28:01.110: gdk_window_set_icon_list: icons too large
+
+Wed Dec 25 12:29:32 2019
+ Connections: closed: 0.0.0.0::52112 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 621
+ SMsgWriter:    copyRect rects 180, bytes 2880
+ SMsgWriter:    hextile rects 2002, bytes 3979958
+ SMsgWriter:    raw bytes equivalent 40991978, compression ratio 10.299601
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+/usr/share/system-config-printer/applet.py:45: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.14703" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 10 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 16 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 17 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 21 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 23 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 24 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 28 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 30 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 31 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 35 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 37 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 43 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 47 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 49 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 53 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 55 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 56 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 60 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 62 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 66 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 68 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 72 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 74 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 78 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 80 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 81 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 85 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 87 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 88 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 92 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 94 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 95 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 101 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 102 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 106 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 108 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 114 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 118 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 120 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 121 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 125 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 129 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 131 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 135 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 137 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 139 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 140 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 144 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 146 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 150 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 152 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 156 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 157 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 161 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 165 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 171 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 175 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 176 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 180 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 182 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 183 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 187 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 189 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 190 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 194 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 196 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 197 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 201 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 203 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 205 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 206 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 210 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 212 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 213 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 217 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 219 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 225 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 229 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 230 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 234 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 236 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 238 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 239 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 243 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 245 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 251 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 255 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 257 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 261 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 263 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 264 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 268 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 269 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 273 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 275 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 276 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 280 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 282 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 284 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 290 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 294 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 296 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 297 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 301 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 303 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 304 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 308 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 310 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+xfce4-session-Message: 00:23:38.977: Got disconnected from D-Bus.  Unless this happened during session shutdown, this is probably a bad thing.
+
+(tracker-miner-fs:18649): GLib-GObject-WARNING **: 00:23:38.978: g_object_notify: object class 'UpClient' has no property named 'g-name-owner'
+
+(gedit:19019): GVFS-RemoteVolumeMonitor-WARNING **: 00:23:39.001: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(gedit:19019): GVFS-RemoteVolumeMonitor-WARNING **: 00:23:39.001: Owner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(gedit:19019): GVFS-RemoteVolumeMonitor-WARNING **: 00:23:39.001: Owner of volume monitor org.gtk.vfs.GoaVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(gedit:19019): GVFS-RemoteVolumeMonitor-WARNING **: 00:23:39.001: Owner of volume monitor org.gtk.vfs.MTPVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(gedit:19019): GVFS-RemoteVolumeMonitor-WARNING **: 00:23:39.001: Owner of volume monitor org.gtk.vfs.AfcVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(tracker-miner-fs:18649): GLib-GObject-WARNING **: 00:23:39.010: g_object_notify: object class 'UpDevice' has no property named 'g-name-owner'
+
+Received signal:15->'Terminated'
+
+Received signal:15->'Terminated'
+
+(tracker-miner-fs:18649): GLib-GIO-CRITICAL **: 00:23:39.010: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:18649): GLib-GIO-CRITICAL **: 00:23:39.010: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:18649): GLib-GIO-CRITICAL **: 00:23:39.010: Error while sending AddMatch() message: The connection is closed
+
+OK
+
+
+OK
+
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :20.0.

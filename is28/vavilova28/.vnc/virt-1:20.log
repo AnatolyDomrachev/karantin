@@ -1,0 +1,129 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Nov  8 11:24:06 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5920
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/vavilova28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :20
+gpg-agent[63967]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:63957): xfce4-session-WARNING **: 11:24:09.818: gpg-agent returned no PID in the variables
+
+(xfce4-session:63957): xfce4-session-WARNING **: 11:24:09.826: xfsm_manager_load_session: Something wrong with /home/is28/vavilova28/.cache/sessions/xfce4-session-virt-1:20, Does it exist? Permissions issue?
+
+(xfwm4:63971): xfwm4-WARNING **: 11:24:09.861: The display does not support the XRender extension.
+
+(xfwm4:63971): xfwm4-WARNING **: 11:24:09.862: The display does not support the XComposite extension.
+
+(xfwm4:63971): xfwm4-WARNING **: 11:24:09.862: The display does not support the XDamage extension.
+
+(xfwm4:63971): xfwm4-WARNING **: 11:24:09.862: The display does not support the XFixes extension.
+
+(xfwm4:63971): xfwm4-WARNING **: 11:24:09.862: Compositing manager disabled.
+
+** (light-locker:63980): ERROR **: 11:24:09.907: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+(uint32 1,)
+xfwm4-Message: 11:24:09.951: Unsupported keyboard modifier '<Super>Tab'
+
+(polkit-gnome-authentication-agent-1:63983): GLib-CRITICAL **: 11:24:09.992: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:63983): polkit-gnome-1-WARNING **: 11:24:09.993: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:63982): xfsettingsd-CRITICAL **: 11:24:10.030: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":20.0".
+
+(xfsettingsd:63982): xfsettingsd-CRITICAL **: 11:24:10.031: XI is not present.
+
+(xfsettingsd:63982): xfsettingsd-CRITICAL **: 11:24:10.032: Failed to initialize the Xkb extension.
+
+(xfsettingsd:63982): xfsettingsd-CRITICAL **: 11:24:10.037: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:24:10.124: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:64088): Gtk-WARNING **: 11:24:10.594: Can't set a parent on widget which has a parent
+
+(nm-applet:64088): Gdk-CRITICAL **: 11:24:10.816: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2770" (uid=1267 pid=64073 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2770" (uid=1267 pid=64073 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2770" (uid=1267 pid=64073 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:64132): Gdk-WARNING **: 11:24:24.663: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(wrapper-1.0:64132): Gdk-WARNING **: 11:24:24.665: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Fri Nov  8 11:24:27 2019
+ Connections: accepted: 0.0.0.0::50370
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov  8 11:24:32 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(polkit-gnome-authentication-agent-1:63983): polkit-gnome-1-WARNING **: 11:25:09.315: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:63983): polkit-gnome-1-WARNING **: 11:25:09.325: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 11:25:09.353: GtkDialog mapped without a transient parent. This is discouraged.
+
+(Thunar:63977): Gdk-WARNING **: 11:25:12.768: gdk_window_set_icon_list: icons too large
+
+(polkit-gnome-authentication-agent-1:63983): polkit-gnome-1-WARNING **: 11:25:19.362: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:63983): polkit-gnome-1-WARNING **: 11:25:19.363: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 11:25:19.370: GtkDialog mapped without a transient parent. This is discouraged.
+
+(Thunar:63977): GLib-GIO-CRITICAL **: 11:25:20.977: g_file_hash: assertion 'G_IS_FILE (file)' failed
+
+(Thunar:63977): GLib-GIO-CRITICAL **: 11:25:20.978: g_file_query_info_async: assertion 'G_IS_FILE (file)' failed
+
+(Thunar:63977): GLib-GObject-CRITICAL **: 11:25:20.978: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(polkit-gnome-authentication-agent-1:63983): polkit-gnome-1-WARNING **: 11:31:25.497: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:63983): polkit-gnome-1-WARNING **: 11:31:25.498: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 11:31:25.504: GtkDialog mapped without a transient parent. This is discouraged.
+Xlib:  extension "XINERAMA" missing on display ":20.0".
+
+(Thunar:63977): GLib-GIO-CRITICAL **: 11:31:33.119: g_file_hash: assertion 'G_IS_FILE (file)' failed
+
+(Thunar:63977): GLib-GIO-CRITICAL **: 11:31:33.119: g_file_query_info_async: assertion 'G_IS_FILE (file)' failed
+
+(Thunar:63977): GLib-GObject-CRITICAL **: 11:31:33.119: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(soffice:2880): GLib-GObject-WARNING **: 11:31:36.041: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x5565c334c6a0' of type 'OOoAtkObjCompTxt'
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(Thunar:63977): Gdk-WARNING **: 11:32:50.084: gdk_window_set_icon_list: icons too large
+AUDIT: Fri Nov  8 11:32:54 2019: 63627 Xvnc4: client 22 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+AUDIT: Fri Nov  8 11:33:14 2019: 63627 Xvnc4: client 22 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+
+Fri Nov  8 12:37:33 2019
+ Connections: closed: 0.0.0.0::50370 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 10602
+ SMsgWriter:    copyRect rects 982, bytes 15712
+ SMsgWriter:    hextile rects 17521, bytes 64707489
+ SMsgWriter:    raw bytes equivalent 752655470, compression ratio 11.631659

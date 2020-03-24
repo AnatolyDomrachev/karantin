@@ -1,0 +1,209 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Sep 13 08:29:10 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5925
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+
+(x-window-manager:53739): xfwm4-WARNING **: 08:29:13.973: The display does not support the XRender extension.
+
+(x-window-manager:53739): xfwm4-WARNING **: 08:29:13.973: The display does not support the XComposite extension.
+
+(x-window-manager:53739): xfwm4-WARNING **: 08:29:13.973: The display does not support the XDamage extension.
+
+(x-window-manager:53739): xfwm4-WARNING **: 08:29:13.973: The display does not support the XFixes extension.
+
+(x-window-manager:53739): xfwm4-WARNING **: 08:29:13.973: Compositing manager disabled.
+xfwm4-Message: 08:29:14.026: Unsupported keyboard modifier '<Super>Tab'
+
+(x-window-manager:53739): xfwm4-WARNING **: 08:29:14.034: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+Fri Sep 13 08:49:37 2019
+ Connections: accepted: 0.0.0.0::50517
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:49:42 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50517 (Authentication failure)
+
+Fri Sep 13 08:49:52 2019
+ Connections: accepted: 0.0.0.0::50518
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:49:58 2019
+ Connections: closed: 0.0.0.0::50518 (read: Connection reset by peer (104))
+
+Fri Sep 13 08:51:09 2019
+ Connections: accepted: 0.0.0.0::50521
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:51:23 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50521 (Authentication failure)
+
+Fri Sep 13 08:51:36 2019
+ Connections: accepted: 0.0.0.0::50522
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:51:43 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50522 (Authentication failure)
+
+Fri Sep 13 08:51:48 2019
+ Connections: accepted: 0.0.0.0::50523
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:52:02 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50523 (Authentication failure)
+
+Fri Sep 13 08:52:07 2019
+ Connections: accepted: 0.0.0.0::50524
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:52:16 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50524 (Authentication failure)
+
+Fri Sep 13 08:52:20 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 08:52:23 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 08:54:30 2019
+ Connections: accepted: 0.0.0.0::50532
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:55:04 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50532 (Authentication failure)
+
+Fri Sep 13 08:55:10 2019
+ Connections: accepted: 0.0.0.0::50535
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:56:19 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50535 (Authentication failure)
+
+Fri Sep 13 08:56:24 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 08:56:55 2019
+ Connections: accepted: 0.0.0.0::50540
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:57:10 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50540 (Authentication failure)
+
+Fri Sep 13 08:58:25 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 08:59:26 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:01:23 2019
+ Connections: accepted: 0.0.0.0::50548
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 09:01:40 2019
+ Connections: closed: 0.0.0.0::50548 (read: Connection reset by peer (104))
+
+Fri Sep 13 09:03:21 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:03:28 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:03:37 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:04:04 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:04:12 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:04:20 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:04:25 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:04:34 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:04:44 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:04:47 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:04:50 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:04:57 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:05:03 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:05:09 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:05:16 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:05:26 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:05:56 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:06:05 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:06:23 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:06:31 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:06:35 2019
+ Connections: blacklisted: 0.0.0.0
+
+Fri Sep 13 09:06:45 2019
+ Connections: accepted: 0.0.0.0::50576
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 09:06:51 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50576 (Authentication failure)
+x-window-manager: Fatal IO error 4 (Interrupted system call) on X server :25.

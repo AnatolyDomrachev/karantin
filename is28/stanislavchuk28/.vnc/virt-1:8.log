@@ -1,0 +1,382 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Feb 27 09:45:28 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5908
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/stanislavchuk28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :8
+gpg-agent[6531]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:6521): xfce4-session-WARNING **: 09:45:32.068: gpg-agent returned no PID in the variables
+
+(xfce4-session:6521): xfce4-session-WARNING **: 09:45:32.069: xfsm_manager_load_session: Something wrong with /home/is28/stanislavchuk28/.cache/sessions/xfce4-session-virt-1:8, Does it exist? Permissions issue?
+
+(xfwm4:6535): xfwm4-WARNING **: 09:45:32.092: The display does not support the XRender extension.
+
+(xfwm4:6535): xfwm4-WARNING **: 09:45:32.093: The display does not support the XComposite extension.
+
+(xfwm4:6535): xfwm4-WARNING **: 09:45:32.093: The display does not support the XDamage extension.
+
+(xfwm4:6535): xfwm4-WARNING **: 09:45:32.093: The display does not support the XFixes extension.
+
+(xfwm4:6535): xfwm4-WARNING **: 09:45:32.093: Compositing manager disabled.
+(uint32 1,)
+
+** (light-locker:6544): ERROR **: 09:45:32.155: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(xfsettingsd:6545): xfsettingsd-CRITICAL **: 09:45:32.163: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":8.0".
+
+(xfsettingsd:6545): xfsettingsd-CRITICAL **: 09:45:32.165: XI is not present.
+
+(xfsettingsd:6545): xfsettingsd-CRITICAL **: 09:45:32.166: Failed to initialize the Xkb extension.
+
+(xfsettingsd:6545): xfsettingsd-CRITICAL **: 09:45:32.166: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:45:32.188: Unsupported keyboard modifier '<Super>Tab'
+
+(polkit-gnome-authentication-agent-1:6547): GLib-CRITICAL **: 09:45:32.193: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:6547): polkit-gnome-1-WARNING **: 09:45:32.194: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 09:45:32.246: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:6612): Gtk-WARNING **: 09:45:32.414: Can't set a parent on widget which has a parent
+
+(nm-applet:6612): Gdk-CRITICAL **: 09:45:32.552: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Thu Feb 27 09:45:40 2020
+ Connections: accepted: 0.0.0.0::49327
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+Gtk-Message: 09:45:42.353: GtkDialog mapped without a transient parent. This is discouraged.
+
+Thu Feb 27 09:45:43 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.296" (uid=1282 pid=6602 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.296" (uid=1282 pid=6602 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.296" (uid=1282 pid=6602 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:6683): Gdk-WARNING **: 09:45:49.956: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:47:25.615:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:47:25.615: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:47:55.830:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:47:55.830: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:48:21.650:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:48:21.650: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:49:10.539:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:49:10.539: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:49:23.467:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:49:23.467: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:52:43.323:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:52:43.323: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:53:19.411:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:53:19.411: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:53:29.117:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:53:29.117: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+Thu Feb 27 09:53:36 2020
+ XserverDesktop: Added unknown keysym 0x6f7 to keycode 255
+xfwm4-Message: 09:53:36.562: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6c1 to keycode 254
+xfwm4-Message: 09:53:36.867: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:53:37 2020
+ XserverDesktop: Added unknown keysym 0x6cc to keycode 253
+ XserverDesktop: Added unknown keysym 0x6d1 to keycode 252
+xfwm4-Message: 09:53:37.883: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:54:00 2020
+ XserverDesktop: Added unknown keysym 0x6cd to keycode 251
+xfwm4-Message: 09:54:00.739: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:54:06 2020
+ XserverDesktop: Added unknown keysym 0x6dd to keycode 250
+xfwm4-Message: 09:54:06.755: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6c7 to keycode 249
+xfwm4-Message: 09:54:07.059: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:54:07 2020
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 248
+xfwm4-Message: 09:54:07.843: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:54:08 2020
+ XserverDesktop: Added unknown keysym 0x6c4 to keycode 247
+xfwm4-Message: 09:54:08.387: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0xf3 to keycode 246
+xfwm4-Message: 09:54:08.666: Unsupported keyboard modifier '<Super>Tab'
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:54:19.403:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:54:19.403: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:55:08.508:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:55:08.508: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:55:37.518:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:55:37.518: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:56:52.147:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:56:52.147: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:57:42.418:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 09:57:42.418: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+Thu Feb 27 10:02:35 2020
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 245
+xfwm4-Message: 10:02:35.597: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:02:36 2020
+ XserverDesktop: Added unknown keysym 0x6d4 to keycode 244
+xfwm4-Message: 10:02:37.117: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:02:37 2020
+ XserverDesktop: Added unknown keysym 0x6de to keycode 243
+xfwm4-Message: 10:02:37.677: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:02:38 2020
+ XserverDesktop: Added unknown keysym 0x6d3 to keycode 242
+xfwm4-Message: 10:02:38.772: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:02:40 2020
+ XserverDesktop: Added unknown keysym 0x6cf to keycode 241
+xfwm4-Message: 10:02:40.866: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:02:41 2020
+ XserverDesktop: Added unknown keysym 0x6f6 to keycode 240
+xfwm4-Message: 10:02:42.221: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:02:47 2020
+ XserverDesktop: Added unknown keysym 0x6e3 to keycode 239
+xfwm4-Message: 10:02:48.181: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:02:50 2020
+ XserverDesktop: Added unknown keysym 0x6d8 to keycode 238
+xfwm4-Message: 10:02:50.324: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:02:59 2020
+ XserverDesktop: Added unknown keysym 0x6d2 to keycode 237
+xfwm4-Message: 10:03:00.181: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:03:00 2020
+ XserverDesktop: Added unknown keysym 0x6c2 to keycode 236
+xfwm4-Message: 10:03:01.245: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:03:01 2020
+ XserverDesktop: Added unknown keysym 0x6ce to keycode 235
+xfwm4-Message: 10:03:01.548: Unsupported keyboard modifier '<Super>Tab'
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:03:13.366:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:03:13.366: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:04:17.201:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:04:17.201: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:05:16.224:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:05:16.224: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+Thu Feb 27 10:05:29 2020
+ XserverDesktop: Added unknown keysym 0x6db to keycode 234
+xfwm4-Message: 10:05:29.653: Unsupported keyboard modifier '<Super>Tab'
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:05:58.727:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:05:58.727: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:07:56.647:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:07:56.647: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:08:10.583:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:08:10.583: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:10:55.887:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:10:55.887: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:11:23.151:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:11:23.151: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+Thu Feb 27 10:19:27 2020
+ XserverDesktop: Added unknown keysym 0x6c6 to keycode 233
+xfwm4-Message: 10:19:28.248: Unsupported keyboard modifier '<Super>Tab'
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:19:30.458:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:19:30.458: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:19:52.971:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:19:52.972: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+Thu Feb 27 10:22:41 2020
+ XserverDesktop: Added unknown keysym 0x6cb to keycode 232
+xfwm4-Message: 10:22:41.993: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:23:20 2020
+ XserverDesktop: Added unknown keysym 0x6f0 to keycode 231
+xfwm4-Message: 10:23:20.928: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:28:03 2020
+ XserverDesktop: Added unknown keysym 0x6dc to keycode 230
+xfwm4-Message: 10:28:04.201: Unsupported keyboard modifier '<Super>Tab'
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:29:06.338:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:29:06.338: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:29:20.255:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:29:20.255: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:30:13.707:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:30:13.707: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(nm-applet:6612): Gtk-CRITICAL **: 10:32:51.318: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:6612): Gtk-CRITICAL **: 10:32:51.318: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:6612): Gtk-WARNING **: 10:32:51.319: Can't set a parent on widget which has a parent
+
+(nm-applet:6612): Gtk-CRITICAL **: 10:32:56.649: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:6612): Gtk-CRITICAL **: 10:32:56.649: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:6612): Gtk-WARNING **: 10:32:56.650: Can't set a parent on widget which has a parent
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:39:29.524:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:39:29.524: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:41:29.500:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:41:29.500: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:41:48.461:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:41:48.461: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:42:00.837:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:42:00.837: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:42:35.341:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:42:35.341: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:43:23.629:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:43:23.629: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:43:44.774:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:43:44.774: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:44:19.013:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:44:19.013: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:46:08.052:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:46:08.052: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:47:01.104:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:47:01.104: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:47:25.263:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:47:25.263: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:50:07.320:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:50:07.320: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:50:19.017:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:50:19.017: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:53:41.599:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:53:41.599: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:54:25.607:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:54:25.607: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:54:57.519:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:54:57.519: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:55:40.332:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:55:40.332: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:56:35.376:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:56:35.376: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:56:57.984:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:56:57.984: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:59:14.348:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 10:59:14.348: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 11:01:11.201:   (Sparql buffer) Error in task 0 (file:///home/is28/stanislavchuk28/0.cpp) of the array-update: UNIQUE constraint failed: nie:DataObject.nie:url
+
+(tracker-miner-fs:6552): Tracker-CRITICAL **: 11:01:11.201: Could not execute sparql: UNIQUE constraint failed: nie:DataObject.nie:url
+
+Thu Feb 27 11:01:12 2020
+ Connections: closed: 0.0.0.0::49327 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 12751
+ SMsgWriter:    copyRect rects 7384, bytes 118144
+ SMsgWriter:    hextile rects 46186, bytes 121104760
+ SMsgWriter:    raw bytes equivalent 1275152914, compression ratio 10.529338
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.296" (uid=1282 pid=6602 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (uid=0 pid=63953 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :8.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :8.0.

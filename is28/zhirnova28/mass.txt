@@ -1,0 +1,6 @@
+'name'=Polina
+'age'=18
+'grp'=is28
+'name'=Dima
+'age'=18
+'grp'=13

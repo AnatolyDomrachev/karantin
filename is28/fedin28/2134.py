@@ -1,0 +1,6 @@
+name = input("Hellow world")
+print("Goodbye",name)
+vozrast = int(input("сколько вам лет? "))
+print("Твой возраст через 10 лет",vozrast+10)
+kurs=int(input("Какой кyрс? "))
+print("Тебе бyдет: ",vozrast+4-kurs)

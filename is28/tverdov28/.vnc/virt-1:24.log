@@ -1,0 +1,104 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Feb 20 09:47:20 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5924
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/tverdov28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :24
+gpg-agent[36819]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:36809): xfce4-session-WARNING **: 09:47:23.221: gpg-agent returned no PID in the variables
+
+(xfce4-session:36809): xfce4-session-WARNING **: 09:47:23.230: xfsm_manager_load_session: Something wrong with /home/is28/tverdov28/.cache/sessions/xfce4-session-virt-1:24, Does it exist? Permissions issue?
+
+(xfwm4:36823): xfwm4-WARNING **: 09:47:23.265: The display does not support the XRender extension.
+
+(xfwm4:36823): xfwm4-WARNING **: 09:47:23.265: The display does not support the XComposite extension.
+
+(xfwm4:36823): xfwm4-WARNING **: 09:47:23.265: The display does not support the XDamage extension.
+
+(xfwm4:36823): xfwm4-WARNING **: 09:47:23.265: The display does not support the XFixes extension.
+
+(xfwm4:36823): xfwm4-WARNING **: 09:47:23.265: Compositing manager disabled.
+
+** (light-locker:36832): ERROR **: 09:47:23.321: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:36834): GLib-CRITICAL **: 09:47:23.337: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:36834): polkit-gnome-1-WARNING **: 09:47:23.340: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 09:47:23.378: Unsupported keyboard modifier '<Super>Tab'
+(uint32 1,)
+
+(xfsettingsd:36836): xfsettingsd-CRITICAL **: 09:47:23.436: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":24.0".
+
+(xfsettingsd:36836): xfsettingsd-CRITICAL **: 09:47:23.444: XI is not present.
+
+(xfsettingsd:36836): xfsettingsd-CRITICAL **: 09:47:23.451: Failed to initialize the Xkb extension.
+
+(xfsettingsd:36836): xfsettingsd-CRITICAL **: 09:47:23.455: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:47:23.515: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:36943): Gtk-WARNING **: 09:47:23.831: Can't set a parent on widget which has a parent
+
+(nm-applet:36943): Gdk-CRITICAL **: 09:47:24.005: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2287" (uid=1284 pid=36937 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2287" (uid=1284 pid=36937 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2287" (uid=1284 pid=36937 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:36983): Gdk-WARNING **: 09:47:28.506: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(wrapper-1.0:36983): Gdk-WARNING **: 09:47:28.506: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Thu Feb 20 09:47:33 2020
+ Connections: accepted: 0.0.0.0::49928
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Feb 20 09:47:42 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(Thunar:36829): Gdk-WARNING **: 09:49:19.361: gdk_window_set_icon_list: icons too large
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+
+(Thunar:36829): Gdk-WARNING **: 10:36:17.347: gdk_window_set_icon_list: icons too large
+
+(Thunar:36829): Gdk-WARNING **: 10:40:25.500: gdk_window_set_icon_list: icons too large
+QXcbConnection: Failed to initialize XRandr
+Qt: XKEYBOARD extension not present on the X server.
+Unsupported screen format: depth: 16, red_mask: 3f, blue_mask: f800
+Using RGB16 fallback, if this works your X11 server is reporting a bad screen format.
+
+Thu Feb 20 10:49:15 2020
+ Connections: closed: 0.0.0.0::49928 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 5884
+ SMsgWriter:    copyRect rects 720, bytes 11520
+ SMsgWriter:    hextile rects 143233, bytes 176047493
+ SMsgWriter:    raw bytes equivalent 928279828, compression ratio 5.272894
+
+(xfdesktop:36831): libxfce4ui-WARNING **: 09:42:15.202: ICE I/O Error
+
+(xfdesktop:36831): libxfce4ui-WARNING **: 09:42:15.245: Disconnected from session manager.
+xfdesktop: Fatal IO error 25 (Inappropriate ioctl for device) on X server :24.0.
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :24.0.

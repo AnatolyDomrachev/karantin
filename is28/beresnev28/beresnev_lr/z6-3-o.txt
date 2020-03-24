@@ -1,0 +1,3 @@
+masha : 22
+borya : 33
+kolya : 67

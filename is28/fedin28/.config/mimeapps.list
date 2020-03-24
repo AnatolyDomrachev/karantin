@@ -1,0 +1,8 @@
+[Added Associations]
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;engrampa.desktop;
+text/x-python=gedit.desktop;
+text/plain=gedit.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+application/pdf=userapp-Mail Recipient-UA03B0.desktop;
+application/x-compressed-tar=org.gnome.FileRoller.desktop;
+text/x-c++src=geany.desktop;

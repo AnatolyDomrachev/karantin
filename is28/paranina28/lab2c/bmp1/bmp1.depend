@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1582182245 source:/disk2/home/is28/paranina28/lab2c/bmp1/main.cpp
+	<iostream>
+	<stdio.h>
+

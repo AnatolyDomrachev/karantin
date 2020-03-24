@@ -1,0 +1,1186 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Mar  5 09:45:14 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5908
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/vavilova28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :8
+gpg-agent[7627]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:7617): xfce4-session-WARNING **: 09:45:18.121: gpg-agent returned no PID in the variables
+
+(xfce4-session:7617): xfce4-session-WARNING **: 09:45:18.126: xfsm_manager_load_session: Something wrong with /home/is28/vavilova28/.cache/sessions/xfce4-session-virt-1:8, Does it exist? Permissions issue?
+
+(xfwm4:7631): xfwm4-WARNING **: 09:45:18.156: The display does not support the XRender extension.
+
+(xfwm4:7631): xfwm4-WARNING **: 09:45:18.156: The display does not support the XComposite extension.
+
+(xfwm4:7631): xfwm4-WARNING **: 09:45:18.156: The display does not support the XDamage extension.
+
+(xfwm4:7631): xfwm4-WARNING **: 09:45:18.156: The display does not support the XFixes extension.
+
+(xfwm4:7631): xfwm4-WARNING **: 09:45:18.156: Compositing manager disabled.
+(uint32 1,)
+
+** (light-locker:7640): ERROR **: 09:45:18.208: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:7642): GLib-CRITICAL **: 09:45:18.231: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:7642): polkit-gnome-1-WARNING **: 09:45:18.231: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:7643): xfsettingsd-CRITICAL **: 09:45:18.247: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":8.0".
+
+(xfsettingsd:7643): xfsettingsd-CRITICAL **: 09:45:18.248: XI is not present.
+
+(xfsettingsd:7643): xfsettingsd-CRITICAL **: 09:45:18.248: Failed to initialize the Xkb extension.
+
+(xfsettingsd:7643): xfsettingsd-CRITICAL **: 09:45:18.250: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:45:18.273: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 09:45:18.373: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:7704): Gtk-WARNING **: 09:45:18.472: Can't set a parent on widget which has a parent
+
+(nm-applet:7704): Gdk-CRITICAL **: 09:45:18.610: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Thu Mar  5 09:45:28 2020
+ Connections: accepted: 0.0.0.0::49380
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.321" (uid=1267 pid=7689 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.321" (uid=1267 pid=7689 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.321" (uid=1267 pid=7689 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:7792): Gdk-WARNING **: 09:45:32.640: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Thu Mar  5 09:45:32 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(Thunar:7637): Gdk-WARNING **: 09:45:35.300: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":8.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(Thunar:7637): Gdk-WARNING **: 09:51:53.327: gdk_window_set_icon_list: icons too large
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+Xlib:  extension "XInputExtension" missing on display ":8.0".
+Xlib:  extension "XInputExtension" missing on display ":8.0".
+Xlib:  extension "XInputExtension" missing on display ":8.0".
+Xlib:  extension "XInputExtension" missing on display ":8.0".
+[17391:17391:0305/095617.371702:ERROR:gl_surface_glx.cc(458)] GLX 1.3 or later is required.
+[17391:17391:0305/095617.371755:ERROR:gl_initializer_x11.cc(148)] GLSurfaceGLX::InitializeOneOff failed.
+[17391:17391:0305/095617.380711:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+Xlib:  extension "XInputExtension" missing on display ":8.0".
+Xlib:  extension "XInputExtension" missing on display ":8.0".
+Xlib:  extension "XInputExtension" missing on display ":8.0".
+
+Thu Mar  5 09:56:29 2020
+ XserverDesktop: Added unknown keysym 0x6cf to keycode 255
+ XserverDesktop: Added unknown keysym 0x6d3 to keycode 254
+ XserverDesktop: Added unknown keysym 0x6ce to keycode 253
+xfwm4-Message: 09:56:29.825: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 09:56:32 2020
+ XserverDesktop: Added unknown keysym 0x6d7 to keycode 252
+ XserverDesktop: Added unknown keysym 0x6d9 to keycode 251
+xfwm4-Message: 09:56:33.161: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 09:56:40 2020
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 250
+xfwm4-Message: 09:56:40.601: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 09:56:41 2020
+ XserverDesktop: Added unknown keysym 0x6d4 to keycode 249
+ XserverDesktop: Added unknown keysym 0x6c1 to keycode 248
+ XserverDesktop: Added unknown keysym 0x6cb to keycode 247
+xfwm4-Message: 09:56:41.978: Unsupported keyboard modifier '<Super>Tab'
+** Message: 09:57:31.802: Remote error from secret service: org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.freedesktop.Secret.Collection' on object at path /org/freedesktop/secrets/collection/login
+** Message: 09:57:31.820: Remote error from secret service: org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.freedesktop.Secret.Collection' on object at path /org/freedesktop/secrets/collection/login
+
+(Thunar:7637): Gdk-WARNING **: 09:58:34.865: gdk_window_set_icon_list: icons too large
+
+Thu Mar  5 10:11:33 2020
+ XserverDesktop: Added unknown keysym 0x6d2 to keycode 246
+xfwm4-Message: 10:11:33.897: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:11:35 2020
+ XserverDesktop: Added unknown keysym 0x6d0 to keycode 245
+xfwm4-Message: 10:11:35.272: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:11:55 2020
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 244
+xfwm4-Message: 10:11:55.456: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:12:08 2020
+ XserverDesktop: Added unknown keysym 0x6d8 to keycode 243
+xfwm4-Message: 10:12:08.688: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6c6 to keycode 242
+xfwm4-Message: 10:12:09.040: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:14:34 2020
+ XserverDesktop: Added unknown keysym 0xf3 to keycode 241
+xfwm4-Message: 10:14:34.290: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:14:37 2020
+ XserverDesktop: Added unknown keysym 0x6cc to keycode 240
+xfwm4-Message: 10:14:37.257: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:21:43 2020
+ XserverDesktop: Added unknown keysym 0x6c4 to keycode 239
+xfwm4-Message: 10:21:44.149: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:21:45 2020
+ XserverDesktop: Added unknown keysym 0x6de to keycode 238
+xfwm4-Message: 10:21:45.901: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:21:54 2020
+ XserverDesktop: Added unknown keysym 0x6fc to keycode 237
+xfwm4-Message: 10:21:54.845: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:22:33 2020
+ XserverDesktop: Added unknown keysym 0x6d6 to keycode 236
+xfwm4-Message: 10:22:33.645: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:22:44 2020
+ XserverDesktop: Added unknown keysym 0x6cd to keycode 235
+xfwm4-Message: 10:22:45.141: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:29:44 2020
+ XserverDesktop: Added unknown keysym 0x6c2 to keycode 234
+xfwm4-Message: 10:29:44.488: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:29:45 2020
+ XserverDesktop: Added unknown keysym 0x6db to keycode 233
+xfwm4-Message: 10:29:45.313: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar  5 10:53:35 2020
+ Connections: closed: 0.0.0.0::49380 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 13017
+ SMsgWriter:    copyRect rects 2138, bytes 34208
+ SMsgWriter:    hextile rects 162874, bytes 722805719
+ SMsgWriter:    raw bytes equivalent -1061703546, compression ratio -1.468864
+[17352:17352:0305/121341.567833:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/121402.661096:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/121502.004419:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/121640.074148:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/122032.555097:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/122711.424756:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/123711.429115:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/124711.434430:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/125711.438286:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/130711.443189:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/131711.445516:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/132711.448964:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/133711.453243:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/134711.457813:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/135711.462049:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/140711.466362:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/141711.470081:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/142711.474644:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/143711.478768:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/144711.482868:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/145711.486512:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/150711.489742:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/151711.492838:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/152711.495501:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/153711.498708:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/154711.503400:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/155711.508789:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/160711.512061:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/161711.515883:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/162711.519785:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/163711.522665:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/164711.526810:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/165711.530977:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/170711.536682:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/171711.540920:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/172711.545299:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/173711.548354:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/174711.552064:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/175711.555825:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/180711.559877:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/181711.563882:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/182711.568098:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/183711.572164:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/184711.576200:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/185711.579839:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/190711.584236:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/191711.586903:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/192711.589426:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/193711.593059:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/194711.596656:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/195711.600994:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/200711.603572:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/201711.608406:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/202711.612320:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/203711.617182:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/204711.621133:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/205711.624722:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/210711.628358:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/211711.632474:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/212711.637783:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/213711.642247:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/214711.645395:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/215711.648299:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/220711.650977:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/221711.655289:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/222711.658643:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/223711.663173:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/224711.667958:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/225711.671899:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/230711.676977:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/231711.680948:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/232711.685059:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/233711.689189:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/234711.691660:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0305/235711.696275:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/000711.699920:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/001711.704256:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/002711.707744:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/003711.712079:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/004711.716947:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/005711.719629:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/010711.723831:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/011711.728088:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/012711.733138:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/013711.736961:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/014711.741197:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/015711.743650:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/020711.748118:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/021711.751574:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/022711.755952:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/023711.759029:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/024711.763908:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/025711.768285:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/030711.772323:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/031711.775739:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/032711.779972:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/033711.783567:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/034711.788445:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/035711.792622:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/040711.797044:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/041711.801232:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/042711.804030:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/043711.808317:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/044711.811438:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/045711.815560:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/050711.818784:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/051711.822285:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/052711.825341:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/053711.829729:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/054711.834609:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/055711.837905:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/060711.840533:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/061711.844341:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/062711.849281:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/063711.852605:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/064711.856631:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/065711.861115:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/070711.864310:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/071711.869115:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/072711.873573:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/073711.877962:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/074711.883032:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/075711.887923:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/080711.891793:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/081711.896601:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/082711.899929:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/083711.903881:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/084711.906942:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/085711.911951:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/090711.916556:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/091711.920139:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/092711.923864:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/093711.929755:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/094711.934756:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/095711.939453:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/100711.943540:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/101711.948233:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/102711.953188:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/103711.957427:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/104711.959962:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/105711.964483:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/110711.970024:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/111711.973792:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/112711.978311:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/113711.981724:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/114711.985902:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/115711.988820:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/120711.991495:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/121711.994772:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/122712.001571:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/123712.005799:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/124712.008773:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/125712.012135:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/130712.015737:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/131712.022311:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/132712.025542:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/133712.027827:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/134712.033451:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/135712.037408:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/140712.041787:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/141712.046124:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/142712.050887:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/143712.054401:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/144712.059282:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/145712.064519:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/150712.069169:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/151712.071610:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/152712.074553:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/153712.080520:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/154712.083614:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/155712.088764:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/160712.095057:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/161712.098143:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/162712.102609:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/163712.105907:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/164712.109239:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/165712.112733:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/170712.117542:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/171712.122351:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/172712.129925:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/173712.133488:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/174712.137119:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/175712.139838:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/180712.144604:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/181712.148054:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/182712.152632:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/183712.157114:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/184712.162559:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/185712.166386:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/190712.169018:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/191712.173502:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/192712.176570:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/193712.179777:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/194712.183659:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/195712.188710:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/200712.191584:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/201712.197016:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/202712.202181:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/203712.207188:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/204712.210599:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/205712.213320:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/210712.216142:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/211712.220816:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/212712.225685:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/213712.229569:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/214712.233311:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/215712.238706:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/220712.243893:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/221712.247191:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/222712.251434:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/223712.256917:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/224712.259932:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/225712.263574:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/230712.267948:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/231712.272199:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/232712.276443:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/233712.282223:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/234712.286270:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0306/235712.292597:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/000712.295776:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/001712.300407:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/002712.304513:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/003712.309150:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/004712.311917:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/005712.315970:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/010712.320507:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/011712.323604:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/012712.328819:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/013712.331921:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/014712.336974:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/015712.341892:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/020712.345640:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/021712.350714:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/022712.354848:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/023712.360787:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/024712.365606:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/025712.369929:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/030712.373644:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/031712.378656:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/032712.383880:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/033712.388773:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/034712.393665:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/035712.399425:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/040712.404619:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/041712.410034:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/042712.414762:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/043712.419604:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/044712.424835:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/045712.427613:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/050712.432942:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/051712.439518:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/052712.443968:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/053712.449310:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/054712.452255:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/055712.456280:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/060712.459218:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/061712.464264:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/062712.467967:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/063712.471757:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/064712.477042:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/065712.479753:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/070712.485003:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/071712.487740:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/072712.490689:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/073712.495875:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/074712.499189:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/075712.504437:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/080712.508994:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/081712.514155:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/082712.518403:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/083712.522954:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/084712.528124:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/085712.532288:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/090712.535734:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/091712.542921:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/092712.548760:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/093712.554306:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/094712.558067:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/095712.565318:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/100712.570009:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/101712.572807:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/102712.577179:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/103712.581166:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/104712.584749:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/105712.589208:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/110712.593019:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/111712.596081:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/112712.600409:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/113712.603341:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/114712.607309:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/115712.610330:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/120712.613594:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/121712.616082:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/122712.620897:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/123712.624474:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/124712.628173:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/125712.633019:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/130712.637881:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/131712.640835:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/132712.643997:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/133712.649186:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/134712.653563:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/135712.657626:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/140712.662183:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/141712.666966:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/142712.671279:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/143712.674831:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/144712.682114:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/145712.686288:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/150712.691435:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/151712.695928:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/152712.701185:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/153712.705287:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/154712.709163:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/155712.711728:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/160712.717094:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/161712.721972:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/162712.727284:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/163712.731801:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/164712.737353:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/165712.740304:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/170712.745824:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/171712.752112:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/172712.756998:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/173712.762613:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/174712.767825:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/175712.773421:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/180712.779294:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/181712.785167:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/182712.790450:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/183712.795393:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/184712.797778:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/185712.803262:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/190712.808240:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/191712.812833:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/192712.818988:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/193712.823619:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/194712.827484:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/195712.833023:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/200712.836195:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/201712.840069:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/202712.845137:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/203712.850397:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/204712.856364:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/205712.860488:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/210712.866212:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/211712.872076:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/212712.877296:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/213712.882250:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/214712.887363:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/215712.892924:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/220712.895341:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/221712.901148:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/222712.905642:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/223712.910675:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/224712.915777:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/225712.921637:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/230712.927021:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/231712.932823:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/232712.937737:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/233712.944544:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/234712.950110:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0307/235712.955197:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/000712.960627:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/001712.966487:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/002712.971345:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/003712.976834:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/004712.982875:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/005712.988405:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/010712.994622:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/011713.000842:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/012713.005884:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/013713.009197:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/014713.015384:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/015713.020086:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/020713.025326:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/021713.028480:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/022713.031350:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/023713.035702:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/024713.041608:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/025713.049993:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/030713.055561:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/031713.060444:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/032713.065955:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/033713.071760:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/034713.076408:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/035713.081829:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/040713.087307:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/041713.092155:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/042713.096000:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/043713.099846:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/044713.105816:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/045713.111452:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/050713.116032:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/051713.119903:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/052713.125680:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/053713.130576:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/054713.136457:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/055713.142724:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/060713.147711:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/061713.153012:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/062713.158468:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/063713.163518:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/064713.168957:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/065713.174648:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/070713.178906:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/071713.183970:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/072713.188209:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/073713.193886:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/074713.197835:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/075713.202230:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/080713.207636:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/081713.210672:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/082713.214743:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/083713.217836:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/084713.221128:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/085713.223657:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/090713.228058:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/091713.233569:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/092713.239550:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/093713.245455:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/094713.247586:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/095713.252120:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/100713.258374:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/101713.261674:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/102713.266519:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/103713.270902:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/104713.276640:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/105713.283288:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/110713.288970:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/111713.293985:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/112713.299995:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/113713.305085:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/114713.310851:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/115713.315037:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/120713.320510:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/121713.323649:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/122713.328084:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/123713.332019:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/124713.338178:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/125713.343776:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/130713.347594:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/131713.351782:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/132713.354972:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/133713.358777:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/134713.362832:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/135713.366663:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/140713.369619:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/141713.372032:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/142713.377603:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/143713.381827:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/144713.387602:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/145713.393860:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/150713.399156:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/151713.407248:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/152713.412631:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/153713.418491:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/154713.423687:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/155713.429740:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/160713.435007:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/161713.440240:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/162713.443896:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/163713.449894:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/164713.456414:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/165713.462785:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/170713.468548:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/171713.473315:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/172713.479320:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/173713.484044:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/174713.488582:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/175713.491590:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/180713.498437:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/181713.503862:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/182713.507700:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/183713.511924:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/184713.517636:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/185713.522503:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/190713.524749:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/191713.529549:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/192713.535986:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/193713.544700:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/194713.548671:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/195713.551699:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/200713.557300:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/201713.562054:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/202713.567236:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/203713.572362:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/204713.576271:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/205713.580246:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/210713.583920:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/211713.587955:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/212713.592001:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/213713.594997:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/214713.600716:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/215713.603846:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/220713.608451:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/221713.613476:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/222713.615867:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/223713.619680:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/224713.623409:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/225713.625603:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/230713.630467:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/231713.634245:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/232713.639983:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/233713.645961:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/234713.651615:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0308/235713.657058:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/000713.664490:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/001713.667810:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/002713.674007:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/003713.678714:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/004713.683744:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/005713.689367:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/010713.696296:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/011713.701625:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/012713.708238:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/013713.712154:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/014713.718325:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/015713.723273:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/020713.728949:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/021713.731947:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/022713.736627:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/023713.740547:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/024713.746389:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/025713.752392:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/030713.755702:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/031713.759913:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/032713.763791:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/033713.769470:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/034713.774849:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/035713.781135:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/040713.787121:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/041713.793137:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/042713.799146:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/043713.803584:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/044713.809216:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/045713.814545:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/050713.821095:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/051713.825522:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/052713.829792:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/053713.834921:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/054713.840759:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/055713.847244:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/060713.852997:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/061713.859368:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/062713.865211:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/063713.871035:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/064713.875602:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/065713.880322:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/070713.884596:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/071713.887930:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/072713.894056:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/073713.901218:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/074713.907371:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/075713.913290:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/080713.919161:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/081713.924574:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/082713.930596:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/083713.936262:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/084713.941915:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/085713.945390:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/090713.951298:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/091713.956158:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/092713.961042:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/093713.963827:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/094713.969869:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/095713.974609:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/100713.981445:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/101713.987458:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/102713.993207:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/103713.995905:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/104714.002600:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/105714.006977:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/110714.015558:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/111714.020280:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/112714.026438:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/113714.032751:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/114714.037321:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/115714.041185:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/120714.045661:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/121714.050392:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/122714.058255:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/123714.062966:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/124714.065808:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/125714.069648:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/130714.072063:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/131714.074984:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/132714.077620:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/133714.084355:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/134714.091641:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/135714.098430:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/140714.104574:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/141714.109944:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/142714.114530:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/143714.118478:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/144714.124660:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/145714.130563:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/150714.137105:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/151714.140497:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/152714.144895:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/153714.151540:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/154714.156409:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/155714.162298:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/160714.168740:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/161714.172812:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/162714.178320:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/163714.182472:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/164714.187847:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/165714.191310:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/170714.197408:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/171714.203687:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/172714.209348:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/173714.215651:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/174714.221958:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/175714.228822:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/180714.235623:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/181714.242219:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/182714.248534:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/183714.254083:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/184714.261138:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/185714.263793:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/190714.267835:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/191714.271825:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/192714.275703:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/193714.281154:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/194714.287676:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/195714.294558:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/200714.300419:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/201714.304538:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/202714.311544:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/203714.317095:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/204714.323514:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/205714.327071:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/210714.331909:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/211714.335578:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/212714.341619:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/213714.348652:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/214714.352436:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/215714.356456:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/220714.359688:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/221714.364162:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/222714.369066:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/223714.374773:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/224714.381767:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/225714.385900:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/230714.392124:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/231714.395766:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/232714.399784:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/233714.406676:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/234714.413707:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0309/235714.420865:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/000714.427837:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/001714.432492:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/002714.436756:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/003714.443189:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/004714.450789:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/005714.455589:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/010714.462822:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/011714.469542:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/012714.477313:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/013714.483998:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/014714.490845:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/015714.495193:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/020714.501223:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/021714.507927:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/022714.514645:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/023714.522962:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/024714.528326:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/025714.535000:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/030714.543490:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/031714.547586:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/032714.552139:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/033714.558635:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/034714.565421:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/035714.571210:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/040714.578948:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/041714.583972:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/042714.590922:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/043714.594587:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/044714.599781:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/045714.603992:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/050714.611092:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/051714.618293:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/052714.621399:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/053714.627887:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/054714.631363:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/055714.637131:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/060714.643535:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/061714.648615:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/062714.654222:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/063714.659563:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/064714.663792:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/065714.670079:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/070714.675821:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/071714.679754:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/072714.684015:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/073714.688887:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/074714.692065:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/075714.695845:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/080714.701098:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/081714.706137:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/082714.712865:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/083714.715624:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/084714.718387:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/085714.723504:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/090714.728556:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/091714.732935:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/092714.737492:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/093714.741362:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/094714.744040:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/095714.748363:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/100714.750860:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/101714.754285:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/102714.758341:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/103714.762903:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/104714.767206:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/105714.770225:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/110714.772511:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/111714.775301:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/112714.777905:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/113714.781135:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/114714.784228:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/115714.787120:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/120714.790254:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/121714.793923:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/122714.796964:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/123714.800092:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/124714.802223:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/125714.808239:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/130714.815188:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/131714.820403:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/132714.827455:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/133714.831580:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/134714.837675:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/135714.844092:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/140714.849695:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/141714.855984:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/142714.860594:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/143714.864251:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/144714.869696:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/145714.874414:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/150714.881418:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/151714.887045:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/152714.894657:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/153714.901761:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/154714.904686:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/155714.912353:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/160714.915528:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/161714.922429:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/162714.933642:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/163714.939614:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/164714.943641:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/165714.950647:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/170714.954342:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/171714.958620:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/172714.966878:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/173714.973575:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/174714.980744:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/175714.984017:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/180714.986097:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/181714.992025:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/182714.994464:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/183715.000151:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/184715.005811:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/185715.011989:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/190715.021452:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/191715.025042:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/192715.031595:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/193715.039303:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/194715.047608:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/195715.055232:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/200715.062327:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/201715.069313:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/202715.075564:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/203715.082212:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/204715.084631:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/205715.092322:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/210715.096627:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/211715.103048:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/212715.109659:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/213715.113020:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/214715.119781:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/215715.127752:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/220715.135717:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/221715.140395:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/222715.147558:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/223715.154304:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/224715.160877:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/225715.169708:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/230715.177914:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/231715.184534:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/232715.190398:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/233715.198298:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/234715.204560:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0310/235715.208812:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/000715.212109:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/001715.216518:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/002715.219204:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/003715.224506:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/004715.227493:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/005715.231600:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/010715.236069:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/011715.240424:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/012715.242866:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/013715.246403:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/014715.250578:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/015715.256134:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/020715.262375:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/021715.269616:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/022715.276347:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/023715.282026:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/024715.289560:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/025715.296760:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/030715.303433:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/031715.311302:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/032715.317903:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/033715.326475:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/034715.329905:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/035715.333696:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/040715.341603:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/041715.348038:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/042715.356038:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/043715.363770:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/044715.372434:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/045715.380050:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/050715.387702:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/051715.391787:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/052715.398902:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/053715.404917:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/054715.412018:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/055715.422113:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/060715.429697:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/061715.435882:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/062715.444198:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/063715.451906:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/064715.459216:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/065715.468409:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/070715.473370:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/071715.477719:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/072715.482818:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/073715.488383:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/074715.494238:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/075715.499868:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/080715.504384:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/081715.510554:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/082715.514188:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/083715.517926:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/084715.522026:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/085715.525233:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/090715.532764:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/091715.543779:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/092715.551337:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/093715.559069:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/094715.563482:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/095715.568137:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/100715.575768:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/101715.584708:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/102715.593234:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/103715.599836:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/104715.605329:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/105715.612104:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/110715.620216:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/111715.623854:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/112715.629984:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/113715.635565:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/114715.638836:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/115715.644817:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/120715.652391:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/121715.660230:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/122715.666944:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/123715.670093:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/124715.677537:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/125715.684002:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/130715.690845:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/131715.697646:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/132715.701428:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/133715.707557:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/134715.711620:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/135715.717742:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/140715.722128:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/141715.725526:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/142715.728737:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/143715.734026:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/144715.737314:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/145715.742442:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/150715.747229:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/151715.752351:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/152715.757638:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/153715.761431:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/154715.764958:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/155715.769222:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/160715.774122:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/161715.777883:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/162715.781005:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/163715.784240:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/164715.787719:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/165715.790339:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/170715.794388:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/171715.796457:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/172715.804332:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/173715.811988:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/174715.820341:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/175715.822558:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/180715.829547:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/181715.837913:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/182715.840837:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/183715.848024:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/184715.853359:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/185715.860792:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/190715.868511:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/191715.875733:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/192715.883655:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/193715.894143:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/194715.902512:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/195715.910273:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/200715.918481:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/201715.923615:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/202715.929365:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/203715.936022:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/204715.943520:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/205715.950638:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/210715.959089:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/211715.966549:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/212715.971454:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/213715.979431:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/214715.987191:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/215715.992212:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/220715.998574:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/221716.006358:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/222716.014300:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/223716.019560:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/224716.028385:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/225716.036221:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/230716.045749:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/231716.051837:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/232716.058861:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/233716.066028:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/234716.075013:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0311/235716.080264:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/000716.087596:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/001716.091711:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/002716.096843:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/003716.103590:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/004716.111086:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/005716.115797:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/010716.123202:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/011716.130525:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/012716.138393:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/013716.142128:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/014716.145893:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/015716.153229:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/020716.157049:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/021716.159665:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/022716.166870:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/023716.172740:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/024716.179103:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/025716.184432:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/030716.187727:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/031716.193533:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/032716.199914:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/033716.207808:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/034716.211842:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/035716.216418:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/040716.220723:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/041716.226298:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/042716.234193:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/043716.241442:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/044716.247036:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/045716.252822:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/050716.258527:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/051716.265567:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/052716.272515:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/053716.279084:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/054716.281693:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/055716.290846:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/060716.297588:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/061716.303819:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/062716.307978:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/063716.311432:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/064716.318621:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/065716.324652:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/070716.329993:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/071716.333955:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/072716.340594:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/073716.347289:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/074716.351145:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/075716.356298:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/080716.364847:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/081716.371510:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/082716.375670:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/083716.382175:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/084716.387674:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/085716.394730:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/090716.400419:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/091716.403714:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/092716.407803:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+[17352:17352:0312/093716.414875:ERROR:gcm_channel_status_request.cc(138)] GCM channel request failed. HTTP status: 407
+xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :8.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :8.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :8.0.
+[17352:17352:0312/094518.383216:ERROR:chrome_browser_main_extra_parts_x11.cc(62)] X IO error received (X server probably went away)
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :8.0.
+[17352:17352:0312/094518.614929:ERROR:zygote_communication_linux.cc(276)] Failed to send GetTerminationStatus message to zygote

@@ -1,0 +1,95 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Feb 13 09:28:44 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5928
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/maznicyn28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :28
+gpg-agent[2625]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:2618): xfce4-session-WARNING **: 09:28:48.716: gpg-agent returned no PID in the variables
+
+(xfce4-session:2618): xfce4-session-WARNING **: 09:28:48.718: xfsm_manager_load_session: Something wrong with /home/is28/maznicyn28/.cache/sessions/xfce4-session-virt-1:28, Does it exist? Permissions issue?
+
+** (light-locker:2637): ERROR **: 09:28:49.241: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:2646): GLib-CRITICAL **: 09:28:49.601: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:2646): polkit-gnome-1-WARNING **: 09:28:49.603: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfwm4:2628): xfwm4-WARNING **: 09:28:49.861: The display does not support the XRender extension.
+
+(xfwm4:2628): xfwm4-WARNING **: 09:28:49.861: The display does not support the XComposite extension.
+
+(xfwm4:2628): xfwm4-WARNING **: 09:28:49.861: The display does not support the XDamage extension.
+
+(xfwm4:2628): xfwm4-WARNING **: 09:28:49.861: The display does not support the XFixes extension.
+
+(xfwm4:2628): xfwm4-WARNING **: 09:28:49.861: Compositing manager disabled.
+(uint32 2,)
+xfwm4-Message: 09:28:50.670: Unsupported keyboard modifier '<Super>Tab'
+
+** (update-notifier:2670): WARNING **: 09:28:51.409: already running?
+
+(xfsettingsd:2645): xfsettingsd-CRITICAL **: 09:28:52.187: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":28.0".
+
+(xfsettingsd:2645): xfsettingsd-CRITICAL **: 09:28:52.189: XI is not present.
+
+(xfsettingsd:2645): xfsettingsd-CRITICAL **: 09:28:52.189: Failed to initialize the Xkb extension.
+
+(xfsettingsd:2645): xfsettingsd-CRITICAL **: 09:28:52.189: Failed to initialize the Accessibility extension.
+blueman-applet version 2.0.5 starting
+There is an instance already running
+xfwm4-Message: 09:28:53.193: Unsupported keyboard modifier '<Super>Tab'
+
+(tracker-miner-apps:2706): Tracker-CRITICAL **: 09:28:53.905: Could not request DBus name 'org.freedesktop.Tracker1.Miner.Applications': D-Bus service name:'org.freedesktop.Tracker1.Miner.Applications' is already taken, perhaps the application is already running?
+
+(tracker-miner-fs:2653): Tracker-CRITICAL **: 09:28:53.947: Could not request DBus name 'org.freedesktop.Tracker1.Miner.Files': D-Bus service name:'org.freedesktop.Tracker1.Miner.Files' is already taken, perhaps the application is already running?
+
+(tracker-extract:2663): Tracker-CRITICAL **: 09:28:56.021: Could not request DBus name 'org.freedesktop.Tracker1.Miner.Extract': D-Bus service name:'org.freedesktop.Tracker1.Miner.Extract' is already taken, perhaps the application is already running?
+
+Thu Feb 13 09:28:58 2020
+ Connections: accepted: 0.0.0.0::54572
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Feb 13 09:29:02 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+[2020-02-13T06:29:16Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+
+(Thunar:2634): Gdk-WARNING **: 09:32:36.189: gdk_window_set_icon_list: icons too large
+
+Thu Feb 13 09:34:33 2020
+ Connections: closed: 0.0.0.0::54572 (Clean disconnection)
+
+Thu Feb 13 09:34:34 2020
+ SMsgWriter:  framebuffer updates 459
+
+Thu Feb 13 09:34:35 2020
+ SMsgWriter:    copyRect rects 789, bytes 12624
+ SMsgWriter:    hextile rects 1219, bytes 4398879
+ SMsgWriter:    raw bytes equivalent 60081590, compression ratio 13.658387
+
+(xfdesktop:2636): libxfce4ui-WARNING **: 09:42:54.935: ICE I/O Error
+
+(xfdesktop:2636): libxfce4ui-WARNING **: 09:42:54.964: Disconnected from session manager.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :28.0.
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :28.0.

@@ -1,0 +1,258 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Mar 12 09:47:44 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5909
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/vavilova28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :9
+gpg-agent[7632]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:7622): xfce4-session-WARNING **: 09:47:47.224: gpg-agent returned no PID in the variables
+
+(xfce4-session:7622): xfce4-session-WARNING **: 09:47:47.229: xfsm_manager_load_session: Something wrong with /home/is28/vavilova28/.cache/sessions/xfce4-session-virt-1:9, Does it exist? Permissions issue?
+
+(xfwm4:7636): xfwm4-WARNING **: 09:47:47.255: The display does not support the XRender extension.
+
+(xfwm4:7636): xfwm4-WARNING **: 09:47:47.255: The display does not support the XComposite extension.
+
+(xfwm4:7636): xfwm4-WARNING **: 09:47:47.255: The display does not support the XDamage extension.
+
+(xfwm4:7636): xfwm4-WARNING **: 09:47:47.255: The display does not support the XFixes extension.
+
+(xfwm4:7636): xfwm4-WARNING **: 09:47:47.255: Compositing manager disabled.
+(uint32 1,)
+
+(xfsettingsd:7645): xfsettingsd-CRITICAL **: 09:47:47.355: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":9.0".
+
+(xfsettingsd:7645): xfsettingsd-CRITICAL **: 09:47:47.356: XI is not present.
+
+(xfsettingsd:7645): xfsettingsd-CRITICAL **: 09:47:47.356: Failed to initialize the Xkb extension.
+
+** (light-locker:7649): ERROR **: 09:47:47.359: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(xfsettingsd:7645): xfsettingsd-CRITICAL **: 09:47:47.360: Failed to initialize the Accessibility extension.
+
+(polkit-gnome-authentication-agent-1:7651): GLib-CRITICAL **: 09:47:47.384: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:7651): polkit-gnome-1-WARNING **: 09:47:47.385: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 09:47:47.427: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 09:47:47.500: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:7729): Gtk-WARNING **: 09:47:47.613: Can't set a parent on widget which has a parent
+
+(nm-applet:7729): Gdk-CRITICAL **: 09:47:47.763: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Thu Mar 12 09:47:56 2020
+ Connections: accepted: 0.0.0.0::49330
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Mar 12 09:48:00 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(Thunar:7642): Gdk-WARNING **: 09:48:03.390: gdk_window_set_icon_list: icons too large
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.348" (uid=1267 pid=7695 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.348" (uid=1267 pid=7695 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.348" (uid=1267 pid=7695 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(Thunar:7642): Gdk-WARNING **: 09:49:13.554: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":9.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+Xlib:  extension "XInputExtension" missing on display ":9.0".
+Xlib:  extension "XInputExtension" missing on display ":9.0".
+Xlib:  extension "XInputExtension" missing on display ":9.0".
+Xlib:  extension "XInputExtension" missing on display ":9.0".
+[13213:13213:0312/095417.081132:ERROR:gl_surface_glx.cc(458)] GLX 1.3 or later is required.
+[13213:13213:0312/095417.081275:ERROR:gl_initializer_x11.cc(148)] GLSurfaceGLX::InitializeOneOff failed.
+[13213:13213:0312/095417.083572:ERROR:viz_main_impl.cc(161)] Exiting GPU process due to errors during initialization
+Xlib:  extension "XInputExtension" missing on display ":9.0".
+Xlib:  extension "XInputExtension" missing on display ":9.0".
+Xlib:  extension "XInputExtension" missing on display ":9.0".
+** Message: 09:54:17.376: Remote error from secret service: org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.freedesktop.Secret.Collection' on object at path /org/freedesktop/secrets/collection/login
+** Message: 09:54:17.400: Remote error from secret service: org.freedesktop.DBus.Error.UnknownMethod: No such interface 'org.freedesktop.Secret.Collection' on object at path /org/freedesktop/secrets/collection/login
+[13682:1:0312/095636.966861:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[13682:1:0312/095636.967229:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[13682:1:0312/095636.967935:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[13682:1:0312/095636.968268:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[13215:13635:0312/095655.123347:ERROR:cert_verify_proc_nss.cc(998)] CERT_PKIXVerifyCert for public.advarkads.com failed err=-8179
+[13215:13225:0312/095655.123535:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -202
+[13215:13225:0312/095655.148628:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -202
+[13215:13225:0312/095702.334819:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -202
+[13215:13225:0312/095702.365172:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -202
+[13215:13225:0312/095702.388902:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -202
+[13215:13225:0312/095702.413046:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -202
+[13215:13225:0312/095704.699197:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -202
+[13215:13225:0312/095704.724539:ERROR:ssl_client_socket_impl.cc(941)] handshake failed; returned -1, SSL error code 1, net_error -202
+Fontconfig error: Cannot load default config file: No such file: (null)
+
+Thu Mar 12 10:00:24 2020
+ XserverDesktop: Added unknown keysym 0x6f7 to keycode 255
+xfwm4-Message: 10:00:24.326: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:00:30 2020
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 254
+xfwm4-Message: 10:00:30.263: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6c4 to keycode 253
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 252
+xfwm4-Message: 10:00:30.759: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6d4 to keycode 251
+xfwm4-Message: 10:00:31.022: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:00:31 2020
+ XserverDesktop: Added unknown keysym 0x6d0 to keycode 250
+xfwm4-Message: 10:00:32.102: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:00:32 2020
+ XserverDesktop: Added unknown keysym 0x6d2 to keycode 249
+xfwm4-Message: 10:00:32.582: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:00:33 2020
+ XserverDesktop: Added unknown keysym 0x6cf to keycode 248
+xfwm4-Message: 10:00:33.406: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:00:34 2020
+ XserverDesktop: Added unknown keysym 0x6de to keycode 247
+xfwm4-Message: 10:00:34.542: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6d3 to keycode 246
+xfwm4-Message: 10:00:34.919: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:00:37 2020
+ XserverDesktop: Added unknown keysym 0x6cc to keycode 245
+xfwm4-Message: 10:00:37.343: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:00:44 2020
+ XserverDesktop: Added unknown keysym 0x6db to keycode 244
+xfwm4-Message: 10:00:44.895: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:01:26 2020
+ XserverDesktop: Added unknown keysym 0x6d8 to keycode 243
+xfwm4-Message: 10:01:26.966: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:01:34 2020
+ XserverDesktop: Added unknown keysym 0x6ce to keycode 242
+xfwm4-Message: 10:01:35.231: Unsupported keyboard modifier '<Super>Tab'
+[17759:1:0312/100400.896235:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[17759:1:0312/100400.896652:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[17759:1:0312/100400.898083:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[17759:1:0312/100400.898447:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+Fontconfig error: Cannot load default config file: No such file: (null)
+
+Thu Mar 12 10:05:01 2020
+ XserverDesktop: Added unknown keysym 0x6c3 to keycode 241
+xfwm4-Message: 10:05:02.245: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:05:02 2020
+ XserverDesktop: Added unknown keysym 0x6cb to keycode 240
+xfwm4-Message: 10:05:02.862: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:05:03 2020
+ XserverDesktop: Added unknown keysym 0x6d9 to keycode 239
+xfwm4-Message: 10:05:03.558: Unsupported keyboard modifier '<Super>Tab'
+[18788:1:0312/100513.132202:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18788:1:0312/100513.132854:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18788:1:0312/100513.143900:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18788:1:0312/100513.144226:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18986:1:0312/100514.622424:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18986:1:0312/100514.622792:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18986:1:0312/100514.634402:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[18986:1:0312/100514.635140:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+Thu Mar 12 10:05:56 2020
+ XserverDesktop: Added unknown keysym 0xf3 to keycode 238
+xfwm4-Message: 10:05:56.710: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:06:02 2020
+ XserverDesktop: Added unknown keysym 0x6cd to keycode 237
+xfwm4-Message: 10:06:02.477: Unsupported keyboard modifier '<Super>Tab'
+[19445:1:0312/100643.320661:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[19445:1:0312/100643.321084:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[19445:1:0312/100643.328571:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[19445:1:0312/100643.328918:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[19531:1:0312/100644.229008:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[19531:1:0312/100644.229351:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[19531:1:0312/100644.236586:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[19531:1:0312/100644.236925:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+Thu Mar 12 10:10:46 2020
+ XserverDesktop: Added unknown keysym 0x6c1 to keycode 236
+xfwm4-Message: 10:10:47.078: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:10:47 2020
+ XserverDesktop: Added unknown keysym 0x6c2 to keycode 235
+xfwm4-Message: 10:10:48.013: Unsupported keyboard modifier '<Super>Tab'
+[22370:1:0312/102411.496342:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[22370:1:0312/102411.497122:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[22370:1:0312/102411.497481:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[22370:1:0312/102411.497943:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+[22370:1:0312/102411.500252:ERROR:child_process_sandbox_support_impl_linux.cc(79)] FontService unique font name matching request did not receive a response.
+
+(Thunar:7642): Gdk-WARNING **: 10:43:20.356: gdk_window_set_icon_list: icons too large
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+Thu Mar 12 10:58:04 2020
+ Connections: closed: 0.0.0.0::49330 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 17994
+ SMsgWriter:    copyRect rects 1502, bytes 24032
+ SMsgWriter:    hextile rects 399747, bytes 933366550
+ SMsgWriter:    raw bytes equivalent -103476828, compression ratio -0.110864
+cat: /home/is28/vavilova28/.Xauthority: No such file or directory
+AUDIT: Tue Mar 17 21:58:28 2020: 7582 Xvnc4: client 9 rejected from local host
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:01:27.018:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.YTBNH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:01:27.018:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.JVBNH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:01:27.034:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.7IONH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:01:27.034:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.DRONH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:01:27.061:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.HP5NH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:01:27.061:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.HQ5NH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:01:27.085:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.PAWLH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:01:27.085:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.4BWLH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:01:27.087:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.78TLH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:01:27.087:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.M3TLH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:03:30.000:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.MH0MH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:03:30.000:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.UI0MH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:03:30.003:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.YOXMH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:03:30.004:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.AQXMH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:03:30.013:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.2N2MH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:03:30.014:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.FP2MH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:03:30.017:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.OPCNH0”: No such file or directory
+
+(tracker-miner-fs:7654): Tracker-WARNING **: 22:03:30.017:   Could not create file:'/home/is28/vavilova28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/vavilova28/.cache/tracker/last-crawl.txt.RQCNH0”: No such file or directory
+AUDIT: Tue Mar 17 22:08:28 2020: 7582 Xvnc4: client 9 rejected from local host
+AUDIT: Tue Mar 17 22:18:28 2020: 7582 Xvnc4: client 9 rejected from local host

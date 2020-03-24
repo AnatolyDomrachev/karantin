@@ -1,0 +1,221 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Mar 12 09:47:11 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5906
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/kruglov28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :6
+gpg-agent[5735]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:5695): xfce4-session-WARNING **: 09:47:15.135: gpg-agent returned no PID in the variables
+
+(xfce4-session:5695): xfce4-session-WARNING **: 09:47:15.141: xfsm_manager_load_session: Something wrong with /home/is28/kruglov28/.cache/sessions/xfce4-session-virt-1:6, Does it exist? Permissions issue?
+
+(xfwm4:5743): xfwm4-WARNING **: 09:47:15.166: The display does not support the XRender extension.
+
+(xfwm4:5743): xfwm4-WARNING **: 09:47:15.166: The display does not support the XComposite extension.
+
+(xfwm4:5743): xfwm4-WARNING **: 09:47:15.166: The display does not support the XDamage extension.
+
+(xfwm4:5743): xfwm4-WARNING **: 09:47:15.166: The display does not support the XFixes extension.
+
+(xfwm4:5743): xfwm4-WARNING **: 09:47:15.166: Compositing manager disabled.
+
+** (light-locker:5754): ERROR **: 09:47:15.213: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:5756): GLib-CRITICAL **: 09:47:15.226: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:5756): polkit-gnome-1-WARNING **: 09:47:15.228: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 09:47:15.250: Unsupported keyboard modifier '<Super>Tab'
+(uint32 1,)
+
+(xfsettingsd:5752): xfsettingsd-CRITICAL **: 09:47:15.395: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":6.0".
+
+(xfsettingsd:5752): xfsettingsd-CRITICAL **: 09:47:15.396: XI is not present.
+
+(xfsettingsd:5752): xfsettingsd-CRITICAL **: 09:47:15.397: Failed to initialize the Xkb extension.
+
+(xfsettingsd:5752): xfsettingsd-CRITICAL **: 09:47:15.397: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:47:15.481: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:5887): Gtk-WARNING **: 09:47:15.580: Can't set a parent on widget which has a parent
+
+(nm-applet:5887): Gdk-CRITICAL **: 09:47:15.726: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Thu Mar 12 09:47:22 2020
+ Connections: accepted: 0.0.0.0::58215
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Mar 12 09:47:25 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.228" (uid=1274 pid=5878 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.228" (uid=1274 pid=5878 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.228" (uid=1274 pid=5878 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:5937): Gdk-WARNING **: 09:47:28.602: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(Thunar:5749): Gdk-WARNING **: 09:58:21.970: gdk_window_set_icon_list: icons too large
+
+(gedit:22690): Gtk-WARNING **: 10:28:35.827: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(gedit:22800): Gtk-WARNING **: 10:29:27.220: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(gedit:23126): Gtk-WARNING **: 10:29:55.076: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(gedit:23179): Gtk-WARNING **: 10:30:16.363: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(gedit:23255): Gtk-WARNING **: 10:30:53.083: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(gedit:23303): Gtk-WARNING **: 10:31:31.036: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Thu Mar 12 10:31:33 2020
+ XserverDesktop: Added unknown keysym 0x6f0 to keycode 255
+xfwm4-Message: 10:31:33.678: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 254
+ XserverDesktop: Added unknown keysym 0x6d2 to keycode 253
+
+Thu Mar 12 10:31:34 2020
+ XserverDesktop: Added unknown keysym 0x6d7 to keycode 252
+ XserverDesktop: Added unknown keysym 0x6d9 to keycode 251
+ XserverDesktop: Added unknown keysym 0x6ca to keycode 250
+xfwm4-Message: 10:31:34.606: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6d4 to keycode 249
+xfwm4-Message: 10:31:35.174: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:31:35 2020
+ XserverDesktop: Added unknown keysym 0x6cf to keycode 248
+ XserverDesktop: Added unknown keysym 0x6ce to keycode 247
+xfwm4-Message: 10:31:36.230: Unsupported keyboard modifier '<Super>Tab'
+
+(gedit:23402): Gtk-WARNING **: 10:32:15.884: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(gedit:23510): Gtk-WARNING **: 10:32:41.540: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Thu Mar 12 10:32:53 2020
+ XserverDesktop: Added unknown keysym 0x1002116 to keycode 246
+xfwm4-Message: 10:32:53.734: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:33:08 2020
+ XserverDesktop: Added unknown keysym 0x6cd to keycode 245
+xfwm4-Message: 10:33:08.838: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:33:10 2020
+ XserverDesktop: Added unknown keysym 0x6c1 to keycode 244
+xfwm4-Message: 10:33:10.838: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6d3 to keycode 243
+xfwm4-Message: 10:33:11.254: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:33:11 2020
+ XserverDesktop: Added unknown keysym 0x6cc to keycode 242
+xfwm4-Message: 10:33:11.990: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:33:12 2020
+ XserverDesktop: Added unknown keysym 0x6c2 to keycode 241
+ XserverDesktop: Added unknown keysym 0x6c3 to keycode 240
+xfwm4-Message: 10:33:13.110: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:33:13 2020
+ XserverDesktop: Added unknown keysym 0xf3 to keycode 239
+xfwm4-Message: 10:33:14.038: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:33:14 2020
+ XserverDesktop: Added unknown keysym 0x6cb to keycode 238
+xfwm4-Message: 10:33:14.382: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6da to keycode 237
+xfwm4-Message: 10:33:14.733: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6d8 to keycode 236
+xfwm4-Message: 10:33:15.237: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:33:22 2020
+ XserverDesktop: Added unknown keysym 0x6de to keycode 235
+xfwm4-Message: 10:33:22.806: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:33:30 2020
+ XserverDesktop: Added unknown keysym 0x6c4 to keycode 234
+xfwm4-Message: 10:33:30.405: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:33:31 2020
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 233
+xfwm4-Message: 10:33:32.199: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Mar 12 10:33:34 2020
+ XserverDesktop: Added unknown keysym 0x6c8 to keycode 232
+xfwm4-Message: 10:33:34.910: Unsupported keyboard modifier '<Super>Tab'
+
+(gedit:23616): Gtk-WARNING **: 10:33:53.844: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Thu Mar 12 10:57:48 2020
+ Connections: closed: 0.0.0.0::58215 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 26940
+ SMsgWriter:    copyRect rects 1826, bytes 29216
+ SMsgWriter:    hextile rects 233086, bytes -1588789544
+ SMsgWriter:    raw bytes equivalent -1847858510, compression ratio 1.163061
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:01:24.140:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.7BZPH0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:01:24.140:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.QDZPH0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:01:24.352:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.DNQRH0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:01:24.352:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.2OQRH0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:01:24.368:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.R1RRH0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:01:24.368:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.72RRH0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:01:24.382:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.XX5RH0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:01:24.383:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.LD5RH0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:01:24.388:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.VLDSH0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:01:24.388:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.ZMDSH0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:03:29.794:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.TU13H0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:03:29.794:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.8H13H0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:03:29.796:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.0N03H0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:03:29.796:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.6O03H0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:03:29.797:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.FEZ3H0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:03:29.797:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.JFZ3H0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:03:29.801:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.PNW3H0”: No such file or directory
+
+(tracker-miner-fs:5759): Tracker-WARNING **: 22:03:29.801:   Could not create file:'/home/is28/kruglov28/.cache/tracker/last-crawl.txt' failed, Failed to create file “/home/is28/kruglov28/.cache/tracker/last-crawl.txt.UOW3H0”: No such file or directory
+cat: /home/is28/kruglov28/.Xauthority: No such file or directory
+AUDIT: Tue Mar 17 22:08:12 2020: 4945 Xvnc4: client 6 rejected from local host
+AUDIT: Tue Mar 17 22:18:12 2020: 4945 Xvnc4: client 6 rejected from local host

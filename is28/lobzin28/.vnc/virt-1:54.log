@@ -1,0 +1,96 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Sep 13 08:50:04 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5954
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+
+(x-window-manager:61660): xfwm4-WARNING **: 08:50:07.259: The display does not support the XRender extension.
+
+(x-window-manager:61660): xfwm4-WARNING **: 08:50:07.259: The display does not support the XComposite extension.
+
+(x-window-manager:61660): xfwm4-WARNING **: 08:50:07.259: The display does not support the XDamage extension.
+
+(x-window-manager:61660): xfwm4-WARNING **: 08:50:07.259: The display does not support the XFixes extension.
+
+(x-window-manager:61660): xfwm4-WARNING **: 08:50:07.259: Compositing manager disabled.
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+xfwm4-Message: 08:50:07.304: Unsupported keyboard modifier '<Super>Tab'
+
+(x-window-manager:61660): xfwm4-WARNING **: 08:50:07.310: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+Fri Sep 13 08:51:44 2019
+ Connections: accepted: 0.0.0.0::50381
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:51:48 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50381 (Authentication failure)
+
+Fri Sep 13 08:51:52 2019
+ Connections: accepted: 0.0.0.0::50382
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:51:57 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Sep 13 09:00:24 2019
+ Connections: closed: 0.0.0.0::50382 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 1085
+ SMsgWriter:    copyRect rects 2174, bytes 34784
+ SMsgWriter:    hextile rects 3667, bytes 3595079
+ SMsgWriter:    raw bytes equivalent 101198794, compression ratio 28.149255
+
+Fri Sep 13 09:00:36 2019
+ Connections: accepted: 0.0.0.0::50400
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 09:00:40 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Sep 13 09:01:55 2019
+ Connections: accepted: 0.0.0.0::50402
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 09:01:58 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Sep 13 09:03:07 2019
+ Connections: closed: 0.0.0.0::50402 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 95
+ SMsgWriter:    copyRect rects 204, bytes 3264
+ SMsgWriter:    hextile rects 343, bytes 455276
+ SMsgWriter:    raw bytes equivalent 14451732, compression ratio 31.742793
+AUDIT: Fri Sep 13 09:16:46 2019: 61651 Xvnc4: client 6 rejected from local host
+AUDIT: Fri Sep 13 09:17:03 2019: 61651 Xvnc4: client 6 rejected from local host
+AUDIT: Fri Sep 13 09:17:11 2019: 61651 Xvnc4: client 6 rejected from local host
+AUDIT: Fri Sep 13 09:17:12 2019: 61651 Xvnc4: client 6 rejected from local host
+AUDIT: Fri Sep 13 09:18:13 2019: 61651 Xvnc4: client 6 rejected from local host
+
+Fri Sep 13 09:37:01 2019
+ Connections: closed: 0.0.0.0::50400 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 8877
+ SMsgWriter:    copyRect rects 15473, bytes 247568
+ SMsgWriter:    hextile rects 49636, bytes 79708755
+ SMsgWriter:    raw bytes equivalent 666570232, compression ratio 8.362572
+x-window-manager: Fatal IO error 4 (Interrupted system call) on X server :54.

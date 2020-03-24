@@ -1,0 +1,85 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Dec 13 12:15:18 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5919
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/vyacheslavleva28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :19
+gpg-agent[29176]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:29166): xfce4-session-WARNING **: 12:15:21.369: gpg-agent returned no PID in the variables
+
+(xfce4-session:29166): xfce4-session-WARNING **: 12:15:21.375: xfsm_manager_load_session: Something wrong with /home/is28/vyacheslavleva28/.cache/sessions/xfce4-session-virt-1:19, Does it exist? Permissions issue?
+
+(xfwm4:29180): xfwm4-WARNING **: 12:15:21.406: The display does not support the XRender extension.
+
+(xfwm4:29180): xfwm4-WARNING **: 12:15:21.406: The display does not support the XComposite extension.
+
+(xfwm4:29180): xfwm4-WARNING **: 12:15:21.406: The display does not support the XDamage extension.
+
+(xfwm4:29180): xfwm4-WARNING **: 12:15:21.406: The display does not support the XFixes extension.
+
+(xfwm4:29180): xfwm4-WARNING **: 12:15:21.406: Compositing manager disabled.
+
+** (light-locker:29189): ERROR **: 12:15:21.434: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:29191): GLib-CRITICAL **: 12:15:21.474: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:29191): polkit-gnome-1-WARNING **: 12:15:21.475: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(uint32 1,)
+xfwm4-Message: 12:15:21.528: Unsupported keyboard modifier '<Super>Tab'
+
+(xfsettingsd:29192): xfsettingsd-CRITICAL **: 12:15:21.566: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":19.0".
+
+(xfsettingsd:29192): xfsettingsd-CRITICAL **: 12:15:21.571: XI is not present.
+
+(xfsettingsd:29192): xfsettingsd-CRITICAL **: 12:15:21.573: Failed to initialize the Xkb extension.
+
+(xfsettingsd:29192): xfsettingsd-CRITICAL **: 12:15:21.573: Failed to initialize the Accessibility extension.
+xfwm4-Message: 12:15:21.659: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:29293): Gtk-WARNING **: 12:15:21.882: Can't set a parent on widget which has a parent
+
+(nm-applet:29293): Gdk-CRITICAL **: 12:15:22.036: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Dec 13 12:15:30 2019
+ Connections: accepted: 0.0.0.0::50213
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Dec 13 12:15:40 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(Thunar:29186): Gdk-WARNING **: 12:15:43.411: gdk_window_set_icon_list: icons too large
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2876" (uid=1268 pid=29275 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2876" (uid=1268 pid=29275 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2876" (uid=1268 pid=29275 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+Fri Dec 13 12:34:43 2019
+ Connections: closed: 0.0.0.0::50213 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 317
+ SMsgWriter:    copyRect rects 163, bytes 2608
+ SMsgWriter:    hextile rects 772, bytes 13637279
+ SMsgWriter:    raw bytes equivalent 177867362, compression ratio 13.042731
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :19.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :19.0.

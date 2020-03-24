@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<account version='1.0'>
+	<account>
+		<protocol>prpl-bonjour</protocol>
+		<name>stanislavchuk28</name>
+		<alias>станиславчyк</alias>
+		<statuses>
+			<status type='available' name='Available' active='false'>
+				<attributes/>
+			</status>
+			<status type='away' name='Away' active='true'>
+				<attributes>
+					<attribute id='message' value='I&apos;m not here right now'/>
+				</attributes>
+			</status>
+			<status type='offline' name='Offline' active='false'>
+				<attributes/>
+			</status>
+		</statuses>
+		<settings>
+			<setting name='use-global-buddyicon' type='bool'>1</setting>
+			<setting name='first' type='string'>stanislavchuk28</setting>
+			<setting name='port' type='int'>5298</setting>
+			<setting name='email' type='string'></setting>
+			<setting name='last' type='string'></setting>
+			<setting name='AIM' type='string'></setting>
+			<setting name='jid' type='string'></setting>
+		</settings>
+		<settings ui='gtk-gaim'>
+			<setting name='auto-login' type='bool'>1</setting>
+		</settings>
+		<current_error/>
+	</account>
+</account>

@@ -1,0 +1,175 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Nov 15 11:23:28 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5913
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/vyacheslavleva28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :13
+gpg-agent[30127]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:30117): xfce4-session-WARNING **: 11:23:31.606: gpg-agent returned no PID in the variables
+
+(xfce4-session:30117): xfce4-session-WARNING **: 11:23:31.612: xfsm_manager_load_session: Something wrong with /home/is28/vyacheslavleva28/.cache/sessions/xfce4-session-virt-1:13, Does it exist? Permissions issue?
+
+(xfwm4:30131): xfwm4-WARNING **: 11:23:31.660: The display does not support the XRender extension.
+
+(xfwm4:30131): xfwm4-WARNING **: 11:23:31.660: The display does not support the XComposite extension.
+
+(xfwm4:30131): xfwm4-WARNING **: 11:23:31.660: The display does not support the XDamage extension.
+
+(xfwm4:30131): xfwm4-WARNING **: 11:23:31.660: The display does not support the XFixes extension.
+
+(xfwm4:30131): xfwm4-WARNING **: 11:23:31.660: Compositing manager disabled.
+
+** (light-locker:30140): ERROR **: 11:23:31.703: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:30142): GLib-CRITICAL **: 11:23:31.729: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:30142): polkit-gnome-1-WARNING **: 11:23:31.731: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(uint32 1,)
+xfwm4-Message: 11:23:31.822: Unsupported keyboard modifier '<Super>Tab'
+
+(xfsettingsd:30144): xfsettingsd-CRITICAL **: 11:23:31.853: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":13.0".
+
+(xfsettingsd:30144): xfsettingsd-CRITICAL **: 11:23:31.855: XI is not present.
+
+(xfsettingsd:30144): xfsettingsd-CRITICAL **: 11:23:31.858: Failed to initialize the Xkb extension.
+
+(xfsettingsd:30144): xfsettingsd-CRITICAL **: 11:23:31.858: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:23:31.971: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:30241): Gtk-WARNING **: 11:23:32.266: Can't set a parent on widget which has a parent
+
+(nm-applet:30241): Gdk-CRITICAL **: 11:23:32.412: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Nov 15 11:23:41 2019
+ Connections: accepted: 0.0.0.0::54300
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov 15 11:23:47 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.3713" (uid=1268 pid=30231 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.3713" (uid=1268 pid=30231 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.3713" (uid=1268 pid=30231 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(Thunar:30137): Gdk-WARNING **: 11:24:02.249: gdk_window_set_icon_list: icons too large
+
+(Thunar:30137): Gdk-WARNING **: 11:24:51.517: gdk_window_set_icon_list: icons too large
+
+(Thunar:30137): Gdk-WARNING **: 11:25:24.230: gdk_window_set_icon_list: icons too large
+
+(Thunar:30137): Gdk-WARNING **: 11:25:36.325: gdk_window_set_icon_list: icons too large
+
+(Thunar:30137): Gdk-WARNING **: 11:26:09.534: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":13.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+Xlib:  extension "XINERAMA" missing on display ":13.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+Xlib:  extension "XINERAMA" missing on display ":13.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(Thunar:30137): Gdk-WARNING **: 11:28:10.292: gdk_window_set_icon_list: icons too large
+AUDIT: Fri Nov 15 11:28:22 2019: 30101 Xvnc4: client 8 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+AUDIT: Fri Nov 15 11:28:27 2019: 30101 Xvnc4: client 8 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+AUDIT: Fri Nov 15 11:28:34 2019: 30101 Xvnc4: client 8 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+
+(Thunar:30137): Gdk-WARNING **: 11:28:43.579: gdk_window_set_icon_list: icons too large
+AUDIT: Fri Nov 15 11:28:47 2019: 30101 Xvnc4: client 8 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+AUDIT: Fri Nov 15 11:28:49 2019: 30101 Xvnc4: client 8 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+AUDIT: Fri Nov 15 11:28:55 2019: 30101 Xvnc4: client 8 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+AUDIT: Fri Nov 15 11:28:57 2019: 30101 Xvnc4: client 8 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+AUDIT: Fri Nov 15 11:31:55 2019: 30101 Xvnc4: client 8 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+AUDIT: Fri Nov 15 11:32:14 2019: 30101 Xvnc4: client 8 rejected from local host
+No protocol specified
+Unable to init server: Could not connect: Connection refused
+Cannot parse arguments: Cannot open display: 
+Xlib:  extension "XINERAMA" missing on display ":13.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(Thunar:30137): Gdk-WARNING **: 11:39:43.886: gdk_window_set_icon_list: icons too large
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+Fri Nov 15 12:07:34 2019
+ Connections: accepted: 0.0.0.0::50404
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov 15 12:07:41 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(Thunar:30137): Gdk-WARNING **: 12:27:00.590: gdk_window_set_icon_list: icons too large
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+Fri Nov 15 12:44:32 2019
+ Connections: closed: 0.0.0.0::54300 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 20598
+ SMsgWriter:    copyRect rects 12011, bytes 192176
+ SMsgWriter:    hextile rects 97394, bytes 176166406
+ SMsgWriter:    raw bytes equivalent 1413222860, compression ratio 8.022091
+
+Fri Nov 15 12:51:35 2019
+ Connections: closed: 0.0.0.0::50404 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 795
+ SMsgWriter:    copyRect rects 196, bytes 3136
+ SMsgWriter:    hextile rects 4612, bytes 37321925
+ SMsgWriter:    raw bytes equivalent 421900474, compression ratio 11.304360
+
+(xfdesktop:30139): libxfce4ui-WARNING **: 13:43:43.403: ICE I/O Error
+
+(xfdesktop:30139): libxfce4ui-WARNING **: 13:43:43.445: Disconnected from session manager.
+
+(xfdesktop:30139): GVFS-RemoteVolumeMonitor-WARNING **: 13:43:49.090: Owner of volume monitor org.gtk.vfs.GoaVolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(xfdesktop:30139): GVFS-RemoteVolumeMonitor-WARNING **: 13:43:49.090: Owner of volume monitor org.gtk.vfs.UDisks2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(xfdesktop:30139): GVFS-RemoteVolumeMonitor-WARNING **: 13:43:49.090: Owner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :13.0.
+xfdesktop: Fatal IO error 25 (Inappropriate ioctl for device) on X server :13.0.

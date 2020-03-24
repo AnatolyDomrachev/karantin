@@ -1,0 +1,208 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Feb 27 09:45:49 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5910
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/pavlov28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :10
+gpg-agent[7827]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:7817): xfce4-session-WARNING **: 09:45:52.736: gpg-agent returned no PID in the variables
+
+(xfce4-session:7817): xfce4-session-WARNING **: 09:45:52.740: xfsm_manager_load_session: Something wrong with /home/is28/pavlov28/.cache/sessions/xfce4-session-virt-1:10, Does it exist? Permissions issue?
+
+(xfwm4:7831): xfwm4-WARNING **: 09:45:52.773: The display does not support the XRender extension.
+
+(xfwm4:7831): xfwm4-WARNING **: 09:45:52.773: The display does not support the XComposite extension.
+
+(xfwm4:7831): xfwm4-WARNING **: 09:45:52.773: The display does not support the XDamage extension.
+
+(xfwm4:7831): xfwm4-WARNING **: 09:45:52.773: The display does not support the XFixes extension.
+
+(xfwm4:7831): xfwm4-WARNING **: 09:45:52.773: Compositing manager disabled.
+
+** (light-locker:7846): ERROR **: 09:45:52.821: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+(uint32 1,)
+
+(polkit-gnome-authentication-agent-1:7852): GLib-CRITICAL **: 09:45:52.847: g_variant_new_string: assertion 'string != NULL' failed
+xfwm4-Message: 09:45:52.848: Unsupported keyboard modifier '<Super>Tab'
+
+(polkit-gnome-authentication-agent-1:7852): polkit-gnome-1-WARNING **: 09:45:52.849: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:7849): xfsettingsd-CRITICAL **: 09:45:52.889: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":10.0".
+
+(xfsettingsd:7849): xfsettingsd-CRITICAL **: 09:45:52.890: XI is not present.
+
+(xfsettingsd:7849): xfsettingsd-CRITICAL **: 09:45:52.891: Failed to initialize the Xkb extension.
+
+(xfsettingsd:7849): xfsettingsd-CRITICAL **: 09:45:52.891: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:45:52.941: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:7952): Gtk-WARNING **: 09:45:53.089: Can't set a parent on widget which has a parent
+
+(nm-applet:7952): Gdk-CRITICAL **: 09:45:53.233: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Thu Feb 27 09:45:57 2020
+ Connections: accepted: 0.0.0.0::49398
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Feb 27 09:46:01 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.374" (uid=1280 pid=7940 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.374" (uid=1280 pid=7940 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.374" (uid=1280 pid=7940 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:7994): Gdk-WARNING **: 09:46:14.436: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(wrapper-1.0:7994): Gdk-WARNING **: 09:46:14.436: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Thu Feb 27 09:47:48 2020
+ XserverDesktop: Added unknown keysym 0x6f7 to keycode 255
+xfwm4-Message: 09:47:48.269: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:47:49 2020
+ XserverDesktop: Added unknown keysym 0x6d9 to keycode 254
+xfwm4-Message: 09:47:49.814: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6cf to keycode 253
+
+Thu Feb 27 09:47:50 2020
+ XserverDesktop: Added unknown keysym 0x6c4 to keycode 252
+ XserverDesktop: Added unknown keysym 0x6c3 to keycode 251
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 250
+ XserverDesktop: Added unknown keysym 0x6cc to keycode 249
+xfwm4-Message: 09:47:50.933: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6ca to keycode 248
+xfwm4-Message: 09:47:51.190: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:47:51 2020
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 247
+xfwm4-Message: 09:47:51.469: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6d2 to keycode 246
+xfwm4-Message: 09:47:52.053: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:47:52 2020
+ XserverDesktop: Added unknown keysym 0x6c2 to keycode 245
+xfwm4-Message: 09:47:52.382: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:47:53 2020
+ XserverDesktop: Added unknown keysym 0x6ce to keycode 244
+xfwm4-Message: 09:47:53.641: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:47:54 2020
+ XserverDesktop: Added unknown keysym 0x6de to keycode 243
+ XserverDesktop: Added unknown keysym 0x6c1 to keycode 242
+ XserverDesktop: Added unknown keysym 0x6d3 to keycode 241
+ XserverDesktop: Added unknown keysym 0x6d4 to keycode 240
+xfwm4-Message: 09:47:54.902: Unsupported keyboard modifier '<Super>Tab'
+
+(Thunar:7837): Gdk-WARNING **: 09:49:07.437: gdk_window_set_icon_list: icons too large
+
+Thu Feb 27 09:49:39 2020
+ XserverDesktop: Added unknown keysym 0x6da to keycode 239
+ XserverDesktop: Added unknown keysym 0x6cb to keycode 238
+ XserverDesktop: Added unknown keysym 0x6dd to keycode 237
+ XserverDesktop: Added unknown keysym 0x6d0 to keycode 236
+xfwm4-Message: 09:49:39.997: Unsupported keyboard modifier '<Super>Tab'
+
+(gedit:11508): Gtk-WARNING **: 09:49:49.603: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Thu Feb 27 09:53:51 2020
+ XserverDesktop: Added unknown keysym 0xf3 to keycode 235
+
+Thu Feb 27 09:53:52 2020
+ XserverDesktop: Added unknown keysym 0x6cd to keycode 234
+xfwm4-Message: 09:53:52.366: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:53:55 2020
+ XserverDesktop: Added unknown keysym 0x6c6 to keycode 233
+xfwm4-Message: 09:53:55.685: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:54:56 2020
+ XserverDesktop: Added unknown keysym 0x6d1 to keycode 232
+xfwm4-Message: 09:54:57.086: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 09:57:44 2020
+ XserverDesktop: Added unknown keysym 0x6db to keycode 231
+xfwm4-Message: 09:57:44.471: Unsupported keyboard modifier '<Super>Tab'
+
+(gedit:22223): Gtk-WARNING **: 10:11:47.919: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(gedit:24211): Gtk-WARNING **: 10:20:15.504: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(Thunar:7837): Gdk-WARNING **: 10:20:56.768: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":10.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+Xlib:  extension "XINERAMA" missing on display ":10.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(Thunar:7837): Gdk-WARNING **: 10:22:25.975: gdk_window_set_icon_list: icons too large
+
+Thu Feb 27 10:25:22 2020
+ XserverDesktop: Added unknown keysym 0x6d8 to keycode 230
+xfwm4-Message: 10:25:22.600: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:25:30 2020
+ XserverDesktop: Added unknown keysym 0x6c7 to keycode 229
+xfwm4-Message: 10:25:30.809: Unsupported keyboard modifier '<Super>Tab'
+
+Thu Feb 27 10:26:33 2020
+ XserverDesktop: Added unknown keysym 0x6a3 to keycode 228
+ XserverDesktop: Added unknown keysym 0x6c8 to keycode 227
+xfwm4-Message: 10:26:33.858: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:7952): Gtk-CRITICAL **: 10:32:51.332: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7952): Gtk-CRITICAL **: 10:32:51.332: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7952): Gtk-WARNING **: 10:32:51.333: Can't set a parent on widget which has a parent
+
+(nm-applet:7952): Gtk-CRITICAL **: 10:32:56.668: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7952): Gtk-CRITICAL **: 10:32:56.668: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:7952): Gtk-WARNING **: 10:32:56.670: Can't set a parent on widget which has a parent
+
+(gedit:27612): Gtk-WARNING **: 10:40:45.383: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+Thu Feb 27 10:44:05 2020
+ XserverDesktop: Added unknown keysym 0x6d6 to keycode 226
+xfwm4-Message: 10:44:05.337: Unsupported keyboard modifier '<Super>Tab'
+
+(Thunar:7837): Gdk-WARNING **: 10:47:53.345: gdk_window_set_icon_list: icons too large
+
+Thu Feb 27 10:53:40 2020
+ Connections: closed: 0.0.0.0::49398 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 19272
+ SMsgWriter:    copyRect rects 22398, bytes 358368
+ SMsgWriter:    hextile rects 58755, bytes 98659362
+ SMsgWriter:    raw bytes equivalent 1047896078, compression ratio 10.621355
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.374" (uid=1280 pid=7940 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (uid=0 pid=63953 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")
+
+Received signal:15->'Terminated'
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+xfdesktop: Fatal IO error 4 (Interrupted system call) on X server :10.0.

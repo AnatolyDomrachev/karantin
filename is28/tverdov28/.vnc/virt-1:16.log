@@ -1,0 +1,139 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Nov  1 11:44:16 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5916
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/tverdov28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :16
+gpg-agent[12102]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:12085): xfce4-session-WARNING **: 11:44:19.913: gpg-agent returned no PID in the variables
+
+(xfce4-session:12085): xfce4-session-WARNING **: 11:44:19.918: xfsm_manager_load_session: Something wrong with /home/is28/tverdov28/.cache/sessions/xfce4-session-virt-1:16, Does it exist? Permissions issue?
+
+(xfwm4:12106): xfwm4-WARNING **: 11:44:19.948: The display does not support the XRender extension.
+
+(xfwm4:12106): xfwm4-WARNING **: 11:44:19.949: The display does not support the XComposite extension.
+
+(xfwm4:12106): xfwm4-WARNING **: 11:44:19.950: The display does not support the XDamage extension.
+
+(xfwm4:12106): xfwm4-WARNING **: 11:44:19.950: The display does not support the XFixes extension.
+
+(xfwm4:12106): xfwm4-WARNING **: 11:44:19.950: Compositing manager disabled.
+(uint32 1,)
+
+** (light-locker:12115): ERROR **: 11:44:19.989: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:12117): GLib-CRITICAL **: 11:44:20.028: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:12117): polkit-gnome-1-WARNING **: 11:44:20.029: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 11:44:20.030: Unsupported keyboard modifier '<Super>Tab'
+
+(xfsettingsd:12118): xfsettingsd-CRITICAL **: 11:44:20.103: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":16.0".
+
+(xfsettingsd:12118): xfsettingsd-CRITICAL **: 11:44:20.103: XI is not present.
+
+(xfsettingsd:12118): xfsettingsd-CRITICAL **: 11:44:20.105: Failed to initialize the Xkb extension.
+
+(xfsettingsd:12118): xfsettingsd-CRITICAL **: 11:44:20.106: Failed to initialize the Accessibility extension.
+
+(xfsettingsd:12118): GLib-CRITICAL **: 11:44:20.108: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:12118): GLib-GObject-CRITICAL **: 11:44:20.111: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:12118): GLib-GObject-CRITICAL **: 11:44:20.129: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+xfwm4-Message: 11:44:20.188: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:12224): Gtk-WARNING **: 11:44:20.421: Can't set a parent on widget which has a parent
+
+Fri Nov  1 11:44:29 2019
+ Connections: accepted: 0.0.0.0::50499
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov  1 11:44:33 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.558" (uid=1284 pid=12199 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.558" (uid=1284 pid=12199 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.558" (uid=1284 pid=12199 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(nm-applet:12224): Gdk-CRITICAL **: 11:44:40.094: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+
+(Thunar:12112): Gdk-WARNING **: 11:45:10.148: gdk_window_set_icon_list: icons too large
+
+(Thunar:12112): Gdk-WARNING **: 11:45:51.453: gdk_window_set_icon_list: icons too large
+
+(Thunar:12112): Gdk-WARNING **: 11:45:55.613: gdk_window_set_icon_list: icons too large
+
+(Thunar:12112): Gdk-WARNING **: 11:51:08.872: gdk_window_set_icon_list: icons too large
+
+(polkit-gnome-authentication-agent-1:12117): polkit-gnome-1-WARNING **: 11:51:29.175: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:12117): polkit-gnome-1-WARNING **: 11:51:29.177: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 11:51:29.207: GtkDialog mapped without a transient parent. This is discouraged.
+
+(Thunar:12112): Gdk-WARNING **: 11:52:47.831: gdk_window_set_icon_list: icons too large
+
+(Thunar:12112): Gdk-WARNING **: 11:52:54.178: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":16.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(soffice:16180): GLib-GObject-WARNING **: 11:53:03.578: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x55c6b82259f0' of type 'OOoAtkObjCompTxt'
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(Thunar:12112): Gdk-WARNING **: 11:53:40.315: gdk_window_set_icon_list: icons too large
+
+(Thunar:12112): Gdk-WARNING **: 11:54:45.516: gdk_window_set_icon_list: icons too large
+
+(Thunar:12112): Gdk-WARNING **: 11:56:06.044: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":16.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(Thunar:12112): Gdk-WARNING **: 12:07:21.120: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":16.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(Thunar:12112): Gdk-WARNING **: 12:08:14.152: gdk_window_set_icon_list: icons too large
+
+(Thunar:12112): Gdk-WARNING **: 12:08:24.920: gdk_window_set_icon_list: icons too large
+# Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached
+# Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached
+# Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached
+# Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached
+# Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached
+# Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached
+# Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached
+# Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached
+
+Fri Nov  1 12:26:11 2019
+ Connections: closed: 0.0.0.0::50499 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 12597
+ SMsgWriter:    copyRect rects 5435, bytes 86960
+ SMsgWriter:    hextile rects 388632, bytes 103067972
+ SMsgWriter:    raw bytes equivalent 1146883698, compression ratio 11.127450
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :16.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :16.0.

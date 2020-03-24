@@ -1,0 +1,447 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Dec 13 11:20:52 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5903
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/beresnev28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :3
+gpg-agent[15535]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:15525): xfce4-session-WARNING **: 11:20:56.354: gpg-agent returned no PID in the variables
+
+(xfce4-session:15525): xfce4-session-WARNING **: 11:20:56.355: xfsm_manager_load_session: Something wrong with /home/is28/beresnev28/.cache/sessions/xfce4-session-virt-1:3, Does it exist? Permissions issue?
+
+** (light-locker:15548): ERROR **: 11:20:56.721: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(xfwm4:15539): xfwm4-WARNING **: 11:20:56.786: The display does not support the XRender extension.
+
+(xfwm4:15539): xfwm4-WARNING **: 11:20:56.786: The display does not support the XComposite extension.
+
+(xfwm4:15539): xfwm4-WARNING **: 11:20:56.786: The display does not support the XDamage extension.
+
+(xfwm4:15539): xfwm4-WARNING **: 11:20:56.786: The display does not support the XFixes extension.
+
+(xfwm4:15539): xfwm4-WARNING **: 11:20:56.786: Compositing manager disabled.
+
+(polkit-gnome-authentication-agent-1:15571): GLib-CRITICAL **: 11:20:56.834: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:15571): polkit-gnome-1-WARNING **: 11:20:56.836: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 11:20:57.025: Unsupported keyboard modifier '<Super>Tab'
+(uint32 1,)
+
+(xfsettingsd:15559): xfsettingsd-CRITICAL **: 11:20:58.336: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":3.0".
+
+(xfsettingsd:15559): xfsettingsd-CRITICAL **: 11:20:58.337: XI is not present.
+
+(xfsettingsd:15559): xfsettingsd-CRITICAL **: 11:20:58.337: Failed to initialize the Xkb extension.
+
+(xfsettingsd:15559): xfsettingsd-CRITICAL **: 11:20:58.338: Failed to initialize the Accessibility extension.
+
+(nm-applet:15677): Gtk-WARNING **: 11:20:58.452: Can't set a parent on widget which has a parent
+xfwm4-Message: 11:20:59.011: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:15677): Gdk-CRITICAL **: 11:20:59.258: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Dec 13 11:21:00 2019
+ Connections: accepted: 0.0.0.0::50013
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Dec 13 11:21:03 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.1891" (uid=1266 pid=15657 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.1891" (uid=1266 pid=15657 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.1891" (uid=1266 pid=15657 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:15709): Gdk-WARNING **: 11:21:24.161: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(Thunar:15545): Gdk-WARNING **: 11:21:34.462: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":3.0".
+
+Fri Dec 13 11:37:50 2019
+ Connections: accepted: 0.0.0.0::51756
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Dec 13 11:37:54 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(soffice:16504): GLib-GObject-WARNING **: 11:41:51.954: ../../../../gobject/gsignal.c:3492: signal name 'selection_changed' is invalid for instance '0x5631ba1066a0' of type 'OOoAtkObjCompTxt'
+
+(x-terminal-emulator:15831): Gdk-CRITICAL **: 11:42:42.395: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+(gedit:27637): Gtk-WARNING **: 12:26:00.747: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+
+(quadrapassel:32074): Gdk-ERROR **: 12:27:22.167: The program 'quadrapassel' received an X Window System error.
+This probably reflects a bug in the program.
+The error was 'BadRequest (invalid request code or no such operation)'.
+  (Details: serial 99 error_code 1 request_code 149 (RANDR) minor_code 8)
+  (Note to programmers: normally, X errors are reported asynchronously;
+   that is, you will receive the error a while after causing it.
+   To debug your program, run it with the GDK_SYNCHRONIZE environment
+   variable to change this behavior. You can then get a meaningful
+   backtrace from your debugger if you break on the gdk_x_error() function.)
+
+(quadrapassel:32086): Gdk-ERROR **: 12:27:37.923: The program 'quadrapassel' received an X Window System error.
+This probably reflects a bug in the program.
+The error was 'BadRequest (invalid request code or no such operation)'.
+  (Details: serial 99 error_code 1 request_code 149 (RANDR) minor_code 8)
+  (Note to programmers: normally, X errors are reported asynchronously;
+   that is, you will receive the error a while after causing it.
+   To debug your program, run it with the GDK_SYNCHRONIZE environment
+   variable to change this behavior. You can then get a meaningful
+   backtrace from your debugger if you break on the gdk_x_error() function.)
+
+(lightsoff:32174): Gdk-ERROR **: 12:28:35.433: The program 'lightsoff' received an X Window System error.
+This probably reflects a bug in the program.
+The error was 'BadRequest (invalid request code or no such operation)'.
+  (Details: serial 99 error_code 1 request_code 149 (RANDR) minor_code 8)
+  (Note to programmers: normally, X errors are reported asynchronously;
+   that is, you will receive the error a while after causing it.
+   To debug your program, run it with the GDK_SYNCHRONIZE environment
+   variable to change this behavior. You can then get a meaningful
+   backtrace from your debugger if you break on the gdk_x_error() function.)
+
+(quadrapassel:32385): Gdk-ERROR **: 12:31:07.332: The program 'quadrapassel' received an X Window System error.
+This probably reflects a bug in the program.
+The error was 'BadRequest (invalid request code or no such operation)'.
+  (Details: serial 98 error_code 1 request_code 149 (RANDR) minor_code 8)
+  (Note to programmers: normally, X errors are reported asynchronously;
+   that is, you will receive the error a while after causing it.
+   To debug your program, run it with the GDK_SYNCHRONIZE environment
+   variable to change this behavior. You can then get a meaningful
+   backtrace from your debugger if you break on the gdk_x_error() function.)
+Trace/breakpoint trap (core dumped)
+
+** (iagno:32420): WARNING **: 12:31:53.572: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:31:55.572: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:31:57.855: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:31:59.855: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:02.965: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:04.967: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:13.407: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:15.409: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:18.471: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:20.471: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:30.223: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:32.223: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:34.343: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:36.343: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:45.123: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:32:47.124: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:05.664: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:07.665: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:09.429: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:11.431: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:11.631: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:13.632: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:16.471: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:18.471: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:19.247: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:21.248: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:31.943: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:33.944: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:52.043: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:33:54.044: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:01.135: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:03.135: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:05.023: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:07.022: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:10.784: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:12.785: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:13.754: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:15.755: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:23.191: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:25.192: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:28.646: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:30.647: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:45.326: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:47.328: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:53.074: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:34:55.074: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:01.774: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:03.774: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:03.774: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:05.774: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:05.774: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:07.775: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:14.446: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:16.447: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:21.366: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:23.367: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:25.571: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:27.573: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:30.487: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:32.487: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:38.366: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:35:40.366: iagno.vala:486: Error playing /usr/share/iagno/sounds/gameover.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:00.663: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:02.663: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:05.164: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:07.164: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:11.402: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:13.403: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:19.280: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:21.280: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:25.189: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:27.189: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:28.940: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:30.941: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:32.191: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:34.192: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:34.942: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:36.942: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:39.491: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:41.491: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:44.195: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:46.196: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:49.572: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:51.573: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:52.807: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:36:54.808: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:37:01.653: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:37:03.653: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:37:08.843: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:37:10.843: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:37:32.010: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:37:34.012: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:37:37.872: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:37:39.873: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:37:54.049: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:37:56.050: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:05.131: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:07.132: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:11.711: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:13.711: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:17.963: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:19.964: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:23.965: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:25.966: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:35.030: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:37.031: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:49.831: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:38:51.832: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:06.153: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:08.154: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:14.344: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:16.344: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:25.568: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:27.569: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:32.194: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:34.196: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:41.621: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:43.621: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:51.757: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:53.756: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:57.908: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:39:59.908: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:02.304: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:04.305: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:16.994: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:18.995: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:20.756: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:22.758: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:25.905: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:27.905: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:30.297: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:32.297: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:36.095: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:38.096: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:43.474: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:40:45.475: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:41:03.624: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:41:05.625: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:41:10.485: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:41:12.486: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:41:16.534: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:41:18.535: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:41:21.629: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:41:23.630: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:41:32.430: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+** (iagno:32420): WARNING **: 12:41:34.431: iagno.vala:486: Error playing /usr/share/iagno/sounds/flip-piece.ogg: Sound disabled
+
+Fri Dec 13 12:42:05 2019
+ Connections: closed: 0.0.0.0::50013 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 51550
+ SMsgWriter:    copyRect rects 10597, bytes 169552
+ SMsgWriter:    hextile rects 436072, bytes 209081913
+ SMsgWriter:    raw bytes equivalent 69860368, compression ratio 0.334129
+
+Fri Dec 13 12:46:40 2019
+ Connections: closed: 0.0.0.0::51756 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 2000
+ SMsgWriter:    copyRect rects 2796, bytes 44736
+ SMsgWriter:    hextile rects 18516, bytes 62150234
+ SMsgWriter:    raw bytes equivalent 767551648, compression ratio 12.349940
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :3.0.

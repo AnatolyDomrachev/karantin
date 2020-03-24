@@ -1,0 +1,100 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Feb 27 09:45:07 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5905
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/maznicyn28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :5
+gpg-agent[5389]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:5379): xfce4-session-WARNING **: 09:45:10.593: gpg-agent returned no PID in the variables
+
+(xfce4-session:5379): xfce4-session-WARNING **: 09:45:10.626: xfsm_manager_load_session: Something wrong with /home/is28/maznicyn28/.cache/sessions/xfce4-session-virt-1:5, Does it exist? Permissions issue?
+
+(xfwm4:5393): xfwm4-WARNING **: 09:45:10.655: The display does not support the XRender extension.
+
+(xfwm4:5393): xfwm4-WARNING **: 09:45:10.655: The display does not support the XComposite extension.
+
+(xfwm4:5393): xfwm4-WARNING **: 09:45:10.655: The display does not support the XDamage extension.
+
+(xfwm4:5393): xfwm4-WARNING **: 09:45:10.655: The display does not support the XFixes extension.
+
+(xfwm4:5393): xfwm4-WARNING **: 09:45:10.655: Compositing manager disabled.
+
+** (light-locker:5402): ERROR **: 09:45:10.686: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:5407): GLib-CRITICAL **: 09:45:10.702: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:5407): polkit-gnome-1-WARNING **: 09:45:10.704: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+xfwm4-Message: 09:45:10.712: Unsupported keyboard modifier '<Super>Tab'
+(uint32 1,)
+
+(xfsettingsd:5404): xfsettingsd-CRITICAL **: 09:45:10.779: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":5.0".
+
+(xfsettingsd:5404): xfsettingsd-CRITICAL **: 09:45:10.781: XI is not present.
+
+(xfsettingsd:5404): xfsettingsd-CRITICAL **: 09:45:10.781: Failed to initialize the Xkb extension.
+
+(xfsettingsd:5404): xfsettingsd-CRITICAL **: 09:45:10.781: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:45:10.826: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:5509): Gtk-WARNING **: 09:45:10.913: Can't set a parent on widget which has a parent
+
+(nm-applet:5509): Gdk-CRITICAL **: 09:45:11.057: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.199" (uid=1278 pid=5470 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.199" (uid=1278 pid=5470 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.199" (uid=1278 pid=5470 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:5553): Gdk-WARNING **: 09:45:13.791: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(wrapper-1.0:5553): Gdk-WARNING **: 09:45:13.792: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Thu Feb 27 09:45:14 2020
+ Connections: accepted: 0.0.0.0::49371
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Feb 27 09:45:20 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+[2020-02-27T06:45:41Z ERROR audio_thread_priority::rt_linux] setrlimit64: 1
+
+(nm-applet:5509): Gtk-CRITICAL **: 10:32:51.317: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:5509): Gtk-CRITICAL **: 10:32:51.317: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:5509): Gtk-WARNING **: 10:32:51.318: Can't set a parent on widget which has a parent
+
+(nm-applet:5509): Gtk-CRITICAL **: 10:32:56.657: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:5509): Gtk-CRITICAL **: 10:32:56.657: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(nm-applet:5509): Gtk-WARNING **: 10:32:56.658: Can't set a parent on widget which has a parent
+
+Thu Feb 27 10:59:19 2020
+ Connections: closed: 0.0.0.0::49371 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 14033
+ SMsgWriter:    hextile rects 1252043, bytes 1861601621
+ SMsgWriter:    raw bytes equivalent 244775338, compression ratio 0.131486
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.199" (uid=1278 pid=5470 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (uid=0 pid=63953 comm="/usr/lib/bluetooth/bluetoothd " label="unconfined")
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :5.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :5.0.

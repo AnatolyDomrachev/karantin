@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=/usr/lib/x86_64-linux-gnu/Thunar/thunar-sendto-email %F
+Name=Mail Recipient
+NoDisplay=true

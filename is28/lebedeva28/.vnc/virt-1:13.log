@@ -1,0 +1,316 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Nov 29 11:28:23 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5913
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/lebedeva28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :13
+gpg-agent[2525]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:2513): xfce4-session-WARNING **: 11:28:26.705: gpg-agent returned no PID in the variables
+
+(xfce4-session:2513): xfce4-session-WARNING **: 11:28:26.707: xfsm_manager_load_session: Something wrong with /home/is28/lebedeva28/.cache/sessions/xfce4-session-virt-1:13, Does it exist? Permissions issue?
+
+(xfwm4:2528): xfwm4-WARNING **: 11:28:26.750: The display does not support the XRender extension.
+
+(xfwm4:2528): xfwm4-WARNING **: 11:28:26.750: The display does not support the XComposite extension.
+
+(xfwm4:2528): xfwm4-WARNING **: 11:28:26.750: The display does not support the XDamage extension.
+
+(xfwm4:2528): xfwm4-WARNING **: 11:28:26.750: The display does not support the XFixes extension.
+
+(xfwm4:2528): xfwm4-WARNING **: 11:28:26.750: Compositing manager disabled.
+(uint32 2,)
+
+** (light-locker:2550): ERROR **: 11:28:26.783: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+xfwm4-Message: 11:28:26.791: Unsupported keyboard modifier '<Super>Tab'
+
+(polkit-gnome-authentication-agent-1:2557): GLib-CRITICAL **: 11:28:26.804: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:2557): polkit-gnome-1-WARNING **: 11:28:26.806: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:2549): xfsettingsd-CRITICAL **: 11:28:26.917: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":13.0".
+
+(xfsettingsd:2549): xfsettingsd-CRITICAL **: 11:28:26.918: XI is not present.
+
+(xfsettingsd:2549): xfsettingsd-CRITICAL **: 11:28:26.918: Failed to initialize the Xkb extension.
+
+(xfsettingsd:2549): xfsettingsd-CRITICAL **: 11:28:26.919: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:28:26.968: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:2652): Gtk-WARNING **: 11:28:27.085: Can't set a parent on widget which has a parent
+
+(tracker-miner-apps:2619): Tracker-CRITICAL **: 11:28:27.174: Could not request DBus name 'org.freedesktop.Tracker1.Miner.Applications': D-Bus service name:'org.freedesktop.Tracker1.Miner.Applications' is already taken, perhaps the application is already running?
+
+(tracker-extract:2582): Tracker-CRITICAL **: 11:28:27.185: Could not request DBus name 'org.freedesktop.Tracker1.Miner.Extract': D-Bus service name:'org.freedesktop.Tracker1.Miner.Extract' is already taken, perhaps the application is already running?
+
+(tracker-miner-fs:2561): Tracker-CRITICAL **: 11:28:27.235: Could not request DBus name 'org.freedesktop.Tracker1.Miner.Files': D-Bus service name:'org.freedesktop.Tracker1.Miner.Files' is already taken, perhaps the application is already running?
+
+(nm-applet:2652): Gdk-CRITICAL **: 11:28:27.238: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Nov 29 11:28:33 2019
+ Connections: accepted: 0.0.0.0::50153
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov 29 11:28:42 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.7199" (uid=1275 pid=2650 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.7199" (uid=1275 pid=2650 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.7199" (uid=1275 pid=2650 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:2731): Gdk-WARNING **: 11:28:43.248: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(wrapper-1.0:2731): Gdk-WARNING **: 11:28:43.248: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+/usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk
+WARNING:root:timeout reached, exiting
+
+Fri Nov 29 11:32:35 2019
+ XserverDesktop: Added unknown keysym 0x6f7 to keycode 255
+xfwm4-Message: 11:32:35.446: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:32:37 2019
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 254
+ XserverDesktop: Added unknown keysym 0x6c4 to keycode 253
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 252
+ XserverDesktop: Added unknown keysym 0x6d4 to keycode 251
+xfwm4-Message: 11:32:38.142: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:32:39 2019
+ XserverDesktop: Added unknown keysym 0x6de to keycode 250
+xfwm4-Message: 11:32:40.014: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:32:40 2019
+ XserverDesktop: Added unknown keysym 0x6d3 to keycode 249
+ XserverDesktop: Added unknown keysym 0x6cc to keycode 248
+xfwm4-Message: 11:32:40.718: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6cf to keycode 247
+xfwm4-Message: 11:32:40.974: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:32:44 2019
+ XserverDesktop: Added unknown keysym 0x6f6 to keycode 246
+xfwm4-Message: 11:32:44.397: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:34:42 2019
+ XserverDesktop: Added unknown keysym 0x6dc to keycode 245
+xfwm4-Message: 11:34:42.828: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:34:48 2019
+ XserverDesktop: Added unknown keysym 0x6d2 to keycode 244
+ XserverDesktop: Added unknown keysym 0x6da to keycode 243
+ XserverDesktop: Added unknown keysym 0xf3 to keycode 242
+xfwm4-Message: 11:34:48.788: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6d8 to keycode 241
+xfwm4-Message: 11:34:49.180: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:34:51 2019
+ XserverDesktop: Added unknown keysym 0x6c1 to keycode 240
+xfwm4-Message: 11:34:51.892: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:34:53 2019
+ XserverDesktop: Added unknown keysym 0x6c2 to keycode 239
+xfwm4-Message: 11:34:53.588: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6d9 to keycode 238
+
+Fri Nov 29 11:34:54 2019
+ XserverDesktop: Added unknown keysym 0x6d0 to keycode 237
+xfwm4-Message: 11:34:54.276: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6c7 to keycode 236
+xfwm4-Message: 11:34:54.732: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6cd to keycode 235
+xfwm4-Message: 11:34:55.092: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:36:40 2019
+ XserverDesktop: Added unknown keysym 0x6ce to keycode 234
+xfwm4-Message: 11:36:40.644: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:36:41 2019
+ XserverDesktop: Added unknown keysym 0x6c0 to keycode 233
+xfwm4-Message: 11:36:41.668: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6dd to keycode 232
+xfwm4-Message: 11:36:41.980: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 11:36:44 2019
+ XserverDesktop: Added unknown keysym 0x6ca to keycode 231
+xfwm4-Message: 11:36:44.483: Unsupported keyboard modifier '<Super>Tab'
+
+(Thunar:2541): Gdk-WARNING **: 11:47:21.066: gdk_window_set_icon_list: icons too large
+
+(Thunar:2541): Gdk-WARNING **: 11:48:06.525: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":13.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+Fri Nov 29 11:50:19 2019
+ XserverDesktop: Added unknown keysym 0x6cb to keycode 230
+xfwm4-Message: 11:50:20.074: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 12:02:47 2019
+ XserverDesktop: Added unknown keysym 0x6c6 to keycode 229
+xfwm4-Message: 12:02:47.872: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Nov 29 12:07:48 2019
+ XserverDesktop: Added unknown keysym 0x6c3 to keycode 228
+xfwm4-Message: 12:07:49.005: Unsupported keyboard modifier '<Super>Tab'
+
+(Thunar:2541): Gdk-WARNING **: 12:14:11.708: gdk_window_set_icon_list: icons too large
+
+(Thunar:2541): Gdk-WARNING **: 12:14:58.614: gdk_window_set_icon_list: icons too large
+Xlib:  extension "XINERAMA" missing on display ":13.0".
+func=xmlSecCheckVersionExt:file=xmlsec.c:line=188:obj=unknown:subj=unknown:error=19:invalid version:mode=abi compatible;expected minor version=2;real minor version=2;expected subminor version=25;real subminor version=26
+
+Fri Nov 29 12:45:48 2019
+ Connections: closed: 0.0.0.0::50153 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 12492
+ SMsgWriter:    copyRect rects 6517, bytes 104272
+ SMsgWriter:    hextile rects 49046, bytes 106623963
+ SMsgWriter:    raw bytes equivalent 973215888, compression ratio 9.127553
+xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.
+Gdk-Message: 11:32:29.291: polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+
+Gdk-Message: 11:32:29.292: blueman-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+
+xfce4-panel: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+Thunar: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+Gdk-Message: 11:32:29.290: update-notifier: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+
+Gdk-Message: 11:32:29.290: nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+Gdk-Message: 11:32:29.298: xfce4-terminal: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+
+wrapper-1.0: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+Gdk-Message: 11:32:29.291: evolution-alarm-notify: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+
+medit: Fatal IO error 11 (Resource temporarily unavailable) on X server :13.0.
+/usr/share/system-config-printer/applet.py:45: PyGIWarning: Notify was imported without specifying a version first. Use gi.require_version('Notify', '0.7') before import to ensure that the right version gets loaded.
+  from gi.repository import Notify
+system-config-printer-applet: failed to start NewPrinterNotification service
+system-config-printer-applet: failed to start PrinterDriversInstaller service: org.freedesktop.DBus.Error.AccessDenied: Connection ":1.7197" is not allowed to own the service "com.redhat.PrinterDriversInstaller" due to security policies in the configuration file
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 11 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 15 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 16 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 20 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 24 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 26 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 28 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 30 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 34 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 36 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 40 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 41 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 45 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 47 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 49 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 53 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 55 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 59 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 60 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 64 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 66 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 67 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 71 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 73 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 74 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 78 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 80 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 82 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 86 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 87 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 91 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 93 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 94 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 98 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 100 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 101 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 102 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 103 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 104 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 106 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 108 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 110 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 111 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 115 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 117 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 118 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 122 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 124 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 126 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 130 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 132 was not found when attempting to remove it
+  GLib.source_remove (self.timer)
+/usr/share/system-config-printer/applet.py:358: Warning: Source ID 138 was not found when attempting to remove it
+  GLib.source_remove (self.timer)

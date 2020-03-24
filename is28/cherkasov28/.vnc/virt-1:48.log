@@ -1,0 +1,54 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Sep 13 08:43:36 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5948
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+
+(x-window-manager:59398): xfwm4-WARNING **: 08:43:39.857: The display does not support the XRender extension.
+
+(x-window-manager:59398): xfwm4-WARNING **: 08:43:39.857: The display does not support the XComposite extension.
+
+(x-window-manager:59398): xfwm4-WARNING **: 08:43:39.858: The display does not support the XDamage extension.
+
+(x-window-manager:59398): xfwm4-WARNING **: 08:43:39.858: The display does not support the XFixes extension.
+
+(x-window-manager:59398): xfwm4-WARNING **: 08:43:39.858: Compositing manager disabled.
+
+(x-window-manager:59398): GLib-CRITICAL **: 08:43:39.876: g_str_has_prefix: assertion 'prefix != NULL' failed
+# Failed to parse arguments: Unknown option --login
+
+(x-window-manager:59398): xfwm4-WARNING **: 08:43:39.963: The property '/general/double_click_distance' of type int is not supported
+xfwm4-Message: 08:43:40.036: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.060: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.088: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.114: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.134: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.158: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.177: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.207: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.230: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.253: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.279: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.303: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.328: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.353: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:43:40.379: Unsupported keyboard modifier '<Super>Tab'
+
+(x-window-manager:59398): xfwm4-WARNING **: 08:43:40.383: Cannot find visual format on screen 0
+
+(x-window-manager:59398): xfwm4-WARNING **: 08:43:40.389: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+x-window-manager: Fatal IO error 4 (Interrupted system call) on X server :48.

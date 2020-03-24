@@ -1,0 +1,102 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Sep 13 08:26:16 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5912
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+
+(x-window-manager:52095): xfwm4-WARNING **: 08:26:19.819: The display does not support the XRender extension.
+
+(x-window-manager:52095): xfwm4-WARNING **: 08:26:19.819: The display does not support the XComposite extension.
+
+(x-window-manager:52095): xfwm4-WARNING **: 08:26:19.820: The display does not support the XDamage extension.
+
+(x-window-manager:52095): xfwm4-WARNING **: 08:26:19.820: The display does not support the XFixes extension.
+
+(x-window-manager:52095): xfwm4-WARNING **: 08:26:19.820: Compositing manager disabled.
+# Failed to parse arguments: Unknown option --login
+xfwm4-Message: 08:26:19.896: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 08:26:19.915: Unsupported keyboard modifier '<Super>Tab'
+
+(x-window-manager:52095): xfwm4-WARNING **: 08:26:19.920: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+Fri Sep 13 08:28:33 2019
+ Connections: accepted: 0.0.0.0::50265
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:28:37 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50265 (Authentication failure)
+
+Fri Sep 13 08:28:44 2019
+ Connections: accepted: 0.0.0.0::50266
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:28:57 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50266 (Authentication failure)
+
+Fri Sep 13 08:29:03 2019
+ Connections: accepted: 0.0.0.0::50268
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:29:28 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50268 (Authentication failure)
+
+Fri Sep 13 08:29:32 2019
+ Connections: accepted: 0.0.0.0::50269
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:30:19 2019
+ SConnection: AuthFailureException: Authentication failure
+ Connections: closed: 0.0.0.0::50269 (Authentication failure)
+
+Fri Sep 13 08:30:21 2019
+ Connections: accepted: 0.0.0.0::50282
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:36:14 2019
+ Connections: closed: 0.0.0.0::50282 (read: Connection reset by peer (104))
+
+Fri Sep 13 08:37:03 2019
+ Connections: accepted: 0.0.0.0::50376
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 13 08:37:07 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Sep 13 08:38:33 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Sep 13 08:39:33 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Sep 13 08:41:01 2019
+ Connections: closed: 0.0.0.0::50376 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 11
+ SMsgWriter:    hextile rects 2, bytes 8298
+ SMsgWriter:    ZRLE rects 10, bytes 1526
+ SMsgWriter:    raw bytes equivalent 45619664, compression ratio 4643.695440
+x-window-manager: Fatal IO error 4 (Interrupted system call) on X server :12.

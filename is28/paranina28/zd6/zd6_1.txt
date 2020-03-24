@@ -1,0 +1,8 @@
+katya:18
+dima:91
+denis:5
+artem:42
+danil:15
+masha:76
+misha:22
+vasya:28

@@ -1,0 +1,117 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Nov 22 11:44:51 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5918
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/tverdov28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :18
+gpg-agent[17912]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:17902): xfce4-session-WARNING **: 11:44:54.749: gpg-agent returned no PID in the variables
+
+(xfce4-session:17902): xfce4-session-WARNING **: 11:44:54.750: xfsm_manager_load_session: Something wrong with /home/is28/tverdov28/.cache/sessions/xfce4-session-virt-1:18, Does it exist? Permissions issue?
+
+(xfwm4:17916): xfwm4-WARNING **: 11:44:54.773: The display does not support the XRender extension.
+
+(xfwm4:17916): xfwm4-WARNING **: 11:44:54.773: The display does not support the XComposite extension.
+
+(xfwm4:17916): xfwm4-WARNING **: 11:44:54.773: The display does not support the XDamage extension.
+
+(xfwm4:17916): xfwm4-WARNING **: 11:44:54.773: The display does not support the XFixes extension.
+
+(xfwm4:17916): xfwm4-WARNING **: 11:44:54.773: Compositing manager disabled.
+xfwm4-Message: 11:44:54.807: Unsupported keyboard modifier '<Super>Tab'
+
+(xfsettingsd:17929): xfsettingsd-CRITICAL **: 11:44:54.846: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":18.0".
+
+(xfsettingsd:17929): xfsettingsd-CRITICAL **: 11:44:54.848: XI is not present.
+
+(xfsettingsd:17929): xfsettingsd-CRITICAL **: 11:44:54.848: Failed to initialize the Xkb extension.
+
+(xfsettingsd:17929): xfsettingsd-CRITICAL **: 11:44:54.848: Failed to initialize the Accessibility extension.
+
+** (light-locker:17925): ERROR **: 11:44:54.857: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(polkit-gnome-authentication-agent-1:17927): GLib-CRITICAL **: 11:44:54.887: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:17927): polkit-gnome-1-WARNING **: 11:44:54.888: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(uint32 1,)
+xfwm4-Message: 11:44:55.049: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:17981): Gtk-WARNING **: 11:44:55.436: Can't set a parent on widget which has a parent
+
+(nm-applet:17981): Gdk-CRITICAL **: 11:44:55.578: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+Fri Nov 22 11:44:57 2019
+ Connections: accepted: 0.0.0.0::50249
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Nov 22 11:45:02 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Nov 22 11:45:04 2019
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(Thunar:17922): Gdk-WARNING **: 11:45:10.794: gdk_window_set_icon_list: icons too large
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2668" (uid=1284 pid=17972 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2668" (uid=1284 pid=17972 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.2668" (uid=1284 pid=17972 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:18072): Gdk-WARNING **: 11:45:20.478: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(wrapper-1.0:18072): Gdk-WARNING **: 11:45:20.478: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+(polkit-gnome-authentication-agent-1:17927): polkit-gnome-1-WARNING **: 11:46:48.249: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:17927): polkit-gnome-1-WARNING **: 11:46:48.250: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+Gtk-Message: 11:46:48.276: GtkDialog mapped without a transient parent. This is discouraged.
+
+(polkit-gnome-authentication-agent-1:17927): polkit-gnome-1-WARNING **: 11:46:48.574: Couldn't open user icon: Failed to open file '/home/adom/.face': No such file or directory
+
+(polkit-gnome-authentication-agent-1:17927): polkit-gnome-1-WARNING **: 11:46:48.575: Couldn't open user icon: Failed to open file '/home/test/.face': No such file or directory
+
+(Thunar:17922): GLib-GIO-CRITICAL **: 11:46:51.326: g_file_hash: assertion 'G_IS_FILE (file)' failed
+
+(Thunar:17922): GLib-GIO-CRITICAL **: 11:46:51.326: g_file_query_info_async: assertion 'G_IS_FILE (file)' failed
+
+(Thunar:17922): GLib-GObject-CRITICAL **: 11:46:51.326: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Gtk-Message: 11:46:51.329: GtkDialog mapped without a transient parent. This is discouraged.
+
+(Thunar:17922): GLib-GIO-CRITICAL **: 11:46:52.536: g_file_hash: assertion 'G_IS_FILE (file)' failed
+
+(Thunar:17922): GLib-GIO-CRITICAL **: 11:46:52.536: g_file_query_info_async: assertion 'G_IS_FILE (file)' failed
+
+(Thunar:17922): GLib-GObject-CRITICAL **: 11:46:52.536: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(Thunar:17922): Gdk-WARNING **: 11:46:53.468: gdk_window_set_icon_list: icons too large
+
+(Thunar:17922): Gdk-WARNING **: 12:42:27.020: gdk_window_set_icon_list: icons too large
+
+Fri Nov 22 12:42:35 2019
+ Connections: closed: 0.0.0.0::50249 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 16143
+ SMsgWriter:    copyRect rects 2, bytes 32
+ SMsgWriter:    hextile rects 363760, bytes 308823598
+ SMsgWriter:    raw bytes equivalent -244624518, compression ratio -0.792117
+xfwm4: Fatal IO error 4 (Interrupted system call) on X server :18.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :18.0.

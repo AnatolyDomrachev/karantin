@@ -1,0 +1,6 @@
+name=input("Hello, name? ")
+print("Goodbye", name)
+age=int(input("How old're u? "))
+print("Ur olds's " ,  age+10)
+course=int(input("Are u student? What's ur course?" ))
+print("Krasavchik, pervak (",4+age,")")

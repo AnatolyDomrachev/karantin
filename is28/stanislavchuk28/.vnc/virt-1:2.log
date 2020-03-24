@@ -1,0 +1,109 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Fri Sep 20 08:20:45 2019
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5902
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+
+(x-window-manager:42058): xfwm4-WARNING **: 08:20:48.545: The display does not support the XRender extension.
+
+(x-window-manager:42058): xfwm4-WARNING **: 08:20:48.545: The display does not support the XComposite extension.
+
+(x-window-manager:42058): xfwm4-WARNING **: 08:20:48.545: The display does not support the XDamage extension.
+
+(x-window-manager:42058): xfwm4-WARNING **: 08:20:48.545: The display does not support the XFixes extension.
+
+(x-window-manager:42058): xfwm4-WARNING **: 08:20:48.545: Compositing manager disabled.
+xfwm4-Message: 08:20:48.730: Unsupported keyboard modifier '<Super>Tab'
+
+(x-window-manager:42058): xfwm4-WARNING **: 08:20:48.739: Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+Fri Sep 20 08:21:00 2019
+ Connections: accepted: 0.0.0.0::50138
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 20 08:21:04 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Sep 20 08:37:42 2019
+ XserverDesktop: Added unknown keysym 0x6fa to keycode 255
+xfwm4-Message: 08:37:42.309: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6c9 to keycode 254
+ XserverDesktop: Added unknown keysym 0x6cd to keycode 253
+ XserverDesktop: Added unknown keysym 0x6c1 to keycode 252
+xfwm4-Message: 08:37:43.053: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:37:54 2019
+ XserverDesktop: Added unknown keysym 0x6d3 to keycode 251
+xfwm4-Message: 08:37:54.845: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:39:05 2019
+ XserverDesktop: Added unknown keysym 0x6f7 to keycode 250
+xfwm4-Message: 08:39:06.109: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:39:06 2019
+ XserverDesktop: Added unknown keysym 0x6c5 to keycode 249
+xfwm4-Message: 08:39:06.396: Unsupported keyboard modifier '<Super>Tab'
+ XserverDesktop: Added unknown keysym 0x6ce to keycode 248
+xfwm4-Message: 08:39:06.885: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:39:15 2019
+ XserverDesktop: Added unknown keysym 0x6ec to keycode 247
+xfwm4-Message: 08:39:15.732: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:39:16 2019
+ XserverDesktop: Added unknown keysym 0x6d4 to keycode 246
+ XserverDesktop: Added unknown keysym 0x6cf to keycode 245
+xfwm4-Message: 08:39:16.573: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:39:25 2019
+ XserverDesktop: Added unknown keysym 0x6d8 to keycode 244
+xfwm4-Message: 08:39:26.020: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:44:22 2019
+ XserverDesktop: Added unknown keysym 0xf3 to keycode 243
+xfwm4-Message: 08:44:22.330: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 08:44:27 2019
+ XserverDesktop: Added unknown keysym 0x6db to keycode 242
+xfwm4-Message: 08:44:27.673: Unsupported keyboard modifier '<Super>Tab'
+
+Fri Sep 20 09:11:21 2019
+ Connections: accepted: 0.0.0.0::59254
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Fri Sep 20 09:11:27 2019
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+Fri Sep 20 09:21:46 2019
+ Connections: closed: 0.0.0.0::59254 (Clean disconnection)
+ SMsgWriter:  framebuffer updates 1458
+ SMsgWriter:    copyRect rects 249, bytes 3984
+ SMsgWriter:    hextile rects 4280, bytes 11684038
+ SMsgWriter:    raw bytes equivalent 119246758, compression ratio 10.205954
+
+Fri Sep 20 12:43:53 2019
+ Connections: closed: 0.0.0.0::50138 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 13946
+ SMsgWriter:    copyRect rects 8840, bytes 141440
+ SMsgWriter:    hextile rects 40251, bytes 77445493
+ SMsgWriter:    raw bytes equivalent 922192842, compression ratio 11.907637
+x-window-manager: Fatal IO error 4 (Interrupted system call) on X server :2.

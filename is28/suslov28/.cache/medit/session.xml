@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- -*- xml -*- -->
+<session version="1.0">
+ <editor version="2.0">
+  <window active="TRUE">
+   <document encoding="UTF-8">file:///home/is28/suslov28/lab1/prog1.py</document>
+   <document encoding="UTF-8">file:///home/is28/suslov28/lab1/goodbye.py</document>
+   <document encoding="UTF-8" active="TRUE">file:///home/is28/suslov28/lab3.py</document>
+   <document encoding="UTF-8">file:///home/is28/suslov28/lab3_2.py</document>
+  </window>
+ </editor>
+</session>

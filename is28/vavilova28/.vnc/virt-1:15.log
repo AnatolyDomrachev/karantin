@@ -1,0 +1,124 @@
+
+Xvnc Free Edition 4.1.1 - built Feb 25 2015 23:02:21
+Copyright (C) 2002-2005 RealVNC Ltd.
+See http://www.realvnc.com for information on VNC.
+Underlying X server release 40300000, The XFree86 Project, Inc
+
+
+Thu Feb 13 09:49:35 2020
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on port 5915
+ vncext:      created VNC server for screen 0
+error opening security policy file /etc/X11/xserver/SecurityPolicy
+Could not init font path element /usr/X11R6/lib/X11/fonts/Type1/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/Speedo/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/misc/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/75dpi/, removing from list!
+Could not init font path element /usr/X11R6/lib/X11/fonts/100dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/75dpi/, removing from list!
+Could not init font path element /usr/share/fonts/X11/100dpi/, removing from list!
+xrdb: No such file or directory
+xrdb: can't open file '/home/is28/vavilova28/.Xresources'
+/usr/bin/startxfce4: X server already running on display :15
+gpg-agent[11258]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:11248): xfce4-session-WARNING **: 09:49:38.133: gpg-agent returned no PID in the variables
+
+(xfce4-session:11248): xfce4-session-WARNING **: 09:49:38.140: xfsm_manager_load_session: Something wrong with /home/is28/vavilova28/.cache/sessions/xfce4-session-virt-1:15, Does it exist? Permissions issue?
+
+(xfwm4:11262): xfwm4-WARNING **: 09:49:38.172: The display does not support the XRender extension.
+
+(xfwm4:11262): xfwm4-WARNING **: 09:49:38.172: The display does not support the XComposite extension.
+
+(xfwm4:11262): xfwm4-WARNING **: 09:49:38.172: The display does not support the XDamage extension.
+
+(xfwm4:11262): xfwm4-WARNING **: 09:49:38.172: The display does not support the XFixes extension.
+
+(xfwm4:11262): xfwm4-WARNING **: 09:49:38.172: Compositing manager disabled.
+(uint32 1,)
+
+** (light-locker:11271): ERROR **: 09:49:38.230: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+xfwm4-Message: 09:49:38.240: Unsupported keyboard modifier '<Super>Tab'
+
+(polkit-gnome-authentication-agent-1:11273): GLib-CRITICAL **: 09:49:38.266: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:11273): polkit-gnome-1-WARNING **: 09:49:38.274: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:11274): xfsettingsd-CRITICAL **: 09:49:38.302: RANDR extension is too old, version 1.1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":15.0".
+
+(xfsettingsd:11274): xfsettingsd-CRITICAL **: 09:49:38.311: XI is not present.
+
+(xfsettingsd:11274): xfsettingsd-CRITICAL **: 09:49:38.311: Failed to initialize the Xkb extension.
+
+(xfsettingsd:11274): xfsettingsd-CRITICAL **: 09:49:38.311: Failed to initialize the Accessibility extension.
+xfwm4-Message: 09:49:38.396: Unsupported keyboard modifier '<Super>Tab'
+
+(nm-applet:11343): Gtk-WARNING **: 09:49:38.665: Can't set a parent on widget which has a parent
+
+(nm-applet:11343): Gdk-CRITICAL **: 09:49:38.819: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.562" (uid=1267 pid=11326 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.562" (uid=1267 pid=11326 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.AccessDenied: Rejected send message, 2 matched rules; type="method_call", sender=":1.562" (uid=1267 pid=11326 comm="/usr/bin/python3 /usr/bin/blueman-applet " label="unconfined") interface="org.freedesktop.DBus.Introspectable" member="Introspect" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+
+(wrapper-1.0:11428): Gdk-WARNING **: 09:49:39.880: /build/gtk+2.0-AoeliP/gtk+2.0-2.24.32/gdk/x11/gdkdrawable-x11.c:952 drawable is not a pixmap or window
+
+Thu Feb 13 09:50:08 2020
+ Connections: accepted: 0.0.0.0::55273
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Feb 13 09:50:30 2020
+ VNCSConnST:  Server default pixel format depth 16 (16bpp) little-endian rgb565
+ VNCSConnST:  Client pixel format depth 16 (16bpp) little-endian rgb565
+
+(Thunar:11268): Gdk-WARNING **: 09:50:53.607: gdk_window_set_icon_list: icons too large
+
+Thu Feb 13 10:46:24 2020
+ Connections: closed: 0.0.0.0::55273 (read: Connection reset by peer (104))
+ SMsgWriter:  framebuffer updates 5394
+ SMsgWriter:    copyRect rects 265, bytes 4240
+ SMsgWriter:    hextile rects 7629, bytes 45518651
+ SMsgWriter:    raw bytes equivalent 516812948, compression ratio 11.353872
+
+(Thunar:11268): GVFS-RemoteVolumeMonitor-WARNING **: 12:31:51.673: Owner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(xfdesktop:11270): GVFS-RemoteVolumeMonitor-WARNING **: 12:31:51.673: Owner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(xfsettingsd:11274): libxfce4ui-WARNING **: 12:31:51.674: ICE I/O Error
+
+(xfsettingsd:11274): libxfce4ui-WARNING **: 12:31:51.674: Disconnected from session manager.
+
+(tracker-extract:11286): GVFS-RemoteVolumeMonitor-WARNING **: 12:31:51.676: Owner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+(tracker-miner-fs:11276): GVFS-RemoteVolumeMonitor-WARNING **: 12:31:51.676: Owner of volume monitor org.gtk.vfs.GPhoto2VolumeMonitor disconnected from the bus; removing drives/volumes/mounts
+
+Received signal:15->'Terminated'
+
+(tracker-miner-fs:11276): GLib-GIO-CRITICAL **: 12:31:51.676: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:11276): GLib-GIO-CRITICAL **: 12:31:51.676: Error while sending AddMatch() message: The connection is closed
+
+(tracker-miner-fs:11276): GLib-GIO-CRITICAL **: 12:31:51.677: Error while sending AddMatch() message: The connection is closed
+
+(xfdesktop:11270): libxfce4ui-WARNING **: 12:31:51.677: ICE I/O Error
+
+(xfdesktop:11270): libxfce4ui-WARNING **: 12:31:51.677: Disconnected from session manager.
+
+OK
+
+
+Received signal:15->'Terminated'
+
+Received signal:15->'Terminated'
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :15.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :15.0.
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :15.0.
+Gdk-Message: 12:31:51.725: geany: Fatal IO error 4 (Interrupted system call) on X server :15.0.
+
+
+OK
+
